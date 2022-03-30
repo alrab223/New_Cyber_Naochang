@@ -1,0 +1,17 @@
+music
+__pycache__
+.env
+yolov5
+temp_folder
+test
+
+#Editor files
+/.idea/
+
+#OS files
+.DS_Store
+
+#other files
+text/introduce.txt
+text/jawiki.kv.vectors.npy
+text/jawiki.kv
