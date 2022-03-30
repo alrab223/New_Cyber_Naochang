@@ -1,0 +1,6786 @@
+[
+   {
+      "title": "\u5f92\u82b1\u30cd\u30af\u30ed\u30de\u30f3\u30b7\u30fc",
+      "artists": [
+         "\u8fbb\u91ce\u3042\u304b\u308a",
+         "\u661f\u8f1d\u5b50",
+         "\u6728\u6751\u590f\u6a39",
+         "\u5c0f\u65e5\u5411\u7f8e\u7a42",
+         "\u95a2\u88d5\u7f8e"
+      ],
+      "original": "\u30d5\u30e9\u30f3\u30b7\u30e5\u30b7\u30e5",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u6885\u6fa4\u3081\u3050",
+         "\u677e\u7530\u98af\u6c34",
+         "\u5b89\u91ce\u5e0c\u4e16\u4e43",
+         "\u6d25\u7530\u7f8e\u6ce2",
+         "\u4f1a\u6ca2\u7d17\u5f25"
+      ]
+   },
+   {
+      "title": "REVENGE",
+      "artists": [
+         "\u65e9\u5742\u7f8e\u73b2"
+      ],
+      "original": "\u30d5\u30e9\u30f3\u30b7\u30e5\u30b7\u30e5",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u671d\u4e95\u5f69\u52a0"
+      ]
+   },
+   {
+      "title": "\u5927\u6cb3\u3088\u5171\u306b\u6ce3\u3044\u3066\u304f\u308c",
+      "artists": [
+         "\u767d\u5742\u5c0f\u6885",
+         "\u677e\u6c38\u6dbc"
+      ],
+      "original": "\u30d5\u30e9\u30f3\u30b7\u30e5\u30b7\u30e5",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u685c\u54b2\u5343\u4f9d",
+         "\u5343\u83c5\u6625\u9999"
+      ]
+   },
+   {
+      "title": "\u5815\u3061\u308b\u679c\u5b9f",
+      "artists": [
+         "\u795e\u5d0e\u862d\u5b50",
+         "\u9ed2\u57fc\u3061\u3068\u305b"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u5185\u7530\u771f\u793c",
+         "\u4f50\u5009\u85ab"
+      ]
+   },
+   {
+      "title": "\u30c8\u30ed\u30d4\u30ab\u30eb\u30ac\u30fc\u30eb",
+      "artists": [
+         "\u5922\u898b\u308a\u3042\u3080",
+         "\u96e3\u6ce2\u7b11\u7f8e",
+         "\u4e09\u6751\u304b\u306a\u5b50",
+         "\u4e59\u5009\u60a0\u8cb4",
+         "\u59eb\u5ddd\u53cb\u7d00"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u661f\u5e0c\u6210\u594f",
+         "\u4f0a\u9054\u6731\u91cc\u7d17",
+         "\u5927\u576a\u7531\u4f73",
+         "\u4e2d\u5cf6\u7531\u8cb4",
+         "\u675c\u91ce\u307e\u3053"
+      ]
+   },
+   {
+      "title": "Demolish",
+      "artists": [
+         "\u672c\u7530\u672a\u592e",
+         "\u30ca\u30bf\u30fc\u30ea\u30a2",
+         "\u7d50\u57ce\u6674"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u751f\u7530\u8f1d",
+         "\u5c0f\u5e02\u771e\u7434"
+      ]
+   },
+   {
+      "title": "\u30b9\u30c8\u30ea\u30fc\u30c8\u30fb\u30e9\u30f3\u30a6\u30a7\u30a4",
+      "artists": [
+         "\u7802\u585a\u3042\u304d\u3089",
+         "\u65e9\u5742\u7f8e\u73b2",
+         "\u4e8c\u5bae\u98db\u9ce5",
+         "\u591a\u7530\u674e\u8863\u83dc",
+         "\u5800\u88d5\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u5bcc\u7530\u7f8e\u6182",
+         "\u671d\u4e95\u5f69\u52a0",
+         "\u9752\u6728\u5fd7\u8cb4",
+         "\u9752\u6728\u7460\u7483\u5b50",
+         "\u9234\u6728\u7d75\u7406"
+      ]
+   },
+   {
+      "title": "\u30bd\u30a6\u30bd\u30a6",
+      "artists": [
+         "\u30ca\u30bf\u30fc\u30ea\u30a2"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u751f\u7530\u8f1d"
+      ]
+   },
+   {
+      "title": "Star!!",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708",
+         "\u6e0b\u8c37\u51db",
+         "\u672c\u7530\u672a\u592e",
+         "\u53cc\u8449\u674f",
+         "\u4e09\u6751\u304b\u306a\u5b50",
+         "\u57ce\u30f6\u5d0e\u8389\u5609",
+         "\u795e\u5d0e\u862d\u5b50",
+         "\u524d\u5ddd\u307f\u304f",
+         "\u8af8\u661f\u304d\u3089\u308a",
+         "\u591a\u7530\u674e\u8863\u83dc",
+         "\u8d64\u57ce\u307f\u308a\u3042",
+         "\u65b0\u7530\u7f8e\u6ce2",
+         "\u7dd2\u65b9\u667a\u7d75\u91cc",
+         "\u30a2\u30ca\u30b9\u30bf\u30b7\u30a2"
+      ],
+      "original": "",
+      "unit": "CINDERELLA PROJECT",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u798f\u539f\u7dbe\u9999",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u4e94\u5341\u5d50\u88d5\u7f8e",
+         "\u5927\u576a\u7531\u4f73",
+         "\u5c71\u672c\u5e0c\u671b",
+         "\u5185\u7530\u771f\u793c",
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e",
+         "\u677e\u5d5c\u9e97",
+         "\u9752\u6728\u7460\u7483\u5b50",
+         "\u9ed2\u6ca2\u3068\u3082\u3088",
+         "\u6d32\u5d0e\u7dbe",
+         "\u5927\u7a7a\u76f4\u7f8e",
+         "\u4e0a\u5742\u3059\u307f\u308c"
+      ]
+   },
+   {
+      "title": "\u5915\u6620\u3048\u30d7\u30ec\u30bc\u30f3\u30c8",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708",
+         "\u6e0b\u8c37\u51db",
+         "\u672c\u7530\u672a\u592e",
+         "\u53cc\u8449\u674f",
+         "\u4e09\u6751\u304b\u306a\u5b50",
+         "\u57ce\u30f6\u5d0e\u8389\u5609",
+         "\u795e\u5d0e\u862d\u5b50",
+         "\u524d\u5ddd\u307f\u304f",
+         "\u8af8\u661f\u304d\u3089\u308a",
+         "\u591a\u7530\u674e\u8863\u83dc",
+         "\u8d64\u57ce\u307f\u308a\u3042",
+         "\u65b0\u7530\u7f8e\u6ce2",
+         "\u7dd2\u65b9\u667a\u7d75\u91cc",
+         "\u30a2\u30ca\u30b9\u30bf\u30b7\u30a2"
+      ],
+      "original": "",
+      "unit": "CINDERELLA PROJECT",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u798f\u539f\u7dbe\u9999",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u4e94\u5341\u5d50\u88d5\u7f8e",
+         "\u5927\u576a\u7531\u4f73",
+         "\u5c71\u672c\u5e0c\u671b",
+         "\u5185\u7530\u771f\u793c",
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e",
+         "\u677e\u5d5c\u9e97",
+         "\u9752\u6728\u7460\u7483\u5b50",
+         "\u9ed2\u6ca2\u3068\u3082\u3088",
+         "\u6d32\u5d0e\u7dbe",
+         "\u5927\u7a7a\u76f4\u7f8e",
+         "\u4e0a\u5742\u3059\u307f\u308c"
+      ]
+   },
+   {
+      "title": "Memories",
+      "artists": [
+         "\u65b0\u7530\u7f8e\u6ce2",
+         "\u30a2\u30ca\u30b9\u30bf\u30b7\u30a2"
+      ],
+      "original": "",
+      "unit": "LOVE LAIKA",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6d32\u5d0e\u7dbe",
+         "\u4e0a\u5742\u3059\u307f\u308c"
+      ]
+   },
+   {
+      "title": "-LEGNE- \u4ec7\u306a\u3059\u5263 \u5149\u306e\u65cb\u5f8b",
+      "artists": [
+         "\u795e\u5d0e\u862d\u5b50"
+      ],
+      "original": "",
+      "unit": "Rosenburg Engel",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5185\u7530\u771f\u793c"
+      ]
+   },
+   {
+      "title": "Happy\u00d72 Days",
+      "artists": [
+         "\u4e09\u6751\u304b\u306a\u5b50",
+         "\u53cc\u8449\u674f",
+         "\u7dd2\u65b9\u667a\u7d75\u91cc"
+      ],
+      "original": "",
+      "unit": "CANDY ISLAND",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u576a\u7531\u4f73",
+         "\u4e94\u5341\u5d50\u88d5\u7f8e",
+         "\u5927\u7a7a\u76f4\u7f8e"
+      ]
+   },
+   {
+      "title": "LET'S GO HAPPY!!",
+      "artists": [
+         "\u57ce\u30f6\u5d0e\u8389\u5609",
+         "\u8af8\u661f\u304d\u3089\u308a",
+         "\u8d64\u57ce\u307f\u308a\u3042"
+      ],
+      "original": "",
+      "unit": "\u51f8\u30ec\u30fc\u30b7\u30e7\u30f3",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5c71\u672c\u5e0c\u671b",
+         "\u677e\u5d5c\u9e97",
+         "\u9ed2\u6ca2\u3068\u3082\u3088"
+      ]
+   },
+   {
+      "title": "\u00d8\u03c9\u00d8ver!!",
+      "artists": [
+         "\u524d\u5ddd\u307f\u304f",
+         "\u591a\u7530\u674e\u8863\u83dc"
+      ],
+      "original": "",
+      "unit": "*(Asterisk)",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e",
+         "\u9752\u6728\u7460\u7483\u5b50"
+      ]
+   },
+   {
+      "title": "\u3067\u304d\u305f\u3066Evo! Revo! Generation!",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708",
+         "\u6e0b\u8c37\u51db",
+         "\u672c\u7530\u672a\u592e"
+      ],
+      "original": "",
+      "unit": "new generations",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u798f\u539f\u7dbe\u9999",
+         "\u539f\u7d17\u53cb\u91cc"
+      ]
+   },
+   {
+      "title": "GOIN\u2019!!!",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708",
+         "\u6e0b\u8c37\u51db",
+         "\u672c\u7530\u672a\u592e",
+         "\u53cc\u8449\u674f",
+         "\u4e09\u6751\u304b\u306a\u5b50",
+         "\u57ce\u30f6\u5d0e\u8389\u5609",
+         "\u795e\u5d0e\u862d\u5b50",
+         "\u524d\u5ddd\u307f\u304f",
+         "\u8af8\u661f\u304d\u3089\u308a",
+         "\u591a\u7530\u674e\u8863\u83dc",
+         "\u8d64\u57ce\u307f\u308a\u3042",
+         "\u65b0\u7530\u7f8e\u6ce2",
+         "\u7dd2\u65b9\u667a\u7d75\u91cc",
+         "\u30a2\u30ca\u30b9\u30bf\u30b7\u30a2"
+      ],
+      "original": "",
+      "unit": "CINDERELLA PROJECT",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u798f\u539f\u7dbe\u9999",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u4e94\u5341\u5d50\u88d5\u7f8e",
+         "\u5927\u576a\u7531\u4f73",
+         "\u5c71\u672c\u5e0c\u671b",
+         "\u5185\u7530\u771f\u793c",
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e",
+         "\u677e\u5d5c\u9e97",
+         "\u9752\u6728\u7460\u7483\u5b50",
+         "\u9ed2\u6ca2\u3068\u3082\u3088",
+         "\u6d32\u5d0e\u7dbe",
+         "\u5927\u7a7a\u76f4\u7f8e",
+         "\u4e0a\u5742\u3059\u307f\u308c"
+      ]
+   },
+   {
+      "title": "Shine!!",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708",
+         "\u6e0b\u8c37\u51db",
+         "\u672c\u7530\u672a\u592e",
+         "\u53cc\u8449\u674f",
+         "\u4e09\u6751\u304b\u306a\u5b50",
+         "\u57ce\u30f6\u5d0e\u8389\u5609",
+         "\u795e\u5d0e\u862d\u5b50",
+         "\u524d\u5ddd\u307f\u304f",
+         "\u8af8\u661f\u304d\u3089\u308a",
+         "\u591a\u7530\u674e\u8863\u83dc",
+         "\u8d64\u57ce\u307f\u308a\u3042",
+         "\u65b0\u7530\u7f8e\u6ce2",
+         "\u7dd2\u65b9\u667a\u7d75\u91cc",
+         "\u30a2\u30ca\u30b9\u30bf\u30b7\u30a2"
+      ],
+      "original": "",
+      "unit": "CINDERELLA PROJECT",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u798f\u539f\u7dbe\u9999",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u4e94\u5341\u5d50\u88d5\u7f8e",
+         "\u5927\u576a\u7531\u4f73",
+         "\u5c71\u672c\u5e0c\u671b",
+         "\u5185\u7530\u771f\u793c",
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e",
+         "\u677e\u5d5c\u9e97",
+         "\u9752\u6728\u7460\u7483\u5b50",
+         "\u9ed2\u6ca2\u3068\u3082\u3088",
+         "\u6d32\u5d0e\u7dbe",
+         "\u5927\u7a7a\u76f4\u7f8e",
+         "\u4e0a\u5742\u3059\u307f\u308c"
+      ]
+   },
+   {
+      "title": "\u3068\u3069\u3051\uff01\u30a2\u30a4\u30c9\u30eb",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708",
+         "\u6e0b\u8c37\u51db",
+         "\u672c\u7530\u672a\u592e",
+         "\u53cc\u8449\u674f",
+         "\u8af8\u661f\u304d\u3089\u308a"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u798f\u539f\u7dbe\u9999",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u4e94\u5341\u5d50\u88d5\u7f8e",
+         "\u677e\u5d5c\u9e97"
+      ]
+   },
+   {
+      "title": "\u5922\u8272\u30cf\u30fc\u30e2\u30cb\u30fc",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708",
+         "\u6e0b\u8c37\u51db",
+         "\u672c\u7530\u672a\u592e",
+         "\u53cc\u8449\u674f",
+         "\u4e09\u6751\u304b\u306a\u5b50",
+         "\u57ce\u30f6\u5d0e\u8389\u5609",
+         "\u795e\u5d0e\u862d\u5b50",
+         "\u524d\u5ddd\u307f\u304f",
+         "\u8af8\u661f\u304d\u3089\u308a",
+         "\u591a\u7530\u674e\u8863\u83dc",
+         "\u8d64\u57ce\u307f\u308a\u3042",
+         "\u65b0\u7530\u7f8e\u6ce2",
+         "\u7dd2\u65b9\u667a\u7d75\u91cc",
+         "\u30a2\u30ca\u30b9\u30bf\u30b7\u30a2"
+      ],
+      "original": "",
+      "unit": "CINDERELLA PROJECT",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u798f\u539f\u7dbe\u9999",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u4e94\u5341\u5d50\u88d5\u7f8e",
+         "\u5927\u576a\u7531\u4f73",
+         "\u5c71\u672c\u5e0c\u671b",
+         "\u5185\u7530\u771f\u793c",
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e",
+         "\u677e\u5d5c\u9e97",
+         "\u9752\u6728\u7460\u7483\u5b50",
+         "\u9ed2\u6ca2\u3068\u3082\u3088",
+         "\u6d32\u5d0e\u7dbe",
+         "\u5927\u7a7a\u76f4\u7f8e",
+         "\u4e0a\u5742\u3059\u307f\u308c"
+      ]
+   },
+   {
+      "title": "\u79c1\u8272\u30ae\u30d5\u30c8",
+      "artists": [
+         "\u57ce\u30f6\u5d0e\u8389\u5609",
+         "\u8af8\u661f\u304d\u3089\u308a",
+         "\u8d64\u57ce\u307f\u308a\u3042",
+         "\u57ce\u30f6\u5d0e\u7f8e\u5609"
+      ],
+      "original": "",
+      "unit": "\u51f8\u30ec\u30fc\u30b7\u30e7\u30f3 with \u57ce\u30f6\u5d0e\u7f8e\u5609",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5c71\u672c\u5e0c\u671b",
+         "\u677e\u5d5c\u9e97",
+         "\u9ed2\u6ca2\u3068\u3082\u3088",
+         "\u4f73\u6751\u306f\u308b\u304b"
+      ]
+   },
+   {
+      "title": "Heart Voice",
+      "artists": [
+         "\u4e09\u6751\u304b\u306a\u5b50",
+         "\u53cc\u8449\u674f",
+         "\u7dd2\u65b9\u667a\u7d75\u91cc",
+         "\u8f3f\u6c34\u5e78\u5b50"
+      ],
+      "original": "",
+      "unit": "CANDY ISLAND with \u8f3f\u6c34\u5e78\u5b50",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u576a\u7531\u4f73",
+         "\u4e94\u5341\u5d50\u88d5\u7f8e",
+         "\u5927\u7a7a\u76f4\u7f8e",
+         "\u7af9\u9054\u5f69\u5948"
+      ]
+   },
+   {
+      "title": "Wonder goes on!!",
+      "artists": [
+         "\u524d\u5ddd\u307f\u304f",
+         "\u591a\u7530\u674e\u8863\u83dc",
+         "\u6728\u6751\u590f\u6a39",
+         "\u5b89\u90e8\u83dc\u3005"
+      ],
+      "original": "",
+      "unit": "*(Asterisk) with \u306a\u3064\u306a\u306a",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e",
+         "\u9752\u6728\u7460\u7483\u5b50",
+         "\u5b89\u91ce\u5e0c\u4e16\u4e43",
+         "\u4e09\u5b85\u9ebb\u7406\u6075"
+      ]
+   },
+   {
+      "title": "Rockin' Emotion",
+      "artists": [
+         "\u6728\u6751\u590f\u6a39"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5b89\u91ce\u5e0c\u4e16\u4e43"
+      ]
+   },
+   {
+      "title": "\u3053\u306e\u7a7a\u306e\u4e0b",
+      "artists": [
+         "\u65b0\u7530\u7f8e\u6ce2",
+         "\u30a2\u30ca\u30b9\u30bf\u30b7\u30a2",
+         "\u795e\u5d0e\u862d\u5b50"
+      ],
+      "original": "",
+      "unit": "LOVE LAIKA with Rosenburg Engel",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6d32\u5d0e\u7dbe",
+         "\u4e0a\u5742\u3059\u307f\u308c",
+         "\u5185\u7530\u771f\u793c"
+      ]
+   },
+   {
+      "title": "Trancing Pulse",
+      "artists": [
+         "\u6e0b\u8c37\u51db",
+         "\u795e\u8c37\u5948\u7dd2",
+         "\u5317\u6761\u52a0\u84ee"
+      ],
+      "original": "",
+      "unit": "Triad Primus",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u798f\u539f\u7dbe\u9999",
+         "\u677e\u4e95\u6075\u7406\u5b50",
+         "\u6e15\u4e0a\u821e"
+      ]
+   },
+   {
+      "title": "Nebula Sky",
+      "artists": [
+         "\u30a2\u30ca\u30b9\u30bf\u30b7\u30a2"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e0a\u5742\u3059\u307f\u308c"
+      ]
+   },
+   {
+      "title": "\u6d41\u308c\u661f\u30ad\u30bb\u30ad",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708",
+         "\u6e0b\u8c37\u51db",
+         "\u672c\u7530\u672a\u592e"
+      ],
+      "original": "",
+      "unit": "new generations",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u798f\u539f\u7dbe\u9999",
+         "\u539f\u7d17\u53cb\u91cc"
+      ]
+   },
+   {
+      "title": "\u5fc3\u3082\u3088\u3046",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708",
+         "\u6e0b\u8c37\u51db",
+         "\u672c\u7530\u672a\u592e"
+      ],
+      "original": "",
+      "unit": "new generations",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u798f\u539f\u7dbe\u9999",
+         "\u539f\u7d17\u53cb\u91cc"
+      ]
+   },
+   {
+      "title": "M@GIC\u2606",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708",
+         "\u6e0b\u8c37\u51db",
+         "\u672c\u7530\u672a\u592e",
+         "\u53cc\u8449\u674f",
+         "\u4e09\u6751\u304b\u306a\u5b50",
+         "\u57ce\u30f6\u5d0e\u8389\u5609",
+         "\u795e\u5d0e\u862d\u5b50",
+         "\u524d\u5ddd\u307f\u304f",
+         "\u8af8\u661f\u304d\u3089\u308a",
+         "\u591a\u7530\u674e\u8863\u83dc",
+         "\u8d64\u57ce\u307f\u308a\u3042",
+         "\u65b0\u7530\u7f8e\u6ce2",
+         "\u7dd2\u65b9\u667a\u7d75\u91cc",
+         "\u30a2\u30ca\u30b9\u30bf\u30b7\u30a2"
+      ],
+      "original": "",
+      "unit": "CINDERELLA PROJECT",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u798f\u539f\u7dbe\u9999",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u4e94\u5341\u5d50\u88d5\u7f8e",
+         "\u5927\u576a\u7531\u4f73",
+         "\u5c71\u672c\u5e0c\u671b",
+         "\u5185\u7530\u771f\u793c",
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e",
+         "\u677e\u5d5c\u9e97",
+         "\u9752\u6728\u7460\u7483\u5b50",
+         "\u9ed2\u6ca2\u3068\u3082\u3088",
+         "\u6d32\u5d0e\u7dbe",
+         "\u5927\u7a7a\u76f4\u7f8e",
+         "\u4e0a\u5742\u3059\u307f\u308c"
+      ]
+   },
+   {
+      "title": "STORY",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708",
+         "\u672c\u7530\u672a\u592e",
+         "\u6e0b\u8c37\u51db",
+         "\u795e\u8c37\u5948\u7dd2",
+         "\u5317\u6761\u52a0\u84ee"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u798f\u539f\u7dbe\u9999",
+         "\u677e\u4e95\u6075\u7406\u5b50",
+         "\u6e15\u4e0a\u821e"
+      ]
+   },
+   {
+      "title": "Nocturne",
+      "artists": [
+         "\u9ad8\u57a3\u6953",
+         "\u5ddd\u5cf6\u745e\u6a39"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u65e9\u898b\u6c99\u7e54",
+         "\u6771\u5c71\u5948\u592e"
+      ]
+   },
+   {
+      "title": "shabon song",
+      "artists": [
+         "\u57ce\u30f6\u5d0e\u7f8e\u5609",
+         "\u5c0f\u65e5\u5411\u7f8e\u7a42"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4f73\u6751\u306f\u308b\u304b",
+         "\u6d25\u7530\u7f8e\u6ce2"
+      ]
+   },
+   {
+      "title": "\u3042\u3044\u304f\u308b\u3057\u3044",
+      "artists": [
+         "\u4f50\u4e45\u9593\u307e\u3086",
+         "\u5c0f\u65e9\u5ddd\u7d17\u679d"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u7267\u91ce\u7531\u4f9d",
+         "\u7acb\u82b1\u7406\u9999"
+      ]
+   },
+   {
+      "title": "Lunatic Show",
+      "artists": [
+         "\u661f\u8f1d\u5b50",
+         "\u767d\u5742\u5c0f\u6885"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u677e\u7530\u98af\u6c34",
+         "\u685c\u54b2\u5343\u4f9d"
+      ]
+   },
+   {
+      "title": "Flip Flop",
+      "artists": [
+         "\u65e5\u91ce\u831c",
+         "\u9ad8\u68ee\u85cd\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u8d64\ufa11\u5343\u590f",
+         "\u91d1\u5b50\u6709\u5e0c"
+      ]
+   },
+   {
+      "title": "\u30ad\u30e9\u30c3\uff01\u6e80\u958b\u30b9\u30de\u30a4\u30eb",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708",
+         "\u5c0f\u65e5\u5411\u7f8e\u7a42",
+         "\u4f50\u4e45\u9593\u307e\u3086",
+         "\u6afb\u4e95\u6843\u83ef",
+         "\u53cc\u8449\u674f"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u6d25\u7530\u7f8e\u6ce2",
+         "\u7267\u91ce\u7531\u4f9d",
+         "\u7167\u4e95\u6625\u4f73",
+         "\u4e94\u5341\u5d50\u88d5\u7f8e"
+      ]
+   },
+   {
+      "title": "\u3074\u306b\u3083\u3053\u3089\u592a\u7d75\u304b\u304d\u6b4c",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999"
+      ]
+   },
+   {
+      "title": "\u30a8\u30c1\u30e5\u30fc\u30c9\u306f1\u66f2\u3060\u3051",
+      "artists": [
+         "\u6e0b\u8c37\u51db",
+         "\u4e0a\u6761\u6625\u83dc",
+         "\u795e\u8c37\u5948\u7dd2",
+         "\u795e\u5d0e\u862d\u5b50",
+         "\u4e09\u8239\u7f8e\u512a"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u798f\u539f\u7dbe\u9999",
+         "\u9577\u5cf6\u5149\u90a3",
+         "\u677e\u4e95\u6075\u7406\u5b50",
+         "\u5185\u7530\u771f\u793c",
+         "\u539f\u7530\u5f69\u6953"
+      ]
+   },
+   {
+      "title": "SUN\u2661FLOWER",
+      "artists": [
+         "\u672c\u7530\u672a\u592e",
+         "\u7247\u6850\u65e9\u82d7",
+         "\u4f50\u85e4\u5fc3",
+         "\u57ce\u30f6\u5d0e\u7f8e\u5609",
+         "\u8af8\u661f\u304d\u3089\u308a"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u548c\u6c23\u3042\u305a\u672a",
+         "\u82b1\u5b88\u3086\u307f\u308a",
+         "\u4f73\u6751\u306f\u308b\u304b",
+         "\u677e\u5d5c\u9e97"
+      ]
+   },
+   {
+      "title": "\u304d\u3089\u308a\u3093\u30ed\u30dc\u306e\u30c6\u30fc\u30de",
+      "artists": [
+         "\u8af8\u661f\u304d\u3089\u308a"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u677e\u5d5c\u9e97"
+      ]
+   },
+   {
+      "title": "Blooming Days",
+      "artists": [
+         "\u5b89\u90e8\u83dc\u3005",
+         "\u4e94\u5341\u5d50\u97ff\u5b50",
+         "\u7dd2\u65b9\u667a\u7d75\u91cc",
+         "\u9053\u660e\u5bfa\u6b4c\u9234",
+         "\u65e9\u5742\u7f8e\u73b2"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u4e09\u5b85\u9ebb\u7406\u6075",
+         "\u7a2e\u5d0e\u6566\u7f8e",
+         "\u5927\u7a7a\u76f4\u7f8e",
+         "\u65b0\u7530\u3072\u3088\u308a",
+         "\u671d\u4e95\u5f69\u52a0"
+      ]
+   },
+   {
+      "title": "\u79cb\u3081\u3044\u3066 Ding Dong Dang!",
+      "artists": [
+         "\u30a2\u30ca\u30b9\u30bf\u30b7\u30a2",
+         "\u4f50\u3005\u6728\u5343\u679d",
+         "\u901f\u6c34\u594f",
+         "\u5317\u6761\u52a0\u84ee",
+         "\u65b0\u7530\u7f8e\u6ce2"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u4e0a\u5742\u3059\u307f\u308c",
+         "\u4eca\u4e95\u9ebb\u590f",
+         "\u98ef\u7530\u53cb\u5b50",
+         "\u6e15\u4e0a\u821e",
+         "\u6d32\u5d0e\u7dbe"
+      ]
+   },
+   {
+      "title": "Snow\uff0aLove",
+      "artists": [
+         "\u5e02\u539f\u4ec1\u5948",
+         "\u53ca\u5ddd\u96eb",
+         "\u5927\u69fb\u552f",
+         "\u9ad8\u68ee\u85cd\u5b50",
+         "\u4f9d\u7530\u82b3\u4e43"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e45\u91ce\u7f8e\u54b2",
+         "\u306e\u3050\u3061\u3086\u308a",
+         "\u5c71\u4e0b\u4e03\u6d77",
+         "\u91d1\u5b50\u6709\u5e0c",
+         "\u9ad8\u7530\u6182\u5e0c"
+      ]
+   },
+   {
+      "title": "\u3044\u3068\u3057\u30fc\u3055\u30fc\u2665",
+      "artists": [
+         "\u8f3f\u6c34\u5e78\u5b50",
+         "\u591a\u7530\u674e\u8863\u83dc",
+         "\u85e4\u539f\u8087",
+         "\u6c34\u672c\u3086\u304b\u308a",
+         "\u68ee\u4e45\u4fdd\u4e43\u3005"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u7af9\u9054\u5f69\u5948",
+         "\u9752\u6728\u7460\u7483\u5b50",
+         "\u9234\u6728\u307f\u306e\u308a",
+         "\u85e4\u7530\u831c",
+         "\u9ad8\u6a4b\u82b1\u6797"
+      ]
+   },
+   {
+      "title": "\u30e9\u30b8\u30aa\u4f53\u64cd\u7b2c\u4e00",
+      "artists": [
+         "\u65e5\u91ce\u831c"
+      ],
+      "original": "\u30e9\u30b8\u30aa\u4f53\u64cd\u7b2c\u4e00",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u8d64\ufa11\u5343\u590f"
+      ]
+   },
+   {
+      "title": "\u306a\u3064\u3063\u3053\u97f3\u982d",
+      "artists": [
+         "\u8d64\u57ce\u307f\u308a\u3042",
+         "\u57ce\u30f6\u5d0e\u8389\u5609",
+         "\u6a58\u3042\u308a\u3059",
+         "\u7d50\u57ce\u6674",
+         "\u9f8d\u5d0e\u85ab"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u9ed2\u6ca2\u3068\u3082\u3088",
+         "\u5c71\u672c\u5e0c\u671b",
+         "\u4f50\u85e4\u4e9c\u7f8e\u83dc",
+         "\u5c0f\u5e02\u771e\u7434",
+         "\u6625\u702c\u306a\u3064\u307f"
+      ]
+   },
+   {
+      "title": "\u30e9\u30b8\u30aa\u4f53\u64cd\u7b2c\u4e8c",
+      "artists": [
+         "\u65b0\u7530\u7f8e\u6ce2"
+      ],
+      "original": "\u30e9\u30b8\u30aa\u4f53\u64cd\u7b2c\u4e8c",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u6d32\u5d0e\u7dbe"
+      ]
+   },
+   {
+      "title": "\u3055\u3088\u306a\u3089\u30a2\u30ed\u30cf",
+      "artists": [
+         "\u6728\u6751\u590f\u6a39",
+         "\u5341\u6642\u611b\u68a8",
+         "\u4e2d\u91ce\u6709\u9999",
+         "\u85e4\u672c\u91cc\u5948",
+         "\u5bae\u672c\u30d5\u30ec\u30c7\u30ea\u30ab"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u5b89\u91ce\u5e0c\u4e16\u4e43",
+         "\u539f\u7530\u3072\u3068\u307f",
+         "\u4e0b\u5730\u7d2b\u91ce",
+         "\u91d1\u5b50\u771f\u7531\u7f8e",
+         "\u9ad9\u91ce\u9ebb\u7f8e"
+      ]
+   },
+   {
+      "title": "Dreaming Star",
+      "artists": [
+         "\u76f8\u8449\u5915\u7f8e"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u6728\u6751\u73e0\u8389"
+      ]
+   },
+   {
+      "title": "\u304d\u3085\u3093\u30fb\u304d\u3085\u3093\u30fb\u307e\u3063\u304f\u3059",
+      "artists": [
+         "\u4e00\u30ce\u702c\u5fd7\u5e0c",
+         "\u4e59\u5009\u60a0\u8cb4",
+         "\u690e\u540d\u6cd5\u5b50",
+         "\u524d\u5ddd\u307f\u304f",
+         "\u68df\u65b9\u611b\u6d77"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u85cd\u539f\u3053\u3068\u307f",
+         "\u4e2d\u5cf6\u7531\u8cb4",
+         "\u90fd\u4e38\u3061\u3088",
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e",
+         "\u85e4\u672c\u5f69\u82b1"
+      ]
+   },
+   {
+      "title": "\u5b9f\u7528\u97f3\u697d\u305d\u306e1 \u9589\u5e97\u306e\u97f3\u697d \u5225\u308c\u306e\u30ef\u30eb\u30c4\uff08\u86cd\u306e\u5149\uff09",
+      "artists": [
+         "\u767d\u83ca\u307b\u305f\u308b"
+      ],
+      "original": "\u5b9f\u7528\u97f3\u697d\u305d\u306e1 \u9589\u5e97\u306e\u97f3\u697d \u5225\u308c\u306e\u30ef\u30eb\u30c4\uff08\u86cd\u306e\u5149\uff09",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u5929\u91ce\u8061\u7f8e"
+      ]
+   },
+   {
+      "title": "Max Beat",
+      "artists": [
+         "\u9ad8\u57a3\u6953",
+         "\u9df9\u5bcc\u58eb\u8304\u5b50",
+         "\u4e8c\u5bae\u98db\u9ce5",
+         "\u677e\u6c38\u6dbc",
+         "\u5927\u548c\u4e9c\u5b63"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u65e9\u898b\u6c99\u7e54",
+         "\u68ee\u4e0b\u6765\u5948",
+         "\u9752\u6728\u5fd7\u8cb4",
+         "\u5343\u83c5\u6625\u9999",
+         "\u6751\u4e2d\u77e5"
+      ]
+   },
+   {
+      "title": "\u5b9f\u7528\u97f3\u697d\u305d\u306e2\u00a0\u5b89\u7720\u3068\u3084\u3059\u3089\u304e\u306e\u97f3\u697d \u30b7\u30e5\u30fc\u30d9\u30eb\u30c8\u306e\u5b50\u5b88\u6b4c",
+      "artists": [
+         "\u4e09\u8239\u7f8e\u512a"
+      ],
+      "original": "\u5b9f\u7528\u97f3\u697d\u305d\u306e2\u00a0\u5b89\u7720\u3068\u3084\u3059\u3089\u304e\u306e\u97f3\u697d \u30b7\u30e5\u30fc\u30d9\u30eb\u30c8\u306e\u5b50\u5b88\u6b4c",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u539f\u7530\u5f69\u6953"
+      ]
+   },
+   {
+      "title": "TAKAMARI\u2606CLIMAXXX!!!!!",
+      "artists": [
+         "\u559c\u591a\u65e5\u83dc\u5b50",
+         "\u559c\u591a\u898b\u67da",
+         "\u5357\u6761\u5149",
+         "\u65e5\u91ce\u831c",
+         "\u59eb\u5ddd\u53cb\u7d00"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6df1\u5ddd\u82b9\u4e9c",
+         "\u6b66\u7530\u7f85\u68a8\u6c99\u591a\u80e1",
+         "\u795e\u8c37\u65e9\u77e2\u4f73",
+         "\u8d64\ufa11\u5343\u590f",
+         "\u675c\u91ce\u307e\u3053"
+      ]
+   },
+   {
+      "title": "\u5b9f\u7528\u97f3\u697d\u305d\u306e3 \u795d\u8cc0\u306e\u65e5\u672c\u4f1d\u7d71\u97f3\u697d \u9ad8\u7802",
+      "artists": [
+         "\u4f9d\u7530\u82b3\u4e43"
+      ],
+      "original": "\u5b9f\u7528\u97f3\u697d\u305d\u306e3 \u795d\u8cc0\u306e\u65e5\u672c\u4f1d\u7d71\u97f3\u697d \u9ad8\u7802",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u9ad8\u7530\u6182\u5e0c"
+      ]
+   },
+   {
+      "title": "\u30b9\u30d1\u30a4\u30b9\u30d1\u30e9\u30c0\u30a4\u30b9 \u301c\u30ab\u30ec\u30fc\u30e1\u30b7ver.\u301c",
+      "artists": [
+         "\u65e5\u91ce\u831c",
+         "\u672c\u7530\u672a\u592e",
+         "\u9ad8\u68ee\u85cd\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u8d64\ufa11\u5343\u590f",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u91d1\u5b50\u6709\u5e0c"
+      ]
+   },
+   {
+      "title": "\u30aa\u30a6\u30e0\u30a2\u30e0\u30a2\u306b\u5e78\u904b\u3092",
+      "artists": [
+         "\u4e00\u30ce\u702c\u5fd7\u5e0c",
+         "\u795e\u8c37\u5948\u7dd2",
+         "\u9ed2\u57fc\u3061\u3068\u305b",
+         "\u4f50\u85e4\u5fc3",
+         "\u7684\u5834\u68a8\u6c99"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u85cd\u539f\u3053\u3068\u307f",
+         "\u677e\u4e95\u6075\u7406\u5b50",
+         "\u4f50\u5009\u85ab",
+         "\u82b1\u5b88\u3086\u307f\u308a",
+         "\u96c6\u8c9d\u306f\u306a"
+      ]
+   },
+   {
+      "title": "Virgin Love",
+      "artists": [
+         "\u5411\u4e95\u62d3\u6d77",
+         "\u85e4\u672c\u91cc\u5948"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u539f\u512a\u5b50",
+         "\u91d1\u5b50\u771f\u7531\u7f8e"
+      ]
+   },
+   {
+      "title": "\u708e\u306e\u83ef",
+      "artists": [
+         "\u5411\u4e95\u62d3\u6d77"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u539f\u512a\u5b50"
+      ]
+   },
+   {
+      "title": "LOVE\u2606\u30cf\u30ba\u30ab\u30e0",
+      "artists": [
+         "\u85e4\u672c\u91cc\u5948"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u91d1\u5b50\u771f\u7531\u7f8e"
+      ]
+   },
+   {
+      "title": "\u30c9\u30ec\u30df\u30d5\u30a1\u30af\u30c8\u30ea\u30fc\uff01",
+      "artists": [
+         "\u6afb\u4e95\u6843\u83ef",
+         "\u4f50\u3005\u6728\u5343\u679d",
+         "\u6a58\u3042\u308a\u3059",
+         "\u7d50\u57ce\u6674",
+         "\u9f8d\u5d0e\u85ab"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u7167\u4e95\u6625\u4f73",
+         "\u4eca\u4e95\u9ebb\u590f",
+         "\u4f50\u85e4\u4e9c\u7f8e\u83dc",
+         "\u5c0f\u5e02\u771e\u7434",
+         "\u6625\u702c\u306a\u3064\u307f"
+      ]
+   },
+   {
+      "title": "\u3042\u3053\u304c\u308c\u30b9\u30c6\u30c3\u30c1",
+      "artists": [
+         "\u4f50\u3005\u6728\u5343\u679d"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4eca\u4e95\u9ebb\u590f"
+      ]
+   },
+   {
+      "title": "\u3072\u307e\u308f\u308a\u30de\u30fc\u30af\u3092\u3055\u304c\u305b\uff01",
+      "artists": [
+         "\u9f8d\u5d0e\u85ab"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6625\u702c\u306a\u3064\u307f"
+      ]
+   },
+   {
+      "title": "GEMSTONE",
+      "artists": [
+         "\u7684\u5834\u68a8\u6c99"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u96c6\u8c9d\u306f\u306a"
+      ]
+   },
+   {
+      "title": "Never say never",
+      "artists": [
+         "\u6e0b\u8c37\u51db"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u798f\u539f\u7dbe\u9999"
+      ]
+   },
+   {
+      "title": "\u3042\u3093\u305a\u306e\u3046\u305f",
+      "artists": [
+         "\u53cc\u8449\u674f"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e94\u5341\u5d50\u88d5\u7f8e"
+      ]
+   },
+   {
+      "title": "\u30b7\u30e7\u30b3\u30e9\u30fb\u30c6\u30a3\u30a2\u30e9",
+      "artists": [
+         "\u4e09\u6751\u304b\u306a\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u576a\u7531\u4f73"
+      ]
+   },
+   {
+      "title": "\u3053\u3044\u304b\u305c",
+      "artists": [
+         "\u9ad8\u57a3\u6953"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u65e9\u898b\u6c99\u7e54"
+      ]
+   },
+   {
+      "title": "DOKIDOKI\u30ea\u30ba\u30e0",
+      "artists": [
+         "\u57ce\u30f6\u5d0e\u8389\u5609"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5c71\u672c\u5e0c\u671b"
+      ]
+   },
+   {
+      "title": "\u83ef\u857e\u5922\u30df\u30eb\u72c2\u8a69\u66f2\u301c\u9b42\u30ce\u5c0e\u301c",
+      "artists": [
+         "\u795e\u5d0e\u862d\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5185\u7530\u771f\u793c"
+      ]
+   },
+   {
+      "title": "\u304a\u306d\u3060\u308a Shall We \u301c?",
+      "artists": [
+         "\u524d\u5ddd\u307f\u304f"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e"
+      ]
+   },
+   {
+      "title": "\u307e\u3057\u3085\u307e\u308d\u2606\u30ad\u30c3\u30b9",
+      "artists": [
+         "\u8af8\u661f\u304d\u3089\u308a"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u677e\u5d5c\u9e97"
+      ]
+   },
+   {
+      "title": "TOKIMEKI\u30a8\u30b9\u30ab\u30ec\u30fc\u30c8",
+      "artists": [
+         "\u57ce\u30f6\u5d0e\u7f8e\u5609"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4f73\u6751\u306f\u308b\u304b"
+      ]
+   },
+   {
+      "title": "S(mile)ING!",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999"
+      ]
+   },
+   {
+      "title": "Naked Romance",
+      "artists": [
+         "\u5c0f\u65e5\u5411\u7f8e\u7a42"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6d25\u7530\u7f8e\u6ce2"
+      ]
+   },
+   {
+      "title": "Twilight Sky",
+      "artists": [
+         "\u591a\u7530\u674e\u8863\u83dc"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9752\u6728\u7460\u7483\u5b50"
+      ]
+   },
+   {
+      "title": "\u30a2\u30c3\u30d7\u30eb\u30d1\u30a4\u30fb\u30d7\u30ea\u30f3\u30bb\u30b9",
+      "artists": [
+         "\u5341\u6642\u611b\u68a8"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u539f\u7530\u3072\u3068\u307f"
+      ]
+   },
+   {
+      "title": "Angel Breeze",
+      "artists": [
+         "\u5ddd\u5cf6\u745e\u6a39"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6771\u5c71\u5948\u592e"
+      ]
+   },
+   {
+      "title": "\u30df\u30c4\u30dc\u30b7\u2606\u2606\u2605",
+      "artists": [
+         "\u672c\u7530\u672a\u592e"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u539f\u7d17\u53cb\u91cc"
+      ]
+   },
+   {
+      "title": "\u304a\u9858\u3044\uff01\u30b7\u30f3\u30c7\u30ec\u30e9",
+      "artists": [
+         "\u6e0b\u8c37\u51db",
+         "\u5cf6\u6751\u536f\u6708",
+         "\u672c\u7530\u672a\u592e",
+         "\u4e09\u6751\u304b\u306a\u5b50",
+         "\u57ce\u30f6\u5d0e\u8389\u5609",
+         "\u795e\u5d0e\u862d\u5b50",
+         "\u57ce\u30f6\u5d0e\u7f8e\u5609",
+         "\u5c0f\u65e5\u5411\u7f8e\u7a42",
+         "\u591a\u7530\u674e\u8863\u83dc"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u798f\u539f\u7dbe\u9999",
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u5927\u576a\u7531\u4f73",
+         "\u5c71\u672c\u5e0c\u671b",
+         "\u5185\u7530\u771f\u793c",
+         "\u4f73\u6751\u306f\u308b\u304b",
+         "\u6d25\u7530\u7f8e\u6ce2",
+         "\u9752\u6728\u7460\u7483\u5b50"
+      ]
+   },
+   {
+      "title": "\u71b1\u8840\u4e59\u5973A",
+      "artists": [
+         "\u65e5\u91ce\u831c"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u8d64\ufa11\u5343\u590f"
+      ]
+   },
+   {
+      "title": "Romantic Now",
+      "artists": [
+         "\u8d64\u57ce\u307f\u308a\u3042"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9ed2\u6ca2\u3068\u3082\u3088"
+      ]
+   },
+   {
+      "title": "\u30e1\u30eb\u30d8\u30f3\u30c7\u30d3\u30e5\u30fc\uff01",
+      "artists": [
+         "\u5b89\u90e8\u83dc\u3005"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e09\u5b85\u9ebb\u7406\u6075"
+      ]
+   },
+   {
+      "title": "\u30f4\u30a3\u30fc\u30ca\u30b9\u30b7\u30f3\u30c9\u30ed\u30fc\u30e0",
+      "artists": [
+         "\u65b0\u7530\u7f8e\u6ce2"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6d32\u5d0e\u7dbe"
+      ]
+   },
+   {
+      "title": "To my darling...",
+      "artists": [
+         "\u8f3f\u6c34\u5e78\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u7af9\u9054\u5f69\u5948"
+      ]
+   },
+   {
+      "title": "\u8f1d\u304f\u4e16\u754c\u306e\u9b54\u6cd5",
+      "artists": [
+         "\u795e\u5d0e\u862d\u5b50",
+         "\u30a2\u30ca\u30b9\u30bf\u30b7\u30a2",
+         "\u9ad8\u57a3\u6953",
+         "\u8f3f\u6c34\u5e78\u5b50",
+         "\u6e0b\u8c37\u51db"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5185\u7530\u771f\u793c",
+         "\u4e0a\u5742\u3059\u307f\u308c",
+         "\u65e9\u898b\u6c99\u7e54",
+         "\u7af9\u9054\u5f69\u5948",
+         "\u798f\u539f\u7dbe\u9999"
+      ]
+   },
+   {
+      "title": "\u30a8\u30f4\u30ea\u30c7\u30a4\u30c9\u30ea\u30fc\u30e0",
+      "artists": [
+         "\u4f50\u4e45\u9593\u307e\u3086"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u7267\u91ce\u7531\u4f9d"
+      ]
+   },
+   {
+      "title": "\u5c0f\u3055\u306a\u604b\u306e\u5bc6\u5ba4\u4e8b\u4ef6",
+      "artists": [
+         "\u767d\u5742\u5c0f\u6885"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u685c\u54b2\u5343\u4f9d"
+      ]
+   },
+   {
+      "title": "\u98a8\u8272\u30e1\u30ed\u30c7\u30a3",
+      "artists": [
+         "\u7dd2\u65b9\u667a\u7d75\u91cc"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u7a7a\u76f4\u7f8e"
+      ]
+   },
+   {
+      "title": "You're stars shine on me",
+      "artists": [
+         "\u30a2\u30ca\u30b9\u30bf\u30b7\u30a2"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e0a\u5742\u3059\u307f\u308c"
+      ]
+   },
+   {
+      "title": "\u304a\u6563\u6b69\u30ab\u30e1\u30e9",
+      "artists": [
+         "\u9ad8\u68ee\u85cd\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u91d1\u5b50\u6709\u5e0c"
+      ]
+   },
+   {
+      "title": "\u6bd2\u8338\u4f1d\u8aac",
+      "artists": [
+         "\u661f\u8f1d\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u677e\u7530\u98af\u6c34"
+      ]
+   },
+   {
+      "title": "2nd SIDE",
+      "artists": [
+         "\u795e\u8c37\u5948\u7dd2"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u677e\u4e95\u6075\u7406\u5b50"
+      ]
+   },
+   {
+      "title": "\u8584\u8377 -\u30cf\u30c3\u30ab-",
+      "artists": [
+         "\u5317\u6761\u52a0\u84ee"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6e15\u4e0a\u821e"
+      ]
+   },
+   {
+      "title": "\u82b1\u7c2a HANAKANZASHI",
+      "artists": [
+         "\u5c0f\u65e9\u5ddd\u7d17\u679d"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u7acb\u82b1\u7406\u9999"
+      ]
+   },
+   {
+      "title": "\u30df\u30e9\u30af\u30eb\u30c6\u30ec\u30d1\u30b7\u30fc",
+      "artists": [
+         "\u5800\u88d5\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9234\u6728\u7d75\u7406"
+      ]
+   },
+   {
+      "title": "We're the friends!",
+      "artists": [
+         "\u6e0b\u8c37\u51db",
+         "\u9dfa\u6ca2\u6587\u9999",
+         "\u9ad8\u57a3\u6953",
+         "\u5b89\u90e8\u83dc\u3005",
+         "\u7dd2\u65b9\u667a\u7d75\u91cc",
+         "\u5cf6\u6751\u536f\u6708",
+         "\u672c\u7530\u672a\u592e",
+         "\u59eb\u5ddd\u53cb\u7d00",
+         "\u9ad8\u68ee\u85cd\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u798f\u539f\u7dbe\u9999",
+         "M\u30fbA\u30fbO",
+         "\u65e9\u898b\u6c99\u7e54",
+         "\u4e09\u5b85\u9ebb\u7406\u6075",
+         "\u5927\u7a7a\u76f4\u7f8e",
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u675c\u91ce\u307e\u3053",
+         "\u91d1\u5b50\u6709\u5e0c"
+      ]
+   },
+   {
+      "title": "\u30e1\u30c3\u30bb\u30fc\u30b8",
+      "artists": [
+         "\u6e0b\u8c37\u51db",
+         "\u5b89\u90e8\u83dc\u3005",
+         "\u7dd2\u65b9\u667a\u7d75\u91cc",
+         "\u5cf6\u6751\u536f\u6708",
+         "\u672c\u7530\u672a\u592e"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u798f\u539f\u7dbe\u9999",
+         "\u4e09\u5b85\u9ebb\u7406\u6075",
+         "\u5927\u7a7a\u76f4\u7f8e",
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u539f\u7d17\u53cb\u91cc"
+      ]
+   },
+   {
+      "title": "Bright Blue",
+      "artists": [
+         "\u9dfa\u6ca2\u6587\u9999"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "M\u30fbA\u30fbO"
+      ]
+   },
+   {
+      "title": "\u6c17\u6301\u3061\u3044\u3044\u3088\u306d \u4e00\u7b49\u8cde!",
+      "artists": [
+         "\u59eb\u5ddd\u53cb\u7d00"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u675c\u91ce\u307e\u3053"
+      ]
+   },
+   {
+      "title": "\u304d\u30fb\u307e\u30fb\u3050\u30fb\u308c\u2606Caf\u00e9 au lait!",
+      "artists": [
+         "\u5bae\u672c\u30d5\u30ec\u30c7\u30ea\u30ab"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9ad9\u91ce\u9ebb\u7f8e"
+      ]
+   },
+   {
+      "title": "Hotel Moonside",
+      "artists": [
+         "\u901f\u6c34\u594f"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u98ef\u7530\u53cb\u5b50"
+      ]
+   },
+   {
+      "title": "\u307f\u3093\u306a\u306e\u304d\u3082\u3061",
+      "artists": [
+         "\u5e02\u539f\u4ec1\u5948"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e45\u91ce\u7f8e\u54b2"
+      ]
+   },
+   {
+      "title": "Absolute NIne",
+      "artists": [
+         "\u5869\u898b\u5468\u5b50",
+         "\u9ad8\u57a3\u6953",
+         "\u6e0b\u8c37\u51db",
+         "\u524d\u5ddd\u307f\u304f",
+         "\u4e00\u30ce\u702c\u5fd7\u5e0c",
+         "\u5cf6\u6751\u536f\u6708",
+         "\u76f8\u8449\u5915\u7f8e",
+         "\u57ce\u30f6\u5d0e\u7f8e\u5609",
+         "\u5411\u4e95\u62d3\u6d77"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u30eb\u30a5\u30c6\u30a3\u30f3",
+         "\u65e9\u898b\u6c99\u7e54",
+         "\u798f\u539f\u7dbe\u9999",
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e",
+         "\u85cd\u539f\u3053\u3068\u307f",
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u6728\u6751\u73e0\u8389",
+         "\u4f73\u6751\u306f\u308b\u304b",
+         "\u539f\u512a\u5b50"
+      ]
+   },
+   {
+      "title": "\u3064\u307c\u307f",
+      "artists": [
+         "\u5869\u898b\u5468\u5b50",
+         "\u524d\u5ddd\u307f\u304f",
+         "\u9ad8\u57a3\u6953",
+         "\u76f8\u8449\u5915\u7f8e",
+         "\u4e00\u30ce\u702c\u5fd7\u5e0c"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u30eb\u30a5\u30c6\u30a3\u30f3",
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e",
+         "\u65e9\u898b\u6c99\u7e54",
+         "\u6728\u6751\u73e0\u8389",
+         "\u85cd\u539f\u3053\u3068\u307f"
+      ]
+   },
+   {
+      "title": "in fact",
+      "artists": [
+         "\u6a58\u3042\u308a\u3059"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4f50\u85e4\u4e9c\u7f8e\u83dc"
+      ]
+   },
+   {
+      "title": "Can't Stop!!",
+      "artists": [
+         "\u7247\u6850\u65e9\u82d7"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u548c\u6c23\u3042\u305a\u672a"
+      ]
+   },
+   {
+      "title": "\u79d8\u5bc6\u306e\u30c8\u30ef\u30ec",
+      "artists": [
+         "\u4e00\u30ce\u702c\u5fd7\u5e0c"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u85cd\u539f\u3053\u3068\u307f"
+      ]
+   },
+   {
+      "title": "\u9752\u306e\u4e00\u756a\u661f",
+      "artists": [
+         "\u5869\u898b\u5468\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u30eb\u30a5\u30c6\u30a3\u30f3"
+      ]
+   },
+   {
+      "title": "\u30e9\u30f4\u30a3\u30a2\u30f3\u30ed\u30fc\u30ba",
+      "artists": [
+         "\u6afb\u4e95\u6843\u83ef"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u7167\u4e95\u6625\u4f73"
+      ]
+   },
+   {
+      "title": "Radio Happy",
+      "artists": [
+         "\u5927\u69fb\u552f"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5c71\u4e0b\u4e03\u6d77"
+      ]
+   },
+   {
+      "title": "\u604b\u8272\u30a8\u30ca\u30b8\u30fc",
+      "artists": [
+         "\u4e2d\u91ce\u6709\u9999"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e0b\u5730\u7d2b\u91ce"
+      ]
+   },
+   {
+      "title": "\u5171\u9cf4\u4e16\u754c\u306e\u5b58\u5728\u8ad6",
+      "artists": [
+         "\u4e8c\u5bae\u98db\u9ce5"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9752\u6728\u5fd7\u8cb4"
+      ]
+   },
+   {
+      "title": "lilac time",
+      "artists": [
+         "\u76f8\u8449\u5915\u7f8e"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6728\u6751\u73e0\u8389"
+      ]
+   },
+   {
+      "title": "\u604b\u306eHamburg\u266a",
+      "artists": [
+         "\u4e94\u5341\u5d50\u97ff\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u7a2e\u5d0e\u6566\u7f8e"
+      ]
+   },
+   {
+      "title": "Take me\u2606Take you",
+      "artists": [
+         "\u9ad8\u57a3\u6953",
+         "\u4e09\u8239\u7f8e\u512a",
+         "\u68ee\u4e45\u4fdd\u4e43\u3005",
+         "\u5cf6\u6751\u536f\u6708",
+         "\u5b89\u90e8\u83dc\u3005",
+         "\u524d\u5ddd\u307f\u304f",
+         "\u4f9d\u7530\u82b3\u4e43",
+         "\u672c\u7530\u672a\u592e",
+         "\u4f50\u85e4\u5fc3"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u65e9\u898b\u6c99\u7e54",
+         "\u539f\u7530\u5f69\u6953",
+         "\u9ad8\u6a4b\u82b1\u6797",
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u4e09\u5b85\u9ebb\u7406\u6075",
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e",
+         "\u9ad8\u7530\u6182\u5e0c",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u82b1\u5b88\u3086\u307f\u308a"
+      ]
+   },
+   {
+      "title": "\u30ad\u30df\u306e\u305d\u3070\u3067\u305a\u3063\u3068",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708",
+         "\u9ad8\u57a3\u6953",
+         "\u4e09\u8239\u7f8e\u512a",
+         "\u68ee\u4e45\u4fdd\u4e43\u3005",
+         "\u4f9d\u7530\u82b3\u4e43"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u65e9\u898b\u6c99\u7e54",
+         "\u539f\u7530\u5f69\u6953",
+         "\u9ad8\u6a4b\u82b1\u6797",
+         "\u9ad8\u7530\u6182\u5e0c"
+      ]
+   },
+   {
+      "title": "EVERMORE",
+      "artists": [
+         "\u57ce\u30f6\u5d0e\u7f8e\u5609",
+         "\u524d\u5ddd\u307f\u304f",
+         "\u4e00\u30ce\u702c\u5fd7\u5e0c",
+         "\u795e\u5d0e\u862d\u5b50",
+         "\u4e8c\u5bae\u98db\u9ce5"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4f73\u6751\u306f\u308b\u304b",
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e",
+         "\u85cd\u539f\u3053\u3068\u307f",
+         "\u5185\u7530\u771f\u793c",
+         "\u9752\u6728\u5fd7\u8cb4"
+      ]
+   },
+   {
+      "title": "\u8ffd\u3044\u98a8Running",
+      "artists": [
+         "\u4e59\u5009\u60a0\u8cb4"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e2d\u5cf6\u7531\u8cb4"
+      ]
+   },
+   {
+      "title": "One Life",
+      "artists": [
+         "\u677e\u6c38\u6dbc"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5343\u83c5\u6625\u9999"
+      ]
+   },
+   {
+      "title": "\u7948\u308a\u306e\u82b1",
+      "artists": [
+         "\u4f9d\u7530\u82b3\u4e43"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9ad8\u7530\u6182\u5e0c"
+      ]
+   },
+   {
+      "title": "Treasure\u2606",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708",
+         "\u6e0b\u8c37\u51db",
+         "\u57ce\u30f6\u5d0e\u7f8e\u5609",
+         "\u672c\u7530\u672a\u592e",
+         "\u591a\u7530\u674e\u8863\u83dc"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u798f\u539f\u7dbe\u9999",
+         "\u4f73\u6751\u306f\u308b\u304b",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u9752\u6728\u7460\u7483\u5b50"
+      ]
+   },
+   {
+      "title": "\u30a8\u30f3\u30b8\u30a7\u30eb \u30c9\u30ea\u30fc\u30e0 \u301cCINDERELLA GIRLS COLLABORATION MIX\u301c",
+      "artists": [
+         "\u7dd2\u65b9\u667a\u7d75\u91cc",
+         "\u57ce\u30f6\u5d0e\u8389\u5609",
+         "\u591a\u7530\u674e\u8863\u83dc"
+      ],
+      "original": "\u592a\u9f13\u306e\u9054\u4eba",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u5927\u7a7a\u76f4\u7f8e",
+         "\u5c71\u672c\u5e0c\u671b",
+         "\u9752\u6728\u7460\u7483\u5b50"
+      ]
+   },
+   {
+      "title": "\u604b\u304c\u54b2\u304f\u5b63\u7bc0",
+      "artists": [
+         "\u9ad8\u57a3\u6953",
+         "\u672c\u7530\u672a\u592e",
+         "\u85e4\u539f\u8087",
+         "\u8352\u6728\u6bd4\u5948",
+         "\u559c\u591a\u898b\u67da",
+         "\u4f50\u4e45\u9593\u307e\u3086",
+         "\u6751\u4e0a\u5df4",
+         "\u95a2\u88d5\u7f8e",
+         "\u7dd2\u65b9\u667a\u7d75\u91cc"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u65e9\u898b\u6c99\u7e54",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u9234\u6728\u307f\u306e\u308a",
+         "\u7530\u8fba\u7559\u4f9d",
+         "\u6b66\u7530\u7f85\u68a8\u6c99\u591a\u80e1",
+         "\u7267\u91ce\u7531\u4f9d",
+         "\u82b1\u4e95\u7f8e\u6625",
+         "\u4f1a\u6ca2\u7d17\u5f25",
+         "\u5927\u7a7a\u76f4\u7f8e"
+      ]
+   },
+   {
+      "title": "always",
+      "artists": [
+         "\u9ad8\u57a3\u6953",
+         "\u672c\u7530\u672a\u592e",
+         "\u85e4\u539f\u8087",
+         "\u8352\u6728\u6bd4\u5948",
+         "\u559c\u591a\u898b\u67da"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u65e9\u898b\u6c99\u7e54",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u9234\u6728\u307f\u306e\u308a",
+         "\u7530\u8fba\u7559\u4f9d",
+         "\u6b66\u7530\u7f85\u68a8\u6c99\u591a\u80e1"
+      ]
+   },
+   {
+      "title": "\u30a4\u30ea\u30e5\u30fc\u30b8\u30e7\u30cb\u30b9\u30bf\uff01",
+      "artists": [
+         "\u672c\u7530\u672a\u592e",
+         "\u4f50\u4e45\u9593\u307e\u3086",
+         "\u9dfa\u6ca2\u6587\u9999",
+         "\u8f3f\u6c34\u5e78\u5b50",
+         "\u65b0\u7530\u7f8e\u6ce2"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u7267\u91ce\u7531\u4f9d",
+         "M\u30fbA\u30fbO",
+         "\u7af9\u9054\u5f69\u5948",
+         "\u6d32\u5d0e\u7dbe"
+      ]
+   },
+   {
+      "title": "\u697d\u5712",
+      "artists": [
+         "\u95a2\u88d5\u7f8e"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4f1a\u6ca2\u7d17\u5f25"
+      ]
+   },
+   {
+      "title": "Last Kiss",
+      "artists": [
+         "\u4e09\u8239\u7f8e\u512a"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u539f\u7530\u5f69\u6953"
+      ]
+   },
+   {
+      "title": "\u304a\u3093\u306a\u306e\u9053\u306f\u661f\u306e\u9053",
+      "artists": [
+         "\u6751\u4e0a\u5df4"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u82b1\u4e95\u7f8e\u6625"
+      ]
+   },
+   {
+      "title": "Trust me",
+      "artists": [
+         "\u5b89\u90e8\u83dc\u3005",
+         "\u672c\u7530\u672a\u592e",
+         "\u5317\u6761\u52a0\u84ee",
+         "\u9df9\u5bcc\u58eb\u8304\u5b50",
+         "\u9dfa\u6ca2\u6587\u9999",
+         "\u4e00\u30ce\u702c\u5fd7\u5e0c",
+         "\u4f50\u4e45\u9593\u307e\u3086",
+         "\u5357\u6761\u5149",
+         "\u559c\u591a\u65e5\u83dc\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e09\u5b85\u9ebb\u7406\u6075",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u6e15\u4e0a\u821e",
+         "\u68ee\u4e0b\u6765\u5948",
+         "M\u30fbA\u30fbO",
+         "\u85cd\u539f\u3053\u3068\u307f",
+         "\u7267\u91ce\u7531\u4f9d",
+         "\u795e\u8c37\u65e9\u77e2\u4f73",
+         "\u6df1\u5ddd\u82b9\u4e9c"
+      ]
+   },
+   {
+      "title": "\u541b\u3078\u306e\u8a69",
+      "artists": [
+         "\u5b89\u90e8\u83dc\u3005",
+         "\u672c\u7530\u672a\u592e",
+         "\u5317\u6761\u52a0\u84ee",
+         "\u9df9\u5bcc\u58eb\u8304\u5b50",
+         "\u9dfa\u6ca2\u6587\u9999"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e09\u5b85\u9ebb\u7406\u6075",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u6e15\u4e0a\u821e",
+         "\u68ee\u4e0b\u6765\u5948",
+         "M\u30fbA\u30fbO"
+      ]
+   },
+   {
+      "title": "\u8c37\u306e\u5e95\u3067\u54b2\u304f\u82b1\u306f",
+      "artists": [
+         "\u767d\u83ca\u307b\u305f\u308b"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5929\u91ce\u8061\u7f8e"
+      ]
+   },
+   {
+      "title": "\u3082\u308a\u306e\u304f\u306b\u304b\u3089",
+      "artists": [
+         "\u68ee\u4e45\u4fdd\u4e43\u3005"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9ad8\u6a4b\u82b1\u6797"
+      ]
+   },
+   {
+      "title": "\u3057\u3085\u304c\u30fc\u306f\u3041\u3068\u2606\u30ec\u30dc\u30ea\u30e5\u30fc\u30b7\u30e7\u30f3",
+      "artists": [
+         "\u4f50\u85e4\u5fc3"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u82b1\u5b88\u3086\u307f\u308a"
+      ]
+   },
+   {
+      "title": "\u5922\u3092\u306e\u305e\u3044\u305f\u3089",
+      "artists": [
+         "\u672c\u7530\u672a\u592e",
+         "\u5317\u6761\u52a0\u84ee",
+         "\u5922\u898b\u308a\u3042\u3080",
+         "\u904a\u4f50\u3053\u305a\u3048",
+         "\u4f50\u57ce\u96ea\u7f8e",
+         "\u4e00\u30ce\u702c\u5fd7\u5e0c",
+         "\u9dfa\u6ca2\u6587\u9999",
+         "\u4f50\u4e45\u9593\u307e\u3086",
+         "\u30ca\u30bf\u30fc\u30ea\u30a2"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u6e15\u4e0a\u821e",
+         "\u661f\u5e0c\u6210\u594f",
+         "\u82b1\u8c37\u9ebb\u5983",
+         "\u4e2d\u6fa4\u30df\u30ca",
+         "\u85cd\u539f\u3053\u3068\u307f",
+         "M\u30fbA\u30fbO",
+         "\u7267\u91ce\u7531\u4f9d",
+         "\u751f\u7530\u8f1d"
+      ]
+   },
+   {
+      "title": "Sun! High! Gold!",
+      "artists": [
+         "\u672c\u7530\u672a\u592e",
+         "\u5317\u6761\u52a0\u84ee",
+         "\u5922\u898b\u308a\u3042\u3080",
+         "\u904a\u4f50\u3053\u305a\u3048",
+         "\u4f50\u57ce\u96ea\u7f8e"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u6e15\u4e0a\u821e",
+         "\u661f\u5e0c\u6210\u594f",
+         "\u82b1\u8c37\u9ebb\u5983",
+         "\u4e2d\u6fa4\u30df\u30ca"
+      ]
+   },
+   {
+      "title": "Claw My Heart",
+      "artists": [
+         "\u65e9\u5742\u7f8e\u73b2"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u671d\u4e95\u5f69\u52a0"
+      ]
+   },
+   {
+      "title": "\u3042\u3089\u304b\u306d\u306e\u5668",
+      "artists": [
+         "\u85e4\u539f\u8087"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9234\u6728\u307f\u306e\u308a"
+      ]
+   },
+   {
+      "title": "OTAHEN \u30a2\u30f3\u30bb\u30e0",
+      "artists": [
+         "\u5922\u898b\u308a\u3042\u3080"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u661f\u5e0c\u6210\u594f"
+      ]
+   },
+   {
+      "title": "Never ends",
+      "artists": [
+         "\u5317\u6761\u52a0\u84ee",
+         "\u9dfa\u6ca2\u6587\u9999",
+         "\u4e00\u30ce\u702c\u5fd7\u5e0c",
+         "\u795e\u8c37\u5948\u7dd2",
+         "\u9ad8\u57a3\u6953"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6e15\u4e0a\u821e",
+         "M\u30fbA\u30fbO",
+         "\u85cd\u539f\u3053\u3068\u307f",
+         "\u677e\u4e95\u6075\u7406\u5b50",
+         "\u65e9\u898b\u6c99\u7e54"
+      ]
+   },
+   {
+      "title": "Brand new!",
+      "artists": [
+         "\u8fbb\u91ce\u3042\u304b\u308a",
+         "\u7802\u585a\u3042\u304d\u3089",
+         "\u6850\u751f\u3064\u304b\u3055"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6885\u6fa4\u3081\u3050",
+         "\u5bcc\u7530\u7f8e\u6182",
+         "\u6cb3\u702c\u8309\u5e0c"
+      ]
+   },
+   {
+      "title": "Beat of the Night",
+      "artists": [
+         "\u9ed2\u57fc\u3061\u3068\u305b"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4f50\u5009\u85ab"
+      ]
+   },
+   {
+      "title": "#HE4DSHOT",
+      "artists": [
+         "\u7802\u585a\u3042\u304d\u3089"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5bcc\u7530\u7f8e\u6182"
+      ]
+   },
+   {
+      "title": "14\u5e73\u7c73\u306b\u30b9\u30fc\u30d9\u30cb\u30a2",
+      "artists": [
+         "\u4e45\u5ddd\u51ea"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u7acb\u82b1\u65e5\u83dc"
+      ]
+   },
+   {
+      "title": "EVERLASTING",
+      "artists": [
+         "\u672c\u7530\u672a\u592e",
+         "\u8fbb\u91ce\u3042\u304b\u308a",
+         "\u53cc\u8449\u674f",
+         "\u6728\u6751\u590f\u6a39",
+         "\u30a2\u30ca\u30b9\u30bf\u30b7\u30a2",
+         "\u30ca\u30bf\u30fc\u30ea\u30a2",
+         "\u6a58\u3042\u308a\u3059",
+         "\u8f3f\u6c34\u5e78\u5b50",
+         "\u4f9d\u7530\u82b3\u4e43",
+         "\u5ddd\u5cf6\u745e\u6a39"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u6885\u6fa4\u3081\u3050",
+         "\u4e94\u5341\u5d50\u88d5\u7f8e",
+         "\u5b89\u91ce\u5e0c\u4e16\u4e43",
+         "\u4e0a\u5742\u3059\u307f\u308c",
+         "\u751f\u7530\u8f1d",
+         "\u4f50\u85e4\u4e9c\u7f8e\u83dc",
+         "\u7af9\u9054\u5f69\u5948",
+         "\u9ad8\u7530\u6182\u5e0c",
+         "\u6771\u5c71\u5948\u592e"
+      ]
+   },
+   {
+      "title": "\u30ad\u30bb\u30ad\u306e\u8a3c",
+      "artists": [
+         "\u9dfa\u6ca2\u6587\u9999",
+         "\u4e00\u30ce\u702c\u5fd7\u5e0c",
+         "\u795e\u8c37\u5948\u7dd2",
+         "\u9ad8\u68ee\u85cd\u5b50",
+         "\u4f50\u4e45\u9593\u307e\u3086"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "M\u30fbA\u30fbO",
+         "\u85cd\u539f\u3053\u3068\u307f",
+         "\u677e\u4e95\u6075\u7406\u5b50",
+         "\u91d1\u5b50\u6709\u5e0c",
+         "\u7267\u91ce\u7531\u4f9d"
+      ]
+   },
+   {
+      "title": "Let's Sail Away!!!",
+      "artists": [
+         "\u6d45\u5229\u4e03\u6d77",
+         "\u897f\u5712\u5bfa\u7434\u6b4c",
+         "\u516b\u795e\u30de\u30ad\u30ce"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e95\u4e0a\u307b\u306e\u82b1",
+         "\u5b89\u9f4b\u7531\u9999\u91cc",
+         "\u4e8c\u30ce\u5bae\u3086\u3044"
+      ]
+   },
+   {
+      "title": "\u30b3\u30b3\u30ab\u30e9\u30df\u30e9\u30a4\u30d8\uff01",
+      "artists": [
+         "\u5341\u6642\u611b\u68a8",
+         "\u795e\u5d0e\u862d\u5b50",
+         "\u6e0b\u8c37\u51db",
+         "\u5869\u898b\u5468\u5b50",
+         "\u5cf6\u6751\u536f\u6708",
+         "\u9ad8\u57a3\u6953",
+         "\u5b89\u90e8\u83dc\u3005",
+         "\u672c\u7530\u672a\u592e",
+         "\u5317\u6761\u52a0\u84ee",
+         "\u9dfa\u6ca2\u6587\u9999"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u539f\u7530\u3072\u3068\u307f",
+         "\u5185\u7530\u771f\u793c",
+         "\u798f\u539f\u7dbe\u9999",
+         "\u30eb\u30a5\u30c6\u30a3\u30f3",
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u65e9\u898b\u6c99\u7e54",
+         "\u4e09\u5b85\u9ebb\u7406\u6075",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u6e15\u4e0a\u821e",
+         "M\u30fbA\u30fbO"
+      ]
+   },
+   {
+      "title": "\u30b9\u30b9\u30e1\u2606\u30aa\u30c8\u30e1\u301cjewel parade\u301c",
+      "artists": [
+         "\u6e0b\u8c37\u51db",
+         "\u9ad8\u57a3\u6953",
+         "\u795e\u5d0e\u862d\u5b50",
+         "\u591a\u7530\u674e\u8863\u83dc",
+         "\u65b0\u7530\u7f8e\u6ce2",
+         "\u57ce\u30f6\u5d0e\u8389\u5609",
+         "\u8af8\u661f\u304d\u3089\u308a",
+         "\u57ce\u30f6\u5d0e\u7f8e\u5609",
+         "\u672c\u7530\u672a\u592e",
+         "\u8d64\u57ce\u307f\u308a\u3042",
+         "\u53cc\u8449\u674f",
+         "\u524d\u5ddd\u307f\u304f",
+         "\u5cf6\u6751\u536f\u6708",
+         "\u5c0f\u65e5\u5411\u7f8e\u7a42",
+         "\u5b89\u90e8\u83dc\u3005"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u798f\u539f\u7dbe\u9999",
+         "\u65e9\u898b\u6c99\u7e54",
+         "\u5185\u7530\u771f\u793c",
+         "\u9752\u6728\u7460\u7483\u5b50",
+         "\u6d32\u5d0e\u7dbe",
+         "\u5c71\u672c\u5e0c\u671b",
+         "\u677e\u5d5c\u9e97",
+         "\u4f73\u6751\u306f\u308b\u304b",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u9ed2\u6ca2\u3068\u3082\u3088",
+         "\u4e94\u5341\u5d50\u88d5\u7f8e",
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e",
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u6d25\u7530\u7f8e\u6ce2",
+         "\u4e09\u5b85\u9ebb\u7406\u6075"
+      ]
+   },
+   {
+      "title": "Nation Blue",
+      "artists": [
+         "\u6e0b\u8c37\u51db",
+         "\u9ad8\u57a3\u6953",
+         "\u795e\u5d0e\u862d\u5b50",
+         "\u591a\u7530\u674e\u8863\u83dc",
+         "\u65b0\u7530\u7f8e\u6ce2"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u798f\u539f\u7dbe\u9999",
+         "\u65e9\u898b\u6c99\u7e54",
+         "\u5185\u7530\u771f\u793c",
+         "\u9752\u6728\u7460\u7483\u5b50",
+         "\u6d32\u5d0e\u7dbe"
+      ]
+   },
+   {
+      "title": "\u4e9c\u9ebb\u8272\u306e\u9aea\u306e\u4e59\u5973",
+      "artists": [
+         "\u65b0\u7530\u7f8e\u6ce2"
+      ],
+      "original": "\u30f4\u30a3\u30ec\u30c3\u30b8\u30fb\u30b7\u30f3\u30ac\u30fc\u30ba",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u6d32\u5d0e\u7dbe"
+      ]
+   },
+   {
+      "title": "\u60b2\u3057\u307f\u3092\u3084\u3055\u3057\u3055\u306b",
+      "artists": [
+         "\u591a\u7530\u674e\u8863\u83dc"
+      ],
+      "original": "little by little",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u9752\u6728\u7460\u7483\u5b50"
+      ]
+   },
+   {
+      "title": "\u6708\u306e\u3057\u305a\u304f",
+      "artists": [
+         "\u795e\u5d0e\u862d\u5b50"
+      ],
+      "original": "RUI[\u67f4\u54b2\u30b3\u30a6]",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u5185\u7530\u771f\u793c"
+      ]
+   },
+   {
+      "title": "\u84bc\u7a79",
+      "artists": [
+         "\u6e0b\u8c37\u51db"
+      ],
+      "original": "angela",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u798f\u539f\u7dbe\u9999"
+      ]
+   },
+   {
+      "title": "\u96ea\u306e\u83ef",
+      "artists": [
+         "\u9ad8\u57a3\u6953"
+      ],
+      "original": "\u4e2d\u5cf6\u7f8e\u5609",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u65e9\u898b\u6c99\u7e54"
+      ]
+   },
+   {
+      "title": "Orange Sapphire",
+      "artists": [
+         "\u57ce\u30f6\u5d0e\u8389\u5609",
+         "\u8af8\u661f\u304d\u3089\u308a",
+         "\u57ce\u30f6\u5d0e\u7f8e\u5609",
+         "\u672c\u7530\u672a\u592e",
+         "\u8d64\u57ce\u307f\u308a\u3042"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5c71\u672c\u5e0c\u671b",
+         "\u677e\u5d5c\u9e97",
+         "\u4f73\u6751\u306f\u308b\u304b",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u9ed2\u6ca2\u3068\u3082\u3088"
+      ]
+   },
+   {
+      "title": "\u5b66\u5712\u5929\u56fd",
+      "artists": [
+         "\u8af8\u661f\u304d\u3089\u308a"
+      ],
+      "original": "\u30d5\u30a3\u30f3\u30ac\u30fc5",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u677e\u5d5c\u9e97"
+      ]
+   },
+   {
+      "title": "LOVE&JOY",
+      "artists": [
+         "\u57ce\u30f6\u5d0e\u8389\u5609"
+      ],
+      "original": "\u6728\u6751\u7531\u59eb",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u5c71\u672c\u5e0c\u671b"
+      ]
+   },
+   {
+      "title": "\u65e5\u66dc\u65e5\u306f\u30c0\u30e1\u30c0\u30e1\u3088",
+      "artists": [
+         "\u57ce\u30f6\u5d0e\u7f8e\u5609"
+      ],
+      "original": "\u6c34\u91ce\u611b\u65e5",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u4f73\u6751\u306f\u308b\u304b"
+      ]
+   },
+   {
+      "title": "\u306f\u3058\u3081\u3066\u306e\u30c1\u30e5\u30a6",
+      "artists": [
+         "\u8d64\u57ce\u307f\u308a\u3042"
+      ],
+      "original": "\u3042\u3093\u3057\u3093\u30d1\u30d1",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u9ed2\u6ca2\u3068\u3082\u3088"
+      ]
+   },
+   {
+      "title": "\u30e9\u30d6\u30ea\u30fc",
+      "artists": [
+         "\u672c\u7530\u672a\u592e"
+      ],
+      "original": "\u5c0f\u6ca2\u5065\u4e8c",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u539f\u7d17\u53cb\u91cc"
+      ]
+   },
+   {
+      "title": "\u30a2\u30bf\u30b7\u30dd\u30f3\u30b3\u30c4\u30a2\u30f3\u30c9\u30ed\u30a4\u30c9",
+      "artists": [
+         "\u53cc\u8449\u674f",
+         "\u524d\u5ddd\u307f\u304f",
+         "\u5cf6\u6751\u536f\u6708",
+         "\u5c0f\u65e5\u5411\u7f8e\u7a42",
+         "\u5b89\u90e8\u83dc\u3005"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e94\u5341\u5d50\u88d5\u7f8e",
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e",
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u6d25\u7530\u7f8e\u6ce2",
+         "\u4e09\u5b85\u9ebb\u7406\u6075"
+      ]
+   },
+   {
+      "title": "\u6c17\u307e\u3050\u308c\u30ed\u30de\u30f3\u30c6\u30a3\u30c3\u30af",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708"
+      ],
+      "original": "\u3044\u304d\u3082\u306e\u304c\u304b\u308a",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999"
+      ]
+   },
+   {
+      "title": "\u3057\u3063\u307d\u306e\u304d\u3082\u3061",
+      "artists": [
+         "\u524d\u5ddd\u307f\u304f"
+      ],
+      "original": "\u8c37\u5c71\u6d69\u5b50",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e"
+      ]
+   },
+   {
+      "title": "\u78a7\u3044\u3046\u3055\u304e",
+      "artists": [
+         "\u5b89\u90e8\u83dc\u3005"
+      ],
+      "original": "\u9152\u4e95\u6cd5\u5b50",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u4e09\u5b85\u9ebb\u7406\u6075"
+      ]
+   },
+   {
+      "title": "\u30eb\u30eb",
+      "artists": [
+         "\u53cc\u8449\u674f"
+      ],
+      "original": "\u3084\u304f\u3057\u307e\u308b\u3048\u3064\u3053",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u4e94\u5341\u5d50\u88d5\u7f8e"
+      ]
+   },
+   {
+      "title": "\u9060\u304f\u9060\u304f",
+      "artists": [
+         "\u5c0f\u65e5\u5411\u7f8e\u7a42"
+      ],
+      "original": "\u69c7\u539f\u656c\u4e4b",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u6d25\u7530\u7f8e\u6ce2"
+      ]
+   },
+   {
+      "title": "\u30b4\u30ad\u30b2\u30f3Party Night",
+      "artists": [
+         "\u5ddd\u5cf6\u745e\u6a39",
+         "\u767d\u5742\u5c0f\u6885",
+         "\u30a2\u30ca\u30b9\u30bf\u30b7\u30a2",
+         "\u795e\u8c37\u5948\u7dd2",
+         "\u5317\u6761\u52a0\u84ee",
+         "\u5341\u6642\u611b\u68a8",
+         "\u65e5\u91ce\u831c",
+         "\u9ad8\u68ee\u85cd\u5b50",
+         "\u661f\u8f1d\u5b50",
+         "\u5800\u88d5\u5b50",
+         "\u4e09\u6751\u304b\u306a\u5b50",
+         "\u8f3f\u6c34\u5e78\u5b50",
+         "\u4f50\u4e45\u9593\u307e\u3086",
+         "\u7dd2\u65b9\u667a\u7d75\u91cc",
+         "\u5c0f\u65e9\u5ddd\u7d17\u679d"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6771\u5c71\u5948\u592e",
+         "\u685c\u54b2\u5343\u4f9d",
+         "\u4e0a\u5742\u3059\u307f\u308c",
+         "\u677e\u4e95\u6075\u7406\u5b50",
+         "\u6e15\u4e0a\u821e",
+         "\u539f\u7530\u3072\u3068\u307f",
+         "\u8d64\ufa11\u5343\u590f",
+         "\u91d1\u5b50\u6709\u5e0c",
+         "\u677e\u7530\u98af\u6c34",
+         "\u9234\u6728\u7d75\u7406",
+         "\u5927\u576a\u7531\u4f73",
+         "\u7af9\u9054\u5f69\u5948",
+         "\u7267\u91ce\u7531\u4f9d",
+         "\u5927\u7a7a\u76f4\u7f8e",
+         "\u7acb\u82b1\u7406\u9999"
+      ]
+   },
+   {
+      "title": "\u30aa\u30eb\u30b4\u30fc\u30eb\u306e\u5c0f\u7bb1",
+      "artists": [
+         "\u5ddd\u5cf6\u745e\u6a39",
+         "\u767d\u5742\u5c0f\u6885",
+         "\u30a2\u30ca\u30b9\u30bf\u30b7\u30a2",
+         "\u795e\u8c37\u5948\u7dd2",
+         "\u5317\u6761\u52a0\u84ee"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6771\u5c71\u5948\u592e",
+         "\u685c\u54b2\u5343\u4f9d",
+         "\u4e0a\u5742\u3059\u307f\u308c",
+         "\u677e\u4e95\u6075\u7406\u5b50",
+         "\u6e15\u4e0a\u821e"
+      ]
+   },
+   {
+      "title": "\u5927\u90fd\u4f1a\u4ea4\u97ff\u697d",
+      "artists": [
+         "\u5ddd\u5cf6\u745e\u6a39"
+      ],
+      "original": "\u30d4\u30c1\u30ab\u30fc\u30c8\u30fb\u30d5\u30a1\u30a4\u30d6",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u6771\u5c71\u5948\u592e"
+      ]
+   },
+   {
+      "title": "\u30e1\u30c8\u30ed\u30dd\u30ea\u30bf\u30f3\u7f8e\u8853\u9928",
+      "artists": [
+         "\u767d\u5742\u5c0f\u6885"
+      ],
+      "original": "\u5927\u8cab\u5999\u5b50",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u685c\u54b2\u5343\u4f9d"
+      ]
+   },
+   {
+      "title": "\u541b\u306e\u77e5\u3089\u306a\u3044\u7269\u8a9e",
+      "artists": [
+         "\u795e\u8c37\u5948\u7dd2"
+      ],
+      "original": "supercell",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u677e\u4e95\u6075\u7406\u5b50"
+      ]
+   },
+   {
+      "title": "\u86cd\u706b",
+      "artists": [
+         "\u5317\u6761\u52a0\u84ee"
+      ],
+      "original": "\u9808\u85e4\u307e\u3086\u307f",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u6e15\u4e0a\u821e"
+      ]
+   },
+   {
+      "title": "\u898b\u4e0a\u3052\u3066\u3054\u3089\u3093\u591c\u306e\u661f\u3092",
+      "artists": [
+         "\u30a2\u30ca\u30b9\u30bf\u30b7\u30a2"
+      ],
+      "original": "\u5742\u672c\u4e5d",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u4e0a\u5742\u3059\u307f\u308c"
+      ]
+   },
+   {
+      "title": "\u7d76\u5bfe\u7279\u6a29\u4e3b\u5f35\u3057\u307e\u3059\u3063\uff01",
+      "artists": [
+         "\u5341\u6642\u611b\u68a8",
+         "\u65e5\u91ce\u831c",
+         "\u9ad8\u68ee\u85cd\u5b50",
+         "\u661f\u8f1d\u5b50",
+         "\u5800\u88d5\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u539f\u7530\u3072\u3068\u307f",
+         "\u8d64\ufa11\u5343\u590f",
+         "\u91d1\u5b50\u6709\u5e0c",
+         "\u677e\u7530\u98af\u6c34",
+         "\u9234\u6728\u7d75\u7406"
+      ]
+   },
+   {
+      "title": "\u30ca\u30f3\u30c0\u30ab\u30f3\u30c0",
+      "artists": [
+         "\u65e5\u91ce\u831c"
+      ],
+      "original": "\u85e4\u4e95\u9686",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u8d64\ufa11\u5343\u590f"
+      ]
+   },
+   {
+      "title": "\u3058\u3087\u3044\u3075\u308b",
+      "artists": [
+         "\u5800\u88d5\u5b50"
+      ],
+      "original": "\u3044\u304d\u3082\u306e\u304c\u304b\u308a",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u9234\u6728\u7d75\u7406"
+      ]
+   },
+   {
+      "title": "\u611b\u306f\u5143\u6c17\u3067\u3059\u3002",
+      "artists": [
+         "\u9ad8\u68ee\u85cd\u5b50"
+      ],
+      "original": "\u8c37\u6751\u6709\u7f8e",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u91d1\u5b50\u6709\u5e0c"
+      ]
+   },
+   {
+      "title": "\u7d05",
+      "artists": [
+         "\u661f\u8f1d\u5b50"
+      ],
+      "original": "X JAPAN",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u677e\u7530\u98af\u6c34"
+      ]
+   },
+   {
+      "title": "PURE SNOW",
+      "artists": [
+         "\u5341\u6642\u611b\u68a8"
+      ],
+      "original": "\u4f50\u3005\u6728\u3086\u3046\u5b50",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u539f\u7530\u3072\u3068\u307f"
+      ]
+   },
+   {
+      "title": "\u30d1\u30b9\u30c6\u30eb\u30d4\u30f3\u30af\u306a\u604b",
+      "artists": [
+         "\u4e09\u6751\u304b\u306a\u5b50",
+         "\u8f3f\u6c34\u5e78\u5b50",
+         "\u4f50\u4e45\u9593\u307e\u3086",
+         "\u7dd2\u65b9\u667a\u7d75\u91cc",
+         "\u5c0f\u65e9\u5ddd\u7d17\u679d"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u576a\u7531\u4f73",
+         "\u7af9\u9054\u5f69\u5948",
+         "\u7267\u91ce\u7531\u4f9d",
+         "\u5927\u7a7a\u76f4\u7f8e",
+         "\u7acb\u82b1\u7406\u9999"
+      ]
+   },
+   {
+      "title": "KISS\u3057\u3066",
+      "artists": [
+         "\u8f3f\u6c34\u5e78\u5b50"
+      ],
+      "original": "KOH+",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u7af9\u9054\u5f69\u5948"
+      ]
+   },
+   {
+      "title": "\u4e0d\u601d\u8b70\u306a\u30d4\u30fc\u30c1\u30d1\u30a4",
+      "artists": [
+         "\u4e09\u6751\u304b\u306a\u5b50"
+      ],
+      "original": "\u7af9\u5185\u307e\u308a\u3084",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u5927\u576a\u7531\u4f73"
+      ]
+   },
+   {
+      "title": "\u30cf\u30df\u30f3\u30b0\u304c\u304d\u3053\u3048\u308b",
+      "artists": [
+         "\u7dd2\u65b9\u667a\u7d75\u91cc"
+      ],
+      "original": "\u30ab\u30d2\u30df\u30fb\u30ab\u30ea\u30a3",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u5927\u7a7a\u76f4\u7f8e"
+      ]
+   },
+   {
+      "title": "\u307e\u305f\u541b\u306b\u604b\u3057\u3066\u308b",
+      "artists": [
+         "\u5c0f\u65e9\u5ddd\u7d17\u679d"
+      ],
+      "original": "\u30d3\u30ea\u30fc\u30fb\u30d0\u30f3\u30d0\u30f3",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u7acb\u82b1\u7406\u9999"
+      ]
+   },
+   {
+      "title": "\u8ab0\u3088\u308a\u597d\u304d\u306a\u306e\u306b",
+      "artists": [
+         "\u4f50\u4e45\u9593\u307e\u3086"
+      ],
+      "original": "\u53e4\u5185\u6771\u5b50",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u7267\u91ce\u7531\u4f9d"
+      ]
+   },
+   {
+      "title": "Near to You",
+      "artists": [
+         "\u5bae\u672c\u30d5\u30ec\u30c7\u30ea\u30ab",
+         "\u4e00\u30ce\u702c\u5fd7\u5e0c",
+         "\u6afb\u4e95\u6843\u83ef",
+         "\u4e2d\u91ce\u6709\u9999",
+         "\u4e94\u5341\u5d50\u97ff\u5b50",
+         "\u9dfa\u6ca2\u6587\u9999",
+         "\u901f\u6c34\u594f",
+         "\u6a58\u3042\u308a\u3059",
+         "\u5869\u898b\u5468\u5b50",
+         "\u4e8c\u5bae\u98db\u9ce5",
+         "\u59eb\u5ddd\u53cb\u7d00",
+         "\u5e02\u539f\u4ec1\u5948",
+         "\u7247\u6850\u65e9\u82d7",
+         "\u5927\u69fb\u552f",
+         "\u76f8\u8449\u5915\u7f8e"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9ad9\u91ce\u9ebb\u7f8e",
+         "\u85cd\u539f\u3053\u3068\u307f",
+         "\u7167\u4e95\u6625\u4f73",
+         "\u4e0b\u5730\u7d2b\u91ce",
+         "\u7a2e\u5d0e\u6566\u7f8e",
+         "M\u30fbA\u30fbO",
+         "\u98ef\u7530\u53cb\u5b50",
+         "\u4f50\u85e4\u4e9c\u7f8e\u83dc",
+         "\u30eb\u30a5\u30c6\u30a3\u30f3",
+         "\u9752\u6728\u5fd7\u8cb4",
+         "\u675c\u91ce\u307e\u3053",
+         "\u4e45\u91ce\u7f8e\u54b2",
+         "\u548c\u6c23\u3042\u305a\u672a",
+         "\u5c71\u4e0b\u4e03\u6d77",
+         "\u6728\u6751\u73e0\u8389"
+      ]
+   },
+   {
+      "title": "\u660e\u65e5\u307e\u305f\u4f1a\u3048\u308b\u3088\u306d",
+      "artists": [
+         "\u5bae\u672c\u30d5\u30ec\u30c7\u30ea\u30ab",
+         "\u4e00\u30ce\u702c\u5fd7\u5e0c",
+         "\u6afb\u4e95\u6843\u83ef",
+         "\u4e2d\u91ce\u6709\u9999",
+         "\u4e94\u5341\u5d50\u97ff\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9ad9\u91ce\u9ebb\u7f8e",
+         "\u85cd\u539f\u3053\u3068\u307f",
+         "\u7167\u4e95\u6625\u4f73",
+         "\u4e0b\u5730\u7d2b\u91ce",
+         "\u7a2e\u5d0e\u6566\u7f8e"
+      ]
+   },
+   {
+      "title": "\u2661\u6843\u8272\u7247\u60f3\u3044\u2661",
+      "artists": [
+         "\u6afb\u4e95\u6843\u83ef"
+      ],
+      "original": "\u677e\u6d66\u4e9c\u5f25",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u7167\u4e95\u6625\u4f73"
+      ]
+   },
+   {
+      "title": "\u30ac\u30c3\u30c4\u3060\u305c\uff01\uff01",
+      "artists": [
+         "\u4e2d\u91ce\u6709\u9999"
+      ],
+      "original": "\u30a6\u30eb\u30d5\u30eb\u30ba",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u4e0b\u5730\u7d2b\u91ce"
+      ]
+   },
+   {
+      "title": "\u30a6\u30eb\u30c8\u30e9 \u30ea\u30e9\u30c3\u30af\u30b9",
+      "artists": [
+         "\u5bae\u672c\u30d5\u30ec\u30c7\u30ea\u30ab"
+      ],
+      "original": "\u7be0\u539f\u3068\u3082\u3048",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u9ad9\u91ce\u9ebb\u7f8e"
+      ]
+   },
+   {
+      "title": "\u5973\u306e\u5b50\u306f\u8ab0\u3067\u3082",
+      "artists": [
+         "\u4e00\u30ce\u702c\u5fd7\u5e0c"
+      ],
+      "original": "\u6771\u4eac\u4e8b\u5909",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u85cd\u539f\u3053\u3068\u307f"
+      ]
+   },
+   {
+      "title": "\u5b88\u3063\u3066\u3042\u3052\u305f\u3044",
+      "artists": [
+         "\u4e94\u5341\u5d50\u97ff\u5b50"
+      ],
+      "original": "\u677e\u4efb\u8c37\u7531\u5b9f",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u7a2e\u5d0e\u6566\u7f8e"
+      ]
+   },
+   {
+      "title": "\u304d\u307f\u306b\u3044\u3063\u3071\u3044\u2606",
+      "artists": [
+         "\u59eb\u5ddd\u53cb\u7d00",
+         "\u5e02\u539f\u4ec1\u5948",
+         "\u7247\u6850\u65e9\u82d7",
+         "\u76f8\u8449\u5915\u7f8e",
+         "\u5927\u69fb\u552f"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u675c\u91ce\u307e\u3053",
+         "\u4e45\u91ce\u7f8e\u54b2",
+         "\u548c\u6c23\u3042\u305a\u672a",
+         "\u6728\u6751\u73e0\u8389",
+         "\u5c71\u4e0b\u4e03\u6d77"
+      ]
+   },
+   {
+      "title": "Perseus-\u30da\u30eb\u30bb\u30a6\u30b9-",
+      "artists": [
+         "\u59eb\u5ddd\u53cb\u7d00"
+      ],
+      "original": "\u5cf6\u8c37\u3072\u3068\u307f",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u675c\u91ce\u307e\u3053"
+      ]
+   },
+   {
+      "title": "\u6c17\u5206\u723d\u5feb",
+      "artists": [
+         "\u7247\u6850\u65e9\u82d7"
+      ],
+      "original": "\u68ee\u9ad8\u5343\u91cc",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u548c\u6c23\u3042\u305a\u672a"
+      ]
+   },
+   {
+      "title": "\u30b9\u30bf\u30fc\u30e9\u30d6\u30ec\u30a4\u30b7\u30e7\u30f3",
+      "artists": [
+         "\u5927\u69fb\u552f"
+      ],
+      "original": "\u30b1\u30e9\u30b1\u30e9",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u5c71\u4e0b\u4e03\u6d77"
+      ]
+   },
+   {
+      "title": "\u3053\u3053\u306b\u3057\u304b\u54b2\u304b\u306a\u3044\u82b1",
+      "artists": [
+         "\u76f8\u8449\u5915\u7f8e"
+      ],
+      "original": "\u30b3\u30d6\u30af\u30ed",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u6728\u6751\u73e0\u8389"
+      ]
+   },
+   {
+      "title": "\u306b\u3093\u3052\u3093\u3063\u3066\u3044\u3044\u306a",
+      "artists": [
+         "\u5e02\u539f\u4ec1\u5948"
+      ],
+      "original": "\u30e4\u30f3\u30b0\u30fb\u30d5\u30ec\u30c3\u30b7\u30e5",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u4e45\u91ce\u7f8e\u54b2"
+      ]
+   },
+   {
+      "title": "\u54b2\u3044\u3066Jewel",
+      "artists": [
+         "\u9dfa\u6ca2\u6587\u9999",
+         "\u901f\u6c34\u594f",
+         "\u6a58\u3042\u308a\u3059",
+         "\u5869\u898b\u5468\u5b50",
+         "\u4e8c\u5bae\u98db\u9ce5"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "M\u30fbA\u30fbO",
+         "\u98ef\u7530\u53cb\u5b50",
+         "\u4f50\u85e4\u4e9c\u7f8e\u83dc",
+         "\u30eb\u30a5\u30c6\u30a3\u30f3",
+         "\u9752\u6728\u5fd7\u8cb4"
+      ]
+   },
+   {
+      "title": "\u304d\u307f\u306b\u3068\u3069\u3051",
+      "artists": [
+         "\u6a58\u3042\u308a\u3059"
+      ],
+      "original": "\u30bf\u30cb\u30b6\u30ef\u30c8\u30e2\u30d5\u30df",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u4f50\u85e4\u4e9c\u7f8e\u83dc"
+      ]
+   },
+   {
+      "title": "\u30b9\u30ab\u30a4\u30af\u30e9\u30c3\u30c9\u306e\u89b3\u6e2c\u8005",
+      "artists": [
+         "\u4e8c\u5bae\u98db\u9ce5"
+      ],
+      "original": "\u3044\u3068\u3046\u304b\u306a\u3053",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u9752\u6728\u5fd7\u8cb4"
+      ]
+   },
+   {
+      "title": "\u594f",
+      "artists": [
+         "\u901f\u6c34\u594f"
+      ],
+      "original": "\u30b9\u30ad\u30de\u30b9\u30a4\u30c3\u30c1",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u98ef\u7530\u53cb\u5b50"
+      ]
+   },
+   {
+      "title": "Reset",
+      "artists": [
+         "\u5869\u898b\u5468\u5b50"
+      ],
+      "original": "\u5e73\u539f\u7dbe\u9999",
+      "unit": "",
+      "coverd": true,
+      "game": false,
+      "actors": [
+         "\u30eb\u30a5\u30c6\u30a3\u30f3"
+      ]
+   },
+   {
+      "title": "\u5927\u304d\u306a\u53e4\u6642\u8a08",
+      "artists": [
+         "\u9dfa\u6ca2\u6587\u9999"
+      ],
+      "original": "Henry Clay Work",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "M\u30fbA\u30fbO"
+      ]
+   },
+   {
+      "title": "\u9752\u7a7a\u30a8\u30fc\u30eb",
+      "artists": [
+         "\u57ce\u30f6\u5d0e\u7f8e\u5609",
+         "\u8d64\u57ce\u307f\u308a\u3042",
+         "\u7dd2\u65b9\u667a\u7d75\u91cc"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4f73\u6751\u306f\u308b\u304b",
+         "\u9ed2\u6ca2\u3068\u3082\u3088",
+         "\u5927\u7a7a\u76f4\u7f8e"
+      ]
+   },
+   {
+      "title": "\u9752\u7a7a\u30a8\u30fc\u30eb",
+      "artists": [
+         "\u8107\u5c71\u73e0\u7f8e"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5609\u5c71\u672a\u7d17"
+      ]
+   },
+   {
+      "title": "Snow Wings",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708",
+         "\u6e0b\u8c37\u51db",
+         "\u672c\u7530\u672a\u592e",
+         "\u5927\u69fb\u552f",
+         "\u4e0a\u6761\u6625\u83dc"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u798f\u539f\u7dbe\u9999",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u5c71\u4e0b\u4e03\u6d77",
+         "\u9577\u5cf6\u5149\u90a3"
+      ]
+   },
+   {
+      "title": "\u306f\u306b\u304b\u307fdays",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999"
+      ]
+   },
+   {
+      "title": "AnemoneStar",
+      "artists": [
+         "\u6e0b\u8c37\u51db"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u798f\u539f\u7dbe\u9999"
+      ]
+   },
+   {
+      "title": "Tulip",
+      "artists": [
+         "\u901f\u6c34\u594f",
+         "\u5869\u898b\u5468\u5b50",
+         "\u57ce\u30f6\u5d0e\u7f8e\u5609",
+         "\u5bae\u672c\u30d5\u30ec\u30c7\u30ea\u30ab",
+         "\u4e00\u30ce\u702c\u5fd7\u5e0c"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u98ef\u7530\u53cb\u5b50",
+         "\u30eb\u30a5\u30c6\u30a3\u30f3",
+         "\u4f73\u6751\u306f\u308b\u304b",
+         "\u9ad9\u91ce\u9ebb\u7f8e",
+         "\u85cd\u539f\u3053\u3068\u307f"
+      ]
+   },
+   {
+      "title": "\u30b9\u30c6\u30c3\u30d7\uff01",
+      "artists": [
+         "\u672c\u7530\u672a\u592e"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u539f\u7d17\u53cb\u91cc"
+      ]
+   },
+   {
+      "title": "\u30cb\u30e3\u30f3\u3068\u2606\u30b9\u30da\u30af\u30bf\u30af\u30eb",
+      "artists": [
+         "\u524d\u5ddd\u307f\u304f"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e"
+      ]
+   },
+   {
+      "title": "\u30cf\u30a4\u30d5\u30a1\u30a4\u2606\u30c7\u30a4\u30ba",
+      "artists": [
+         "\u4f50\u3005\u6728\u5343\u679d",
+         "\u6afb\u4e95\u6843\u83ef",
+         "\u5e02\u539f\u4ec1\u5948",
+         "\u9f8d\u5d0e\u85ab",
+         "\u8d64\u57ce\u307f\u308a\u3042"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4eca\u4e95\u9ebb\u590f",
+         "\u7167\u4e95\u6625\u4f73",
+         "\u4e45\u91ce\u7f8e\u54b2",
+         "\u6625\u702c\u306a\u3064\u307f",
+         "\u9ed2\u6ca2\u3068\u3082\u3088"
+      ]
+   },
+   {
+      "title": "SUPERLOVE\u2606",
+      "artists": [
+         "\u57ce\u30f6\u5d0e\u8389\u5609"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5c71\u672c\u5e0c\u671b"
+      ]
+   },
+   {
+      "title": "NUDIE\u2605",
+      "artists": [
+         "\u57ce\u30f6\u5d0e\u7f8e\u5609"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4f73\u6751\u306f\u308b\u304b"
+      ]
+   },
+   {
+      "title": "\u751f\u5b58\u672c\u80fd\u30f4\u30a1\u30eb\u30ad\u30e5\u30ea\u30a2",
+      "artists": [
+         "\u65b0\u7530\u7f8e\u6ce2",
+         "\u9dfa\u6ca2\u6587\u9999",
+         "\u6a58\u3042\u308a\u3059",
+         "\u76f8\u8449\u5915\u7f8e",
+         "\u9ad8\u68ee\u85cd\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6d32\u5d0e\u7dbe",
+         "M\u30fbA\u30fbO",
+         "\u4f50\u85e4\u4e9c\u7f8e\u83dc",
+         "\u6728\u6751\u73e0\u8389",
+         "\u91d1\u5b50\u6709\u5e0c"
+      ]
+   },
+   {
+      "title": "\u7a7a\u3068\u98a8\u3068\u604b\u306e\u30ef\u30eb\u30c4",
+      "artists": [
+         "\u5c0f\u65e5\u5411\u7f8e\u7a42"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6d25\u7530\u7f8e\u6ce2"
+      ]
+   },
+   {
+      "title": "Sparkling Girl",
+      "artists": [
+         "\u591a\u7530\u674e\u8863\u83dc"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9752\u6728\u7460\u7483\u5b50"
+      ]
+   },
+   {
+      "title": "\u7d14\u60c5Midnight\u4f1d\u8aac",
+      "artists": [
+         "\u5411\u4e95\u62d3\u6d77",
+         "\u85e4\u672c\u91cc\u5948",
+         "\u677e\u6c38\u6dbc",
+         "\u5927\u548c\u4e9c\u5b63",
+         "\u6728\u6751\u590f\u6a39"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u539f\u512a\u5b50",
+         "\u91d1\u5b50\u771f\u7531\u7f8e",
+         "\u5343\u83c5\u6625\u9999",
+         "\u6751\u4e2d\u77e5",
+         "\u5b89\u91ce\u5e0c\u4e16\u4e43"
+      ]
+   },
+   {
+      "title": "\u304a\u304b\u3057\u306a\u56fd\u306e\u304a\u304b\u3057\u5c4b\u3055\u3093",
+      "artists": [
+         "\u4e09\u6751\u304b\u306a\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u576a\u7531\u4f73"
+      ]
+   },
+   {
+      "title": "Bloody Festa",
+      "artists": [
+         "\u767d\u5742\u5c0f\u6885"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u685c\u54b2\u5343\u4f9d"
+      ]
+   },
+   {
+      "title": "Love\u221eDestiny",
+      "artists": [
+         "\u4f50\u4e45\u9593\u307e\u3086",
+         "\u5317\u6761\u52a0\u84ee",
+         "\u5c0f\u65e5\u5411\u7f8e\u7a42",
+         "\u591a\u7530\u674e\u8863\u83dc",
+         "\u7dd2\u65b9\u667a\u7d75\u91cc"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u7267\u91ce\u7531\u4f9d",
+         "\u6e15\u4e0a\u821e",
+         "\u6d25\u7530\u7f8e\u6ce2",
+         "\u9752\u6728\u7460\u7483\u5b50",
+         "\u5927\u7a7a\u76f4\u7f8e"
+      ]
+   },
+   {
+      "title": "\u9752\u7a7a\u30ea\u30ec\u30fc\u30b7\u30e7\u30f3",
+      "artists": [
+         "\u9ad8\u68ee\u85cd\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u91d1\u5b50\u6709\u5e0c"
+      ]
+   },
+   {
+      "title": "PANDEMIC ALONE",
+      "artists": [
+         "\u661f\u8f1d\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u677e\u7530\u98af\u6c34"
+      ]
+   },
+   {
+      "title": "\u30b5\u30de\u30ab\u30cb\uff01\uff01",
+      "artists": [
+         "\u5ddd\u5cf6\u745e\u6a39",
+         "\u65e5\u91ce\u831c",
+         "\u5800\u88d5\u5b50",
+         "\u4e0a\u7530\u9234\u5e06",
+         "\u96e3\u6ce2\u7b11\u7f8e"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6771\u5c71\u5948\u592e",
+         "\u8d64\ufa11\u5343\u590f",
+         "\u9234\u6728\u7d75\u7406",
+         "\u6625\u91ce\u306a\u306a\u307f",
+         "\u4f0a\u9054\u6731\u91cc\u7d17"
+      ]
+   },
+   {
+      "title": "\u306b\u3087\u308f\u306b\u3087\u308f\u30fc\u308b\u3069\u2606",
+      "artists": [
+         "\u8af8\u661f\u304d\u3089\u308a"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u677e\u5d5c\u9e97"
+      ]
+   },
+   {
+      "title": "cherry\uff0amerry\uff0acherry",
+      "artists": [
+         "\u7dd2\u65b9\u667a\u7d75\u91cc"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u7a7a\u76f4\u7f8e"
+      ]
+   },
+   {
+      "title": "BEYOND THE STARLIGHT",
+      "artists": [
+         "\u57ce\u30f6\u5d0e\u8389\u5609",
+         "\u7dd2\u65b9\u667a\u7d75\u91cc",
+         "\u5317\u6761\u52a0\u84ee",
+         "\u5ddd\u5cf6\u745e\u6a39",
+         "\u5927\u69fb\u552f"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5c71\u672c\u5e0c\u671b",
+         "\u5927\u7a7a\u76f4\u7f8e",
+         "\u6e15\u4e0a\u821e",
+         "\u6771\u5c71\u5948\u592e",
+         "\u5c71\u4e0b\u4e03\u6d77"
+      ]
+   },
+   {
+      "title": "\u30b9\u30ed\u30fc\u30e9\u30a4\u30d5\u30fb\u30d5\u30a1\u30f3\u30bf\u30b8\u30fc",
+      "artists": [
+         "\u53cc\u8449\u674f"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e94\u5341\u5d50\u88d5\u7f8e"
+      ]
+   },
+   {
+      "title": "Frozen Tears",
+      "artists": [
+         "\u5317\u6761\u52a0\u84ee"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u6e15\u4e0a\u821e"
+      ]
+   },
+   {
+      "title": "\u30e9\u30d6\u30ec\u30bf\u30fc",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708",
+         "\u5c0f\u65e5\u5411\u7f8e\u7a42",
+         "\u4e94\u5341\u5d50\u97ff\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u6d25\u7530\u7f8e\u6ce2",
+         "\u7a2e\u5d0e\u6566\u7f8e"
+      ]
+   },
+   {
+      "title": "\u30e1\u30eb\u30d8\u30f3\u221e\u30e1\u30bf\u30e2\u30eb\u30d5\u30a9\u30fc\u30bc\uff01",
+      "artists": [
+         "\u5b89\u90e8\u83dc\u3005"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u4e09\u5b85\u9ebb\u7406\u6075"
+      ]
+   },
+   {
+      "title": "\u8584\u7d05",
+      "artists": [
+         "\u5c0f\u65e9\u5ddd\u7d17\u679d"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u7acb\u82b1\u7406\u9999"
+      ]
+   },
+   {
+      "title": "Jet to the Future",
+      "artists": [
+         "\u591a\u7530\u674e\u8863\u83dc",
+         "\u6728\u6751\u590f\u6a39"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9752\u6728\u7460\u7483\u5b50",
+         "\u5b89\u91ce\u5e0c\u4e16\u4e43"
+      ]
+   },
+   {
+      "title": "\u305f\u304f\u3055\u3093\uff01",
+      "artists": [
+         "\u30a2\u30ca\u30b9\u30bf\u30b7\u30a2"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u4e0a\u5742\u3059\u307f\u308c"
+      ]
+   },
+   {
+      "title": "\u3042\u3093\u304d\u3089\uff01\uff1f\u72c2\u9a12\u66f2",
+      "artists": [
+         "\u53cc\u8449\u674f",
+         "\u8af8\u661f\u304d\u3089\u308a"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e94\u5341\u5d50\u88d5\u7f8e",
+         "\u677e\u5d5c\u9e97"
+      ]
+   },
+   {
+      "title": "Neo Beautiful Pain",
+      "artists": [
+         "\u795e\u8c37\u5948\u7dd2"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u677e\u4e95\u6075\u7406\u5b50"
+      ]
+   },
+   {
+      "title": "\u547d\u71c3\u3084\u3057\u3066\u604b\u305b\u3088\u4e59\u5973",
+      "artists": [
+         "\u9ad8\u57a3\u6953",
+         "\u4f50\u85e4\u5fc3",
+         "\u4e09\u8239\u7f8e\u512a",
+         "\u5b89\u90e8\u83dc\u3005",
+         "\u7247\u6850\u65e9\u82d7"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u65e9\u898b\u6c99\u7e54",
+         "\u82b1\u5b88\u3086\u307f\u308a",
+         "\u539f\u7530\u5f69\u6953",
+         "\u4e09\u5b85\u9ebb\u7406\u6075",
+         "\u548c\u6c23\u3042\u305a\u672a"
+      ]
+   },
+   {
+      "title": "\u30de\u30a4\u30fb\u30b9\u30a4\u30fc\u30c8\u30fb\u30cf\u30cd\u30e0\u30fc\u30f3",
+      "artists": [
+         "\u4f50\u4e45\u9593\u307e\u3086"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u7267\u91ce\u7531\u4f9d"
+      ]
+   },
+   {
+      "title": "Sweet Witches' Night \u301c6\u4eba\u76ee\u306f\u3060\u3041\u308c\u301c",
+      "artists": [
+         "\u4e09\u6751\u304b\u306a\u5b50",
+         "\u5341\u6642\u611b\u68a8",
+         "\u68ee\u4e45\u4fdd\u4e43\u3005",
+         "\u690e\u540d\u6cd5\u5b50",
+         "\u53ca\u5ddd\u96eb"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u576a\u7531\u4f73",
+         "\u539f\u7530\u3072\u3068\u307f",
+         "\u9ad8\u6a4b\u82b1\u6797",
+         "\u90fd\u4e38\u3061\u3088",
+         "\u306e\u3050\u3061\u3086\u308a"
+      ]
+   },
+   {
+      "title": "\u308f\u305f\u3050\u3082",
+      "artists": [
+         "\u8d64\u57ce\u307f\u308a\u3042"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u9ed2\u6ca2\u3068\u3082\u3088"
+      ]
+   },
+   {
+      "title": "\u60c5\u71b1\u30d5\u30a1\u30f3\u30d5\u30a1\u30f3\u30d5\u30a1\u30fc\u30ec",
+      "artists": [
+         "\u672c\u7530\u672a\u592e",
+         "\u65e5\u91ce\u831c",
+         "\u9ad8\u68ee\u85cd\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u8d64\ufa11\u5343\u590f",
+         "\u91d1\u5b50\u6709\u5e0c"
+      ]
+   },
+   {
+      "title": "\u30b5\u30a4\u30ad\u30c3\u30af\uff01\u3071\u30fc\u308a\u30fc\u306a\u3044\u3068\u2606",
+      "artists": [
+         "\u5800\u88d5\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u9234\u6728\u7d75\u7406"
+      ]
+   },
+   {
+      "title": "\u685c\u306e\u9803",
+      "artists": [
+         "\u4f9d\u7530\u82b3\u4e43",
+         "\u5c0f\u65e9\u5ddd\u7d17\u679d",
+         "\u9053\u660e\u5bfa\u6b4c\u9234",
+         "\u6d5c\u53e3\u3042\u3084\u3081",
+         "\u8107\u5c71\u73e0\u7f8e"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9ad8\u7530\u6182\u5e0c",
+         "\u7acb\u82b1\u7406\u9999",
+         "\u65b0\u7530\u3072\u3088\u308a",
+         "\u7530\u6fa4\u8309\u7d14",
+         "\u5609\u5c71\u672a\u7d17"
+      ]
+   },
+   {
+      "title": "\u30d5\u30ec\u30c7\u30ea\u30ab\u3001\u732b\u3084\u3081\u308b\u3088",
+      "artists": [
+         "\u5bae\u672c\u30d5\u30ec\u30c7\u30ea\u30ab"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u9ad9\u91ce\u9ebb\u7f8e"
+      ]
+   },
+   {
+      "title": "\u2200NSWER",
+      "artists": [
+         "\u65e9\u5742\u7f8e\u73b2",
+         "\u68ee\u4e45\u4fdd\u4e43\u3005",
+         "\u661f\u8f1d\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u671d\u4e95\u5f69\u52a0",
+         "\u9ad8\u6a4b\u82b1\u6797",
+         "\u677e\u7530\u98af\u6c34"
+      ]
+   },
+   {
+      "title": "Dreaming of you",
+      "artists": [
+         "\u5ddd\u5cf6\u745e\u6a39"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u6771\u5c71\u5948\u592e"
+      ]
+   },
+   {
+      "title": "Voyage",
+      "artists": [
+         "\u65b0\u7530\u7f8e\u6ce2"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u6d32\u5d0e\u7dbe"
+      ]
+   },
+   {
+      "title": "Nothing but You",
+      "artists": [
+         "\u30a2\u30ca\u30b9\u30bf\u30b7\u30a2",
+         "\u795e\u8c37\u5948\u7dd2",
+         "\u4e2d\u91ce\u6709\u9999",
+         "\u524d\u5ddd\u307f\u304f",
+         "\u661f\u8f1d\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e0a\u5742\u3059\u307f\u308c",
+         "\u677e\u4e95\u6075\u7406\u5b50",
+         "\u4e0b\u5730\u7d2b\u91ce",
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e",
+         "\u677e\u7530\u98af\u6c34"
+      ]
+   },
+   {
+      "title": "\u307f\u306a\u304e\u308c\uff01\u30dc\u30dc\u30dc\u30f3\u30d0\u30fc",
+      "artists": [
+         "\u65e5\u91ce\u831c"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u8d64\ufa11\u5343\u590f"
+      ]
+   },
+   {
+      "title": "PROUST EFFECT",
+      "artists": [
+         "\u4e00\u30ce\u702c\u5fd7\u5e0c"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u85cd\u539f\u3053\u3068\u307f"
+      ]
+   },
+   {
+      "title": "\u30e2\u30fc\u30ec\u30c4\u2605\u4e16\u76f4\u3057\u30ae\u30eb\u30c6\u30a3\uff01",
+      "artists": [
+         "\u5800\u88d5\u5b50",
+         "\u7247\u6850\u65e9\u82d7",
+         "\u53ca\u5ddd\u96eb"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9234\u6728\u7d75\u7406",
+         "\u548c\u6c23\u3042\u305a\u672a",
+         "\u306e\u3050\u3061\u3086\u308a"
+      ]
+   },
+   {
+      "title": "if",
+      "artists": [
+         "\u901f\u6c34\u594f"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u98ef\u7530\u53cb\u5b50"
+      ]
+   },
+   {
+      "title": "\u8e0a\u308a\u307e\u304f\u308d\u2606\u30c0\u30f3\u30b7\u30f3\u30b0\u30fb\u30ca\u30a4\u30c8",
+      "artists": [
+         "\u7247\u6850\u65e9\u82d7"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u548c\u6c23\u3042\u305a\u672a"
+      ]
+   },
+   {
+      "title": "With Love",
+      "artists": [
+         "\u4e94\u5341\u5d50\u97ff\u5b50",
+         "\u4e59\u5009\u60a0\u8cb4",
+         "\u6c34\u672c\u3086\u304b\u308a",
+         "\u8af8\u661f\u304d\u3089\u308a",
+         "\u59eb\u5ddd\u53cb\u7d00"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u7a2e\u5d0e\u6566\u7f8e",
+         "\u4e2d\u5cf6\u7531\u8cb4",
+         "\u85e4\u7530\u831c",
+         "\u677e\u5d5c\u9e97",
+         "\u675c\u91ce\u307e\u3053"
+      ]
+   },
+   {
+      "title": "\u9280\u6cb3\u56f3\u66f8\u9928",
+      "artists": [
+         "\u9dfa\u6ca2\u6587\u9999"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "M\u30fbA\u30fbO"
+      ]
+   },
+   {
+      "title": "\u30ea\u30c8\u30eb\u30ea\u30c9\u30eb",
+      "artists": [
+         "\u53cc\u8449\u674f",
+         "\u57ce\u30f6\u5d0e\u8389\u5609",
+         "\u4e8c\u5bae\u98db\u9ce5",
+         "\u767d\u5742\u5c0f\u6885",
+         "\u65e9\u5742\u7f8e\u73b2"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e94\u5341\u5d50\u88d5\u7f8e",
+         "\u5c71\u672c\u5e0c\u671b",
+         "\u9752\u6728\u5fd7\u8cb4",
+         "\u685c\u54b2\u5343\u4f9d",
+         "\u671d\u4e95\u5f69\u52a0"
+      ]
+   },
+   {
+      "title": "\u30a2\u30c4\u30a2\u30c4\u266a\u30de\u30ab\u30ed\u30cb\u30b0\u30e9\u30bf\u30f3",
+      "artists": [
+         "\u4e94\u5341\u5d50\u97ff\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u7a2e\u5d0e\u6566\u7f8e"
+      ]
+   },
+   {
+      "title": "Private Sign",
+      "artists": [
+         "\u5869\u898b\u5468\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u30eb\u30a5\u30c6\u30a3\u30f3"
+      ]
+   },
+   {
+      "title": "Kawaii make MY day!",
+      "artists": [
+         "\u4e2d\u91ce\u6709\u9999",
+         "\u6c34\u672c\u3086\u304b\u308a",
+         "\u690e\u540d\u6cd5\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e0b\u5730\u7d2b\u91ce",
+         "\u85e4\u7530\u831c",
+         "\u90fd\u4e38\u3061\u3088"
+      ]
+   },
+   {
+      "title": "Dear My Dreamers",
+      "artists": [
+         "\u59eb\u5ddd\u53cb\u7d00"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u675c\u91ce\u307e\u3053"
+      ]
+   },
+   {
+      "title": "\u53cc\u7ffc\u306e\u72ec\u594f\u6b4c",
+      "artists": [
+         "\u795e\u5d0e\u862d\u5b50",
+         "\u4e8c\u5bae\u98db\u9ce5"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5185\u7530\u771f\u793c",
+         "\u9752\u6728\u5fd7\u8cb4"
+      ]
+   },
+   {
+      "title": "\u30cf\u30d4\u30ac\uff01",
+      "artists": [
+         "\u8f3f\u6c34\u5e78\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u7af9\u9054\u5f69\u5948"
+      ]
+   },
+   {
+      "title": "Twin\u2606\u304f\u308b\u3063\u2605\u30c6\u30fc\u30eb",
+      "artists": [
+         "\u57ce\u30f6\u5d0e\u7f8e\u5609",
+         "\u57ce\u30f6\u5d0e\u8389\u5609"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4f73\u6751\u306f\u308b\u304b",
+         "\u5c71\u672c\u5e0c\u671b"
+      ]
+   },
+   {
+      "title": "\u82b1\u306e\u3053\u3068\u3070",
+      "artists": [
+         "\u76f8\u8449\u5915\u7f8e"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u6728\u6751\u73e0\u8389"
+      ]
+   },
+   {
+      "title": "Trinity Field",
+      "artists": [
+         "\u6e0b\u8c37\u51db",
+         "\u5317\u6761\u52a0\u84ee",
+         "\u795e\u8c37\u5948\u7dd2"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u798f\u539f\u7dbe\u9999",
+         "\u6e15\u4e0a\u821e",
+         "\u677e\u4e95\u6075\u7406\u5b50"
+      ]
+   },
+   {
+      "title": "Happy New Yeah!",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708",
+         "\u6e0b\u8c37\u51db",
+         "\u672c\u7530\u672a\u592e",
+         "\u4f50\u85e4\u5fc3",
+         "\u4e09\u6751\u304b\u306a\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u798f\u539f\u7dbe\u9999",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u82b1\u5b88\u3086\u307f\u308a",
+         "\u5927\u576a\u7531\u4f73"
+      ]
+   },
+   {
+      "title": "\u30d2\u30c8\u30c8\u30ad\u30c8\u30ad\u30e1\u30ad",
+      "artists": [
+         "\u5341\u6642\u611b\u68a8"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u539f\u7530\u3072\u3068\u307f"
+      ]
+   },
+   {
+      "title": "\u7f8e\u306b\u5165\u308a\u5f69\u3092\u7a7f\u3064",
+      "artists": [
+         "\u5c0f\u65e9\u5ddd\u7d17\u679d",
+         "\u5869\u898b\u5468\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u7acb\u82b1\u7406\u9999",
+         "\u30eb\u30a5\u30c6\u30a3\u30f3"
+      ]
+   },
+   {
+      "title": "\u5922\u5e7b\u30ce\u6551\u6190\u5531 \u301c\u5815\u30c1\u30eb\u661f\u30ce\u8abf\u30d9\u301c",
+      "artists": [
+         "\u795e\u5d0e\u862d\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u5185\u7530\u771f\u793c"
+      ]
+   },
+   {
+      "title": "Vast world",
+      "artists": [
+         "\u7dd2\u65b9\u667a\u7d75\u91cc",
+         "\u767d\u5742\u5c0f\u6885",
+         "\u5800\u88d5\u5b50",
+         "\u53cc\u8449\u674f",
+         "\u8af8\u661f\u304d\u3089\u308a"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u7a7a\u76f4\u7f8e",
+         "\u685c\u54b2\u5343\u4f9d",
+         "\u9234\u6728\u7d75\u7406",
+         "\u4e94\u5341\u5d50\u88d5\u7f8e",
+         "\u677e\u5d5c\u9e97"
+      ]
+   },
+   {
+      "title": "\u30b9\u30d1\u30a4\u30b9\u30d1\u30e9\u30c0\u30a4\u30b9",
+      "artists": [
+         "\u65e5\u91ce\u831c",
+         "\u672c\u7530\u672a\u592e",
+         "\u9ad8\u68ee\u85cd\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u8d64\ufa11\u5343\u590f",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u91d1\u5b50\u6709\u5e0c"
+      ]
+   },
+   {
+      "title": "to you for me",
+      "artists": [
+         "\u6a58\u3042\u308a\u3059"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u4f50\u85e4\u4e9c\u7f8e\u83dc"
+      ]
+   },
+   {
+      "title": "\u51f8\u51f9\u30b9\u30d4\u30fc\u30c9\u30b9\u30bf\u30fc",
+      "artists": [
+         "\u5b89\u90e8\u83dc\u3005",
+         "\u4f50\u85e4\u5fc3"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e09\u5b85\u9ebb\u7406\u6075",
+         "\u82b1\u5b88\u3086\u307f\u308a"
+      ]
+   },
+   {
+      "title": "\u53cd\u9006\u7684\u540c\u4e00\u6027 -Rebellion Identity-",
+      "artists": [
+         "\u4e8c\u5bae\u98db\u9ce5"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u9752\u6728\u5fd7\u8cb4"
+      ]
+   },
+   {
+      "title": "\u30ad\u30df\u3068\u30dc\u30af\u306e\u30df\u30e9\u30a4",
+      "artists": [
+         "\u524d\u5ddd\u307f\u304f",
+         "\u5ddd\u5cf6\u745e\u6a39",
+         "\u767d\u5742\u5c0f\u6885",
+         "\u4e09\u6751\u304b\u306a\u5b50"
+      ],
+      "original": "\u30b0\u30e9\u30f3\u30d6\u30eb\u30fc\u30d5\u30a1\u30f3\u30bf\u30b8\u30fc",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e",
+         "\u6771\u5c71\u5948\u592e",
+         "\u685c\u54b2\u5343\u4f9d",
+         "\u5927\u576a\u7531\u4f73"
+      ]
+   },
+   {
+      "title": "\u30af\u30ec\u30a4\u30b8\u30fc\u30af\u30ec\u30a4\u30b8\u30fc",
+      "artists": [
+         "\u4e00\u30ce\u702c\u5fd7\u5e0c",
+         "\u5bae\u672c\u30d5\u30ec\u30c7\u30ea\u30ab"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u85cd\u539f\u3053\u3068\u307f",
+         "\u9ad9\u91ce\u9ebb\u7f8e"
+      ]
+   },
+   {
+      "title": "\u611b\u306e\u8b83\u6b4c",
+      "artists": [
+         "\u6afb\u4e95\u6843\u83ef"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u7167\u4e95\u6625\u4f73"
+      ]
+   },
+   {
+      "title": "\u2200NSWER \u301c\u306e\u306e\u306e\u7269\u8a9e\u301c",
+      "artists": [
+         "\u68ee\u4e45\u4fdd\u4e43\u3005"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9ad8\u6a4b\u82b1\u6797"
+      ]
+   },
+   {
+      "title": "\u30ac\u30fc\u30eb\u30ba\u30fb\u30a4\u30f3\u30fb\u30b6\u30fb\u30d5\u30ed\u30f3\u30c6\u30a3\u30a2",
+      "artists": [
+         "\u6e0b\u8c37\u51db",
+         "\u65e9\u5742\u7f8e\u73b2",
+         "\u6728\u6751\u590f\u6a39",
+         "\u5c0f\u65e5\u5411\u7f8e\u7a42",
+         "\u5869\u898b\u5468\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u798f\u539f\u7dbe\u9999",
+         "\u671d\u4e95\u5f69\u52a0",
+         "\u5b89\u91ce\u5e0c\u4e16\u4e43",
+         "\u6d25\u7530\u7f8e\u6ce2",
+         "\u30eb\u30a5\u30c6\u30a3\u30f3"
+      ]
+   },
+   {
+      "title": "\u304a\u306d\u3048\u3061\u3083\u3093\u30c7\u30b9\u30b3",
+      "artists": [
+         "\u5e02\u539f\u4ec1\u5948"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u4e45\u91ce\u7f8e\u54b2"
+      ]
+   },
+   {
+      "title": "Pretty Liar",
+      "artists": [
+         "\u9ad8\u57a3\u6953",
+         "\u901f\u6c34\u594f"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u65e9\u898b\u6c99\u7e54",
+         "\u98ef\u7530\u53cb\u5b50"
+      ]
+   },
+   {
+      "title": "\u30d2\u30ab\u30ea\u2192\u30b7\u30f3\u30b3\u30ad\u30e5\u30a6\u2192\u30df\u30e9\u30a4",
+      "artists": [
+         "\u4e2d\u91ce\u6709\u9999"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u4e0b\u5730\u7d2b\u91ce"
+      ]
+   },
+   {
+      "title": "\u30a2\u30f3\u30c7\u30c3\u30c9\u30fb\u30c0\u30f3\u30b9\u30ed\u30c3\u30af",
+      "artists": [
+         "\u677e\u6c38\u6dbc",
+         "\u767d\u5742\u5c0f\u6885"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5343\u83c5\u6625\u9999",
+         "\u685c\u54b2\u5343\u4f9d"
+      ]
+   },
+   {
+      "title": "\u30b5\u30cb\u30fc\u30c9\u30ed\u30c3\u30d7",
+      "artists": [
+         "\u5927\u69fb\u552f"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u5c71\u4e0b\u4e03\u6d77"
+      ]
+   },
+   {
+      "title": "\u590f\u8272",
+      "artists": [
+         "\u57ce\u30f6\u5d0e\u7f8e\u5609",
+         "\u57ce\u30f6\u5d0e\u8389\u5609"
+      ],
+      "original": "\u3086\u305a",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u4f73\u6751\u306f\u308b\u304b",
+         "\u5c71\u672c\u5e0c\u671b"
+      ]
+   },
+   {
+      "title": "Starry-Go-Round",
+      "artists": [
+         "\u5927\u69fb\u552f",
+         "\u524d\u5ddd\u307f\u304f",
+         "\u30a2\u30ca\u30b9\u30bf\u30b7\u30a2",
+         "\u59eb\u5ddd\u53cb\u7d00",
+         "\u4e8c\u5bae\u98db\u9ce5"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5c71\u4e0b\u4e03\u6d77",
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e",
+         "\u4e0a\u5742\u3059\u307f\u308c",
+         "\u675c\u91ce\u307e\u3053",
+         "\u9752\u6728\u5fd7\u8cb4"
+      ]
+   },
+   {
+      "title": "LOVE & PEACH",
+      "artists": [
+         "\u53cc\u8449\u674f",
+         "\u8af8\u661f\u304d\u3089\u308a",
+         "\u5cf6\u6751\u536f\u6708",
+         "\u6e0b\u8c37\u51db",
+         "\u672c\u7530\u672a\u592e"
+      ],
+      "original": "\u3086\u305a",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u4e94\u5341\u5d50\u88d5\u7f8e",
+         "\u677e\u5d5c\u9e97",
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u798f\u539f\u7dbe\u9999",
+         "\u539f\u7d17\u53cb\u91cc"
+      ]
+   },
+   {
+      "title": "HOT LIMIT",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708"
+      ],
+      "original": "T.M.Revolution",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999"
+      ]
+   },
+   {
+      "title": "\u30c4\u30d0\u30b5",
+      "artists": [
+         "\u677e\u6c38\u6dbc"
+      ],
+      "original": "\u30a2\u30f3\u30c0\u30fc\u30b0\u30e9\u30d5",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u5343\u83c5\u6625\u9999"
+      ]
+   },
+   {
+      "title": "\u7121\u91cd\u529b\u30b7\u30e3\u30c8\u30eb",
+      "artists": [
+         "\u5b89\u90e8\u83dc\u3005",
+         "\u57ce\u30f6\u5d0e\u8389\u5609",
+         "\u65b0\u7530\u7f8e\u6ce2",
+         "\u76f8\u8449\u5915\u7f8e",
+         "\u591a\u7530\u674e\u8863\u83dc"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e09\u5b85\u9ebb\u7406\u6075",
+         "\u5c71\u672c\u5e0c\u671b",
+         "\u6d32\u5d0e\u7dbe",
+         "\u6728\u6751\u73e0\u8389",
+         "\u9752\u6728\u7460\u7483\u5b50"
+      ]
+   },
+   {
+      "title": "Sunshine See May",
+      "artists": [
+         "\u4f9d\u7530\u82b3\u4e43",
+         "\u85e4\u539f\u8087"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9ad8\u7530\u6182\u5e0c",
+         "\u9234\u6728\u307f\u306e\u308a"
+      ]
+   },
+   {
+      "title": "Blessing",
+      "artists": [
+         "\u9ad8\u57a3\u6953"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u65e9\u898b\u6c99\u7e54"
+      ]
+   },
+   {
+      "title": "\u30b5\u30e8\u30ca\u30e9\u30d0\u30b9",
+      "artists": [
+         "\u6a58\u3042\u308a\u3059",
+         "\u901f\u6c34\u594f"
+      ],
+      "original": "\u3086\u305a",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u4f50\u85e4\u4e9c\u7f8e\u83dc",
+         "\u98ef\u7530\u53cb\u5b50"
+      ]
+   },
+   {
+      "title": "Palette",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708",
+         "\u5c0f\u65e5\u5411\u7f8e\u7a42",
+         "\u4e94\u5341\u5d50\u97ff\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u6d25\u7530\u7f8e\u6ce2",
+         "\u7a2e\u5d0e\u6566\u7f8e"
+      ]
+   },
+   {
+      "title": "\u53cb\u9054\u306e\u5504",
+      "artists": [
+         "\u559c\u591a\u898b\u67da",
+         "\u5800\u88d5\u5b50"
+      ],
+      "original": "\u3086\u305a",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u6b66\u7530\u7f85\u68a8\u6c99\u591a\u80e1",
+         "\u9234\u6728\u7d75\u7406"
+      ]
+   },
+   {
+      "title": "COLORS",
+      "artists": [
+         "\u4e0a\u6761\u6625\u83dc",
+         "\u8352\u6728\u6bd4\u5948"
+      ],
+      "original": "FLOW",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u9577\u5cf6\u5149\u90a3",
+         "\u7530\u8fba\u7559\u4f9d"
+      ]
+   },
+   {
+      "title": "\u30e2\u30b6\u30a4\u30af\u30ab\u30b1\u30e9",
+      "artists": [
+         "\u4e09\u8239\u7f8e\u512a"
+      ],
+      "original": "Sunset Swish",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u539f\u7530\u5f69\u6953"
+      ]
+   },
+   {
+      "title": "\u7fa9\u52c7\u5fcd\u4fa0\u82b1\u5439\u96ea",
+      "artists": [
+         "\u6d5c\u53e3\u3042\u3084\u3081",
+         "\u8107\u5c71\u73e0\u7f8e",
+         "\u9053\u660e\u5bfa\u6b4c\u9234"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u7530\u6fa4\u8309\u7d14",
+         "\u5609\u5c71\u672a\u7d17",
+         "\u65b0\u7530\u3072\u3088\u308a"
+      ]
+   },
+   {
+      "title": "\u8679",
+      "artists": [
+         "\u5317\u6761\u52a0\u84ee",
+         "\u795e\u8c37\u5948\u7dd2"
+      ],
+      "original": "\u3086\u305a",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u6e15\u4e0a\u821e",
+         "\u677e\u4e95\u6075\u7406\u5b50"
+      ]
+   },
+   {
+      "title": "O2",
+      "artists": [
+         "\u661f\u8f1d\u5b50",
+         "\u5411\u4e95\u62d3\u6d77",
+         "\u6751\u4e0a\u5df4"
+      ],
+      "original": "ORANGE RANGE",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u677e\u7530\u98af\u6c34",
+         "\u539f\u512a\u5b50",
+         "\u82b1\u4e95\u7f8e\u6625"
+      ]
+   },
+   {
+      "title": "\u30ea\u30d0\u30a4\u30d6",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708",
+         "\u6e0b\u8c37\u51db",
+         "\u672c\u7530\u672a\u592e"
+      ],
+      "original": "UNIONE",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u798f\u539f\u7dbe\u9999",
+         "\u539f\u7d17\u53cb\u91cc"
+      ]
+   },
+   {
+      "title": "Needle Light",
+      "artists": [
+         "\u4e0a\u6761\u6625\u83dc",
+         "\u8352\u6728\u6bd4\u5948"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9577\u5cf6\u5149\u90a3",
+         "\u7530\u8fba\u7559\u4f9d"
+      ]
+   },
+   {
+      "title": "\u30bf\u30c3\u30bf",
+      "artists": [
+         "\u591a\u7530\u674e\u8863\u83dc",
+         "\u6728\u6751\u590f\u6a39"
+      ],
+      "original": "\u3086\u305a",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u9752\u6728\u7460\u7483\u5b50",
+         "\u5b89\u91ce\u5e0c\u4e16\u4e43"
+      ]
+   },
+   {
+      "title": "LIFE",
+      "artists": [
+         "\u59eb\u5ddd\u53cb\u7d00"
+      ],
+      "original": "\u30d5\u30b8\u30d5\u30a1\u30d6\u30ea\u30c3\u30af",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u675c\u91ce\u307e\u3053"
+      ]
+   },
+   {
+      "title": "RAGE OF DUST",
+      "artists": [
+         "\u65e9\u5742\u7f8e\u73b2"
+      ],
+      "original": "SPYAIR",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u671d\u4e95\u5f69\u52a0"
+      ]
+   },
+   {
+      "title": "Fascinate",
+      "artists": [
+         "\u9ed2\u57fc\u3061\u3068\u305b",
+         "\u767d\u96ea\u5343\u591c"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4f50\u5009\u85ab",
+         "\u95a2\u53e3\u7406\u54b2"
+      ]
+   },
+   {
+      "title": "HIGH PRESSURE",
+      "artists": [
+         "\u5927\u548c\u4e9c\u5b63"
+      ],
+      "original": "T.M.Revolution",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u6751\u4e2d\u77e5"
+      ]
+   },
+   {
+      "title": "YELLOW YELLOW HAPPY",
+      "artists": [
+         "\u6c34\u672c\u3086\u304b\u308a",
+         "\u4e2d\u91ce\u6709\u9999",
+         "\u690e\u540d\u6cd5\u5b50"
+      ],
+      "original": "\u30dd\u30b1\u30c3\u30c8\u30d3\u30b9\u30b1\u30c3\u30c4",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u85e4\u7530\u831c",
+         "\u4e0b\u5730\u7d2b\u91ce",
+         "\u90fd\u4e38\u3061\u3088"
+      ]
+   },
+   {
+      "title": "EZ DO DANCE",
+      "artists": [
+         "\u7247\u6850\u65e9\u82d7",
+         "\u7d50\u57ce\u6674",
+         "\u4e09\u6751\u304b\u306a\u5b50"
+      ],
+      "original": "TRF",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u548c\u6c23\u3042\u305a\u672a",
+         "\u5c0f\u5e02\u771e\u7434",
+         "\u5927\u576a\u7531\u4f73"
+      ]
+   },
+   {
+      "title": "O-Ku-Ri-Mo-No Sunday!",
+      "artists": [
+         "\u4e45\u5ddd\u51ea",
+         "\u4e45\u5ddd\u98af"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u7acb\u82b1\u65e5\u83dc",
+         "\u9577\u6c5f\u91cc\u52a0"
+      ]
+   },
+   {
+      "title": "Hello Especially",
+      "artists": [
+         "\u5ddd\u5cf6\u745e\u6a39"
+      ],
+      "original": "\u30b9\u30ad\u30de\u30b9\u30a4\u30c3\u30c1",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u6771\u5c71\u5948\u592e"
+      ]
+   },
+   {
+      "title": "\u5168\u529b\u2606Summer!",
+      "artists": [
+         "\u68df\u65b9\u611b\u6d77"
+      ],
+      "original": "angela",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u85e4\u672c\u5f69\u82b1"
+      ]
+   },
+   {
+      "title": "\u884c\u304f\u305c\u3063\uff01\u602a\u76d7\u5c11\u5973",
+      "artists": [
+         "\u53ca\u5ddd\u96eb",
+         "\u7247\u6850\u65e9\u82d7",
+         "\u5800\u88d5\u5b50"
+      ],
+      "original": "\u3082\u3082\u3044\u308d\u30af\u30ed\u30fc\u30d0\u30fc",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u306e\u3050\u3061\u3086\u308a",
+         "\u548c\u6c23\u3042\u305a\u672a",
+         "\u9234\u6728\u7d75\u7406"
+      ]
+   },
+   {
+      "title": "\u30d0\u30d9\u30eb",
+      "artists": [
+         "\u4e00\u30ce\u702c\u5fd7\u5e0c",
+         "\u4e8c\u5bae\u98db\u9ce5"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u85cd\u539f\u3053\u3068\u307f",
+         "\u9752\u6728\u5fd7\u8cb4"
+      ]
+   },
+   {
+      "title": "STAR",
+      "artists": [
+         "\u9053\u660e\u5bfa\u6b4c\u9234",
+         "\u6d5c\u53e3\u3042\u3084\u3081",
+         "\u8107\u5c71\u73e0\u7f8e"
+      ],
+      "original": "99RadioService",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u65b0\u7530\u3072\u3088\u308a",
+         "\u7530\u6fa4\u8309\u7d14",
+         "\u5609\u5c71\u672a\u7d17"
+      ]
+   },
+   {
+      "title": "\u541b\u306e\u9752\u6625\u306f\u8f1d\u3044\u3066\u3044\u308b\u304b",
+      "artists": [
+         "\u5357\u6761\u5149"
+      ],
+      "original": "\u3055\u3055\u304d\u3044\u3055\u304a",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u795e\u8c37\u65e9\u77e2\u4f73"
+      ]
+   },
+   {
+      "title": "\u98a8\u306b\u306a\u308a\u305f\u3044",
+      "artists": [
+         "\u4f9d\u7530\u82b3\u4e43",
+         "\u85e4\u539f\u8087"
+      ],
+      "original": "THE BOOM",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u9ad8\u7530\u6182\u5e0c",
+         "\u9234\u6728\u307f\u306e\u308a"
+      ]
+   },
+   {
+      "title": "Great Journey",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708",
+         "\u6e0b\u8c37\u51db",
+         "\u672c\u7530\u672a\u592e"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u798f\u539f\u7dbe\u9999",
+         "\u539f\u7d17\u53cb\u91cc"
+      ]
+   },
+   {
+      "title": "Lost Princess",
+      "artists": [
+         "\u5341\u6642\u611b\u68a8"
+      ],
+      "original": "\u30d7\u30ea\u30f3\u30bb\u30b9\u30b3\u30cd\u30af\u30c8\uff01Re:Dive",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u539f\u7530\u3072\u3068\u307f"
+      ]
+   },
+   {
+      "title": "      ",
+      "artists": [
+         "\u4e45\u5ddd\u51ea",
+         "\u4e45\u5ddd\u98af"
+      ],
+      "original": "\u30d7\u30ea\u30f3\u30bb\u30b9\u30b3\u30cd\u30af\u30c8\uff01Re:Dive",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u7acb\u82b1\u65e5\u83dc",
+         "\u9577\u6c5f\u91cc\u52a0"
+      ]
+   },
+   {
+      "title": "Yes! Party Time!!",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708",
+         "\u6e0b\u8c37\u51db",
+         "\u672c\u7530\u672a\u592e",
+         "\u8d64\u57ce\u307f\u308a\u3042",
+         "\u5b89\u90e8\u83dc\u3005"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u798f\u539f\u7dbe\u9999",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u9ed2\u6ca2\u3068\u3082\u3088",
+         "\u4e09\u5b85\u9ebb\u7406\u6075"
+      ]
+   },
+   {
+      "title": "\u9280\u306e\u30a4\u30eb\u30ab\u3068\u71b1\u3044\u98a8",
+      "artists": [
+         "\u5927\u69fb\u552f",
+         "\u7dd2\u65b9\u667a\u7d75\u91cc",
+         "\u65b0\u7530\u7f8e\u6ce2"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5c71\u4e0b\u4e03\u6d77",
+         "\u5927\u7a7a\u76f4\u7f8e",
+         "\u6d32\u5d0e\u7dbe"
+      ]
+   },
+   {
+      "title": "\u3068\u3093\u3067\u3044\u3063\u3061\u3083\u3044\u305f\u3044\u306e",
+      "artists": [
+         "\u4e00\u30ce\u702c\u5fd7\u5e0c",
+         "\u4e09\u6751\u304b\u306a\u5b50",
+         "\u5bae\u672c\u30d5\u30ec\u30c7\u30ea\u30ab"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u85cd\u539f\u3053\u3068\u307f",
+         "\u5927\u576a\u7531\u4f73",
+         "\u9ad9\u91ce\u9ebb\u7f8e"
+      ]
+   },
+   {
+      "title": "\u590f\u604b -NATSU KOI-",
+      "artists": [
+         "\u5869\u898b\u5468\u5b50",
+         "\u6a58\u3042\u308a\u3059",
+         "\u677e\u6c38\u6dbc"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u30eb\u30a5\u30c6\u30a3\u30f3",
+         "\u4f50\u85e4\u4e9c\u7f8e\u83dc",
+         "\u5343\u83c5\u6625\u9999"
+      ]
+   },
+   {
+      "title": "CoCo\u590f\u590f\u590f\u3000Holiday",
+      "artists": [
+         "\u4e0a\u7530\u9234\u5e06",
+         "\u4f50\u85e4\u5fc3",
+         "\u5341\u6642\u611b\u68a8"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u6625\u91ce\u306a\u306a\u307f",
+         "\u82b1\u5b88\u3086\u307f\u308a",
+         "\u539f\u7530\u3072\u3068\u307f"
+      ]
+   },
+   {
+      "title": "\u79cb\u98a8\u306b\u624b\u3092\u632f\u3063\u3066",
+      "artists": [
+         "\u76f8\u8449\u5915\u7f8e",
+         "\u591a\u7530\u674e\u8863\u83dc",
+         "\u4e2d\u91ce\u6709\u9999"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6728\u6751\u73e0\u8389",
+         "\u9752\u6728\u7460\u7483\u5b50",
+         "\u4e0b\u5730\u7d2b\u91ce"
+      ]
+   },
+   {
+      "title": "Halloween\u2665Code",
+      "artists": [
+         "\u5b89\u90e8\u83dc\u3005",
+         "\u4e59\u5009\u60a0\u8cb4",
+         "\u524d\u5ddd\u307f\u304f"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e09\u5b85\u9ebb\u7406\u6075",
+         "\u4e2d\u5cf6\u7531\u8cb4",
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e"
+      ]
+   },
+   {
+      "title": "\u3055\u3088\u306a\u3089\u30a2\u30f3\u30c9\u30ed\u30e1\u30c0",
+      "artists": [
+         "\u6e0b\u8c37\u51db",
+         "\u68ee\u4e45\u4fdd\u4e43\u3005",
+         "\u5927\u548c\u4e9c\u5b63"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u798f\u539f\u7dbe\u9999",
+         "\u9ad8\u6a4b\u82b1\u6797",
+         "\u6751\u4e2d\u77e5"
+      ]
+   },
+   {
+      "title": "\u7a7a\u60f3\u63a2\u67fb\u8a08\u753b",
+      "artists": [
+         "\u6728\u6751\u590f\u6a39",
+         "\u6d5c\u53e3\u3042\u3084\u3081",
+         "\u65e5\u91ce\u831c"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5b89\u91ce\u5e0c\u4e16\u4e43",
+         "\u7530\u6fa4\u8309\u7d14",
+         "\u8d64\ufa11\u5343\u590f"
+      ]
+   },
+   {
+      "title": "\u30c4\u30a4\u30f3\u30c6\u30fc\u30eb\u306e\u98a8",
+      "artists": [
+         "\u5c0f\u65e5\u5411\u7f8e\u7a42",
+         "\u57ce\u30f6\u5d0e\u7f8e\u5609",
+         "\u901f\u6c34\u594f"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6d25\u7530\u7f8e\u6ce2",
+         "\u4f73\u6751\u306f\u308b\u304b",
+         "\u98ef\u7530\u53cb\u5b50"
+      ]
+   },
+   {
+      "title": "White again",
+      "artists": [
+         "\u5c0f\u65e9\u5ddd\u7d17\u679d",
+         "\u6afb\u4e95\u6843\u83ef",
+         "\u5cf6\u6751\u536f\u6708"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u7acb\u82b1\u7406\u9999",
+         "\u7167\u4e95\u6625\u4f73",
+         "\u5927\u6a4b\u5f69\u9999"
+      ]
+   },
+   {
+      "title": "Frost",
+      "artists": [
+         "\u795e\u8c37\u5948\u7dd2",
+         "\u795e\u5d0e\u862d\u5b50",
+         "\u8107\u5c71\u73e0\u7f8e"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u677e\u4e95\u6075\u7406\u5b50",
+         "\u5185\u7530\u771f\u793c",
+         "\u5609\u5c71\u672a\u7d17"
+      ]
+   },
+   {
+      "title": "\u51ac\u7a7a\u30d7\u30ec\u30b7\u30e3\u30b9",
+      "artists": [
+         "\u7247\u6850\u65e9\u82d7",
+         "\u96e3\u6ce2\u7b11\u7f8e",
+         "\u59eb\u5ddd\u53cb\u7d00"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u548c\u6c23\u3042\u305a\u672a",
+         "\u4f0a\u9054\u6731\u91cc\u7d17",
+         "\u675c\u91ce\u307e\u3053"
+      ]
+   },
+   {
+      "title": "\u685c\u306e\u98a8",
+      "artists": [
+         "\u30a2\u30ca\u30b9\u30bf\u30b7\u30a2",
+         "\u4e94\u5341\u5d50\u97ff\u5b50",
+         "\u4f9d\u7530\u82b3\u4e43"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e0a\u5742\u3059\u307f\u308c",
+         "\u7a2e\u5d0e\u6566\u7f8e",
+         "\u9ad8\u7530\u6182\u5e0c"
+      ]
+   },
+   {
+      "title": "HARURUNRUN",
+      "artists": [
+         "\u95a2\u88d5\u7f8e",
+         "\u6c34\u672c\u3086\u304b\u308a",
+         "\u68df\u65b9\u611b\u6d77"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4f1a\u6ca2\u7d17\u5f25",
+         "\u85e4\u7530\u831c",
+         "\u85e4\u672c\u5f69\u82b1"
+      ]
+   },
+   {
+      "title": "\u672a\u5b8c\u6210\u306e\u6b74\u53f2",
+      "artists": [
+         "\u4e8c\u5bae\u98db\u9ce5",
+         "\u85e4\u539f\u8087",
+         "\u5317\u6761\u52a0\u84ee"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9752\u6728\u5fd7\u8cb4",
+         "\u9234\u6728\u307f\u306e\u308a",
+         "\u6e15\u4e0a\u821e"
+      ]
+   },
+   {
+      "title": "Spring Screaming",
+      "artists": [
+         "\u559c\u591a\u898b\u67da",
+         "\u672c\u7530\u672a\u592e",
+         "\u9f8d\u5d0e\u85ab"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6b66\u7530\u7f85\u68a8\u6c99\u591a\u80e1",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u6625\u702c\u306a\u3064\u307f"
+      ]
+   },
+   {
+      "title": "Stage Bye Stage",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708",
+         "\u6e0b\u8c37\u51db",
+         "\u672c\u7530\u672a\u592e"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u798f\u539f\u7dbe\u9999",
+         "\u539f\u7d17\u53cb\u91cc"
+      ]
+   },
+   {
+      "title": "TRUE COLORS",
+      "artists": [
+         "\u57ce\u30f6\u5d0e\u7f8e\u5609",
+         "\u30a2\u30ca\u30b9\u30bf\u30b7\u30a2",
+         "\u9ad8\u68ee\u85cd\u5b50",
+         "\u85e4\u539f\u8087",
+         "\u4e59\u5009\u60a0\u8cb4",
+         "\u9ed2\u57fc\u3061\u3068\u305b",
+         "\u767d\u96ea\u5343\u591c",
+         "\u4e45\u5ddd\u51ea",
+         "\u4e45\u5ddd\u98af"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4f73\u6751\u306f\u308b\u304b",
+         "\u4e0a\u5742\u3059\u307f\u308c",
+         "\u91d1\u5b50\u6709\u5e0c",
+         "\u9234\u6728\u307f\u306e\u308a",
+         "\u4e2d\u5cf6\u7531\u8cb4",
+         "\u4f50\u5009\u85ab",
+         "\u95a2\u53e3\u7406\u54b2",
+         "\u7acb\u82b1\u65e5\u83dc",
+         "\u9577\u6c5f\u91cc\u52a0"
+      ]
+   },
+   {
+      "title": "\u30b9\u30c6\u30c3\u30d7\uff06\u30b9\u30ad\u30c3\u30d7",
+      "artists": [
+         "\u95a2\u88d5\u7f8e",
+         "\u767d\u83ca\u307b\u305f\u308b",
+         "\u68ee\u4e45\u4fdd\u4e43\u3005"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4f1a\u6ca2\u7d17\u5f25",
+         "\u5929\u91ce\u8061\u7f8e",
+         "\u9ad8\u6a4b\u82b1\u6797"
+      ]
+   },
+   {
+      "title": "Gossip Club",
+      "artists": [
+         "\u57ce\u30f6\u5d0e\u7f8e\u5609",
+         "\u85e4\u672c\u91cc\u5948",
+         "\u5927\u69fb\u552f"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4f73\u6751\u306f\u308b\u304b",
+         "\u91d1\u5b50\u771f\u7531\u7f8e",
+         "\u5c71\u4e0b\u4e03\u6d77"
+      ]
+   },
+   {
+      "title": "Secret Daybreak",
+      "artists": [
+         "\u65b0\u7530\u7f8e\u6ce2",
+         "\u901f\u6c34\u594f"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6d32\u5d0e\u7dbe",
+         "\u98ef\u7530\u53cb\u5b50"
+      ]
+   },
+   {
+      "title": "\u30ae\u30e5\u3063\u3068Milky Way",
+      "artists": [
+         "\u4f50\u4e45\u9593\u307e\u3086",
+         "\u559c\u591a\u65e5\u83dc\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u7267\u91ce\u7531\u4f9d",
+         "\u6df1\u5ddd\u82b9\u4e9c"
+      ]
+   },
+   {
+      "title": "\u5e78\u305b\u306e\u6cd5\u5247 \uff5e\u30eb\u30fc\u30eb\uff5e",
+      "artists": [
+         "\u9df9\u5bcc\u58eb\u8304\u5b50",
+         "\u767d\u83ca\u307b\u305f\u308b"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u68ee\u4e0b\u6765\u5948",
+         "\u5929\u91ce\u8061\u7f8e"
+      ]
+   },
+   {
+      "title": "Gaze and Gaze",
+      "artists": [
+         "\u5ddd\u5cf6\u745e\u6a39",
+         "\u6751\u4e0a\u5df4"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6771\u5c71\u5948\u592e",
+         "\u82b1\u4e95\u7f8e\u6625"
+      ]
+   },
+   {
+      "title": "\u8f1d\u3051\uff01\u30d3\u30fc\u30c8\u30b7\u30e5\u30fc\u30bf\u30fc",
+      "artists": [
+         "\u7d50\u57ce\u6674",
+         "\u7684\u5834\u68a8\u6c99"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5c0f\u5e02\u771e\u7434",
+         "\u96c6\u8c9d\u306f\u306a"
+      ]
+   },
+   {
+      "title": "\u30aa\u30bf\u30af is LOVE!",
+      "artists": [
+         "\u5b89\u90e8\u83dc\u3005",
+         "\u8352\u6728\u6bd4\u5948",
+         "\u795e\u8c37\u5948\u7dd2"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e09\u5b85\u9ebb\u7406\u6075",
+         "\u7530\u8fba\u7559\u4f9d",
+         "\u677e\u4e95\u6075\u7406\u5b50"
+      ]
+   },
+   {
+      "title": "\u307b\u307b\u3048\u307fDiary",
+      "artists": [
+         "\u9ad8\u68ee\u85cd\u5b50",
+         "\u9053\u660e\u5bfa\u6b4c\u9234"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u91d1\u5b50\u6709\u5e0c",
+         "\u65b0\u7530\u3072\u3088\u308a"
+      ]
+   },
+   {
+      "title": "\u4e0d\u57d2\u306aCANVAS",
+      "artists": [
+         "\u8f3f\u6c34\u5e78\u5b50",
+         "\u5869\u898b\u5468\u5b50",
+         "\u76f8\u8449\u5915\u7f8e"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u7af9\u9054\u5f69\u5948",
+         "\u30eb\u30a5\u30c6\u30a3\u30f3",
+         "\u6728\u6751\u73e0\u8389"
+      ]
+   },
+   {
+      "title": "\u5370\u8c61",
+      "artists": [
+         "\u6d5c\u53e3\u3042\u3084\u3081",
+         "\u767d\u83ca\u307b\u305f\u308b",
+         "\u4e09\u8239\u7f8e\u512a"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u7530\u6fa4\u8309\u7d14",
+         "\u5929\u91ce\u8061\u7f8e",
+         "\u539f\u7530\u5f69\u6953"
+      ]
+   },
+   {
+      "title": "comic cosmic",
+      "artists": [
+         "\u4e2d\u91ce\u6709\u9999",
+         "\u4e45\u5ddd\u98af",
+         "\u4f50\u4e45\u9593\u307e\u3086",
+         "\u4f50\u3005\u6728\u5343\u679d",
+         "\u5800\u88d5\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e0b\u5730\u7d2b\u91ce",
+         "\u9577\u6c5f\u91cc\u52a0",
+         "\u7267\u91ce\u7531\u4f9d",
+         "\u4eca\u4e95\u9ebb\u590f",
+         "\u9234\u6728\u7d75\u7406"
+      ]
+   },
+   {
+      "title": "\u8e8d\u308bFLAGSHIP",
+      "artists": [
+         "\u5c0f\u65e5\u5411\u7f8e\u7a42",
+         "\u4f50\u85e4\u5fc3",
+         "\u5317\u6761\u52a0\u84ee"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6d25\u7530\u7f8e\u6ce2",
+         "\u82b1\u5b88\u3086\u307f\u308a",
+         "\u6e15\u4e0a\u821e"
+      ]
+   },
+   {
+      "title": "Athanasia",
+      "artists": [
+         "\u30ca\u30bf\u30fc\u30ea\u30a2",
+         "\u5c0f\u65e9\u5ddd\u7d17\u679d",
+         "\u767d\u5742\u5c0f\u6885"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u751f\u7530\u8f1d",
+         "\u7acb\u82b1\u7406\u9999",
+         "\u685c\u54b2\u5343\u4f9d"
+      ]
+   },
+   {
+      "title": "\u30df\u30e9\u30fc\u30dc\u30fc\u30eb\u30fb\u30e9\u30d6",
+      "artists": [
+         "\u5bae\u672c\u30d5\u30ec\u30c7\u30ea\u30ab",
+         "\u68df\u65b9\u611b\u6d77",
+         "\u53ca\u5ddd\u96eb",
+         "\u8352\u6728\u6bd4\u5948",
+         "\u59eb\u5ddd\u53cb\u7d00"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9ad9\u91ce\u9ebb\u7f8e",
+         "\u85e4\u672c\u5f69\u82b1",
+         "\u306e\u3050\u3061\u3086\u308a",
+         "\u7530\u8fba\u7559\u4f9d",
+         "\u675c\u91ce\u307e\u3053"
+      ]
+   },
+   {
+      "title": "\u30a4\u30b1\u30ca\u30a4GO AHEAD",
+      "artists": [
+         "\u6afb\u4e95\u6843\u83ef",
+         "\u6a58\u3042\u308a\u3059",
+         "\u6751\u4e0a\u5df4"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u7167\u4e95\u6625\u4f73",
+         "\u4f50\u85e4\u4e9c\u7f8e\u83dc",
+         "\u82b1\u4e95\u7f8e\u6625"
+      ]
+   },
+   {
+      "title": "Driving My Way",
+      "artists": [
+         "\u9ed2\u57fc\u3061\u3068\u305b",
+         "\u677e\u6c38\u6dbc",
+         "\u6728\u6751\u590f\u6a39"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u4f50\u5009\u85ab",
+         "\u5343\u83c5\u6625\u9999",
+         "\u5b89\u91ce\u5e0c\u4e16\u4e43"
+      ]
+   },
+   {
+      "title": "Unlock Starbeat",
+      "artists": [
+         "\u661f\u8f1d\u5b50",
+         "\u767d\u96ea\u5343\u591c",
+         "\u795e\u5d0e\u862d\u5b50",
+         "\u4e94\u5341\u5d50\u97ff\u5b50",
+         "\u591a\u7530\u674e\u8863\u83dc"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u677e\u7530\u98af\u6c34",
+         "\u95a2\u53e3\u7406\u54b2",
+         "\u5185\u7530\u771f\u793c",
+         "\u7a2e\u5d0e\u6566\u7f8e",
+         "\u9752\u6728\u7460\u7483\u5b50"
+      ]
+   },
+   {
+      "title": "Go Just Go!",
+      "artists": [
+         "\u5922\u898b\u308a\u3042\u3080",
+         "\u5927\u69fb\u552f",
+         "\u5317\u6761\u52a0\u84ee",
+         "\u4f50\u85e4\u5fc3",
+         "\u4e00\u30ce\u702c\u5fd7\u5e0c",
+         "\u9df9\u5bcc\u58eb\u8304\u5b50",
+         "\u68df\u65b9\u611b\u6d77",
+         "\u5ddd\u5cf6\u745e\u6a39",
+         "\u4e94\u5341\u5d50\u97ff\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u661f\u5e0c\u6210\u594f",
+         "\u5c71\u4e0b\u4e03\u6d77",
+         "\u6e15\u4e0a\u821e",
+         "\u82b1\u5b88\u3086\u307f\u308a",
+         "\u85cd\u539f\u3053\u3068\u307f",
+         "\u68ee\u4e0b\u6765\u5948",
+         "\u85e4\u672c\u5f69\u82b1",
+         "\u6771\u5c71\u5948\u592e",
+         "\u7a2e\u5d0e\u6566\u7f8e"
+      ]
+   },
+   {
+      "title": "\u592a\u967d\u306e\u7d75\u306e\u5177\u7bb1",
+      "artists": [
+         "\u7dd2\u65b9\u667a\u7d75\u91cc",
+         "\u4f9d\u7530\u82b3\u4e43",
+         "\u904a\u4f50\u3053\u305a\u3048",
+         "\u4f50\u57ce\u96ea\u7f8e"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u7a7a\u76f4\u7f8e",
+         "\u9ad8\u7530\u6182\u5e0c",
+         "\u82b1\u8c37\u9ebb\u5983",
+         "\u4e2d\u6fa4\u30df\u30ca"
+      ]
+   },
+   {
+      "title": "WHITE BREATH",
+      "artists": [
+         "\u4e8c\u5bae\u98db\u9ce5"
+      ],
+      "original": "T.M.Revolution",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u9752\u6728\u5fd7\u8cb4"
+      ]
+   },
+   {
+      "title": "OVER THE SKY",
+      "artists": [
+         "\u65e5\u91ce\u831c",
+         "\u795e\u8c37\u5948\u7dd2",
+         "\u5c0f\u65e5\u5411\u7f8e\u7a42"
+      ],
+      "original": "\u30b0\u30e9\u30f3\u30d6\u30eb\u30fc\u30d5\u30a1\u30f3\u30bf\u30b8\u30fc",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u8d64\ufa11\u5343\u590f",
+         "\u677e\u4e95\u6075\u7406\u5b50",
+         "\u6d25\u7530\u7f8e\u6ce2"
+      ]
+   },
+   {
+      "title": "Joker",
+      "artists": [
+         "\u677e\u6c38\u6dbc",
+         "\u5927\u548c\u4e9c\u5b63",
+         "\u4e2d\u91ce\u6709\u9999",
+         "\u59eb\u5ddd\u53cb\u7d00",
+         "\u524d\u5ddd\u307f\u304f"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5343\u83c5\u6625\u9999",
+         "\u6751\u4e2d\u77e5",
+         "\u4e0b\u5730\u7d2b\u91ce",
+         "\u675c\u91ce\u307e\u3053",
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e"
+      ]
+   },
+   {
+      "title": "\u30a2\u30eb\u30ab\u30c6\u30a4\u30eb",
+      "artists": [
+         "\u65b0\u7530\u7f8e\u6ce2"
+      ],
+      "original": "\u9234\u6728\u3053\u306e\u307f",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u6d32\u5d0e\u7dbe"
+      ]
+   },
+   {
+      "title": "My Soul, Your Beats!",
+      "artists": [
+         "\u7dd2\u65b9\u667a\u7d75\u91cc"
+      ],
+      "original": "Lia",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u5927\u7a7a\u76f4\u7f8e"
+      ]
+   },
+   {
+      "title": "\u30d2\u30fc\u30ed\u30fc\u30f4\u30a1\u30fc\u30b5\u30b9\u30ec\u30a4\u30ca\u30f3\u30b8\u30e7\u30fc",
+      "artists": [
+         "\u5357\u6761\u5149",
+         "\u5c0f\u95a2\u9e97\u5948"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u795e\u8c37\u65e9\u77e2\u4f73",
+         "\u9577\u91ce\u4f51\u7d00"
+      ]
+   },
+   {
+      "title": "\u9ce5\u306e\u8a69",
+      "artists": [
+         "\u9ad8\u57a3\u6953"
+      ],
+      "original": "Lia",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u65e9\u898b\u6c99\u7e54"
+      ]
+   },
+   {
+      "title": "\u6642\u3092\u523b\u3080\u5504",
+      "artists": [
+         "\u9ed2\u57fc\u3061\u3068\u305b",
+         "\u767d\u96ea\u5343\u591c"
+      ],
+      "original": "Lia",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u4f50\u5009\u85ab",
+         "\u95a2\u53e3\u7406\u54b2"
+      ]
+   },
+   {
+      "title": "\u30aa\u30ec\u30f3\u30b8\u30bf\u30a4\u30e0",
+      "artists": [
+         "\u8f3f\u6c34\u5e78\u5b50",
+         "\u767d\u5742\u5c0f\u6885",
+         "\u661f\u8f1d\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u7af9\u9054\u5f69\u5948",
+         "\u685c\u54b2\u5343\u4f9d",
+         "\u677e\u7530\u98af\u6c34"
+      ]
+   },
+   {
+      "title": "Hacking to the Gate",
+      "artists": [
+         "\u795e\u5d0e\u862d\u5b50"
+      ],
+      "original": "\u3044\u3068\u3046\u304b\u306a\u3053",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u5185\u7530\u771f\u793c"
+      ]
+   },
+   {
+      "title": "\u3044\u3064\u304b\u306e\u3001\u3044\u304f\u3064\u304b\u306e\u304d\u307f\u3068\u306e\u305b\u304b\u3044",
+      "artists": [
+         "\u767d\u83ca\u307b\u305f\u308b",
+         "\u9df9\u5bcc\u58eb\u8304\u5b50"
+      ],
+      "original": "fh\u00e1na",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u5929\u91ce\u8061\u7f8e",
+         "\u68ee\u4e0b\u6765\u5948"
+      ]
+   },
+   {
+      "title": "THE VILLAIN'S NIGHT",
+      "artists": [
+         "\u95a2\u88d5\u7f8e",
+         "\u8d64\u57ce\u307f\u308a\u3042",
+         "\u6afb\u4e95\u6843\u83ef",
+         "\u76f8\u8449\u5915\u7f8e",
+         "\u5bae\u672c\u30d5\u30ec\u30c7\u30ea\u30ab"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4f1a\u6ca2\u7d17\u5f25",
+         "\u9ed2\u6ca2\u3068\u3082\u3088",
+         "\u7167\u4e95\u6625\u4f73",
+         "\u6728\u6751\u73e0\u8389",
+         "\u9ad9\u91ce\u9ebb\u7f8e"
+      ]
+   },
+   {
+      "title": "Butter-Fly",
+      "artists": [
+         "\u4e59\u5009\u60a0\u8cb4"
+      ],
+      "original": "\u548c\u7530\u5149\u53f8",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u4e2d\u5cf6\u7531\u8cb4"
+      ]
+   },
+   {
+      "title": "I wish",
+      "artists": [
+         "\u4f50\u57ce\u96ea\u7f8e"
+      ],
+      "original": "\u524d\u7530\u611b",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u4e2d\u6fa4\u30df\u30ca"
+      ]
+   },
+   {
+      "title": "Wish you Happiness!!",
+      "artists": [
+         "\u8fbb\u91ce\u3042\u304b\u308a",
+         "\u5c0f\u65e9\u5ddd\u7d17\u679d",
+         "\u5b89\u90e8\u83dc\u3005",
+         "\u65b0\u7530\u7f8e\u6ce2",
+         "\u30ca\u30bf\u30fc\u30ea\u30a2",
+         "\u5869\u898b\u5468\u5b50",
+         "\u6d5c\u53e3\u3042\u3084\u3081"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6885\u6fa4\u3081\u3050",
+         "\u7acb\u82b1\u7406\u9999",
+         "\u4e09\u5b85\u9ebb\u7406\u6075",
+         "\u6d32\u5d0e\u7dbe",
+         "\u751f\u7530\u8f1d",
+         "\u30eb\u30a5\u30c6\u30a3\u30f3",
+         "\u7530\u6fa4\u8309\u7d14"
+      ]
+   },
+   {
+      "title": "brave heart",
+      "artists": [
+         "\u68ee\u4e45\u4fdd\u4e43\u3005"
+      ],
+      "original": "\u5bae\u5d0e\u6b69",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u9ad8\u6a4b\u82b1\u6797"
+      ]
+   },
+   {
+      "title": "\u96e2\u308c\u3066\u3044\u3066\u3082",
+      "artists": [
+         "\u4f50\u4e45\u9593\u307e\u3086"
+      ],
+      "original": "AiM",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u7267\u91ce\u7531\u4f9d"
+      ]
+   },
+   {
+      "title": "EVIL LIVE",
+      "artists": [
+         "\u6751\u4e0a\u5df4",
+         "\u7684\u5834\u68a8\u6c99",
+         "\u5c0f\u95a2\u9e97\u5948",
+         "\u85e4\u672c\u91cc\u5948",
+         "\u5411\u4e95\u62d3\u6d77"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u82b1\u4e95\u7f8e\u6625",
+         "\u96c6\u8c9d\u306f\u306a",
+         "\u9577\u91ce\u4f51\u7d00",
+         "\u91d1\u5b50\u771f\u7531\u7f8e",
+         "\u539f\u512a\u5b50"
+      ]
+   },
+   {
+      "title": "CRAZY GONNA CRAZY",
+      "artists": [
+         "\u85e4\u672c\u91cc\u5948"
+      ],
+      "original": "TRF",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u91d1\u5b50\u771f\u7531\u7f8e"
+      ]
+   },
+   {
+      "title": "Overnight Sensation \uff5e\u6642\u4ee3\u306f\u3042\u306a\u305f\u306b\u59d4\u306d\u3066\u308b\uff5e",
+      "artists": [
+         "\u5411\u4e95\u62d3\u6d77"
+      ],
+      "original": "TRF",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u539f\u512a\u5b50"
+      ]
+   },
+   {
+      "title": "Just Us Justice",
+      "artists": [
+         "\u5357\u6761\u5149",
+         "\u8107\u5c71\u73e0\u7f8e",
+         "\u7d50\u57ce\u6674",
+         "\u4e0a\u6761\u6625\u83dc",
+         "\u7247\u6850\u65e9\u82d7"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u795e\u8c37\u65e9\u77e2\u4f73",
+         "\u5609\u5c71\u672a\u7d17",
+         "\u5c0f\u5e02\u771e\u7434",
+         "\u9577\u5cf6\u5149\u90a3",
+         "\u548c\u6c23\u3042\u305a\u672a"
+      ]
+   },
+   {
+      "title": "survival dAnce \uff5eno no cry more\uff5e",
+      "artists": [
+         "\u57ce\u30f6\u5d0e\u8389\u5609"
+      ],
+      "original": "TRF",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u5c71\u672c\u5e0c\u671b"
+      ]
+   },
+   {
+      "title": "\u30a8\u30ad\u30b9\u30c8\u30e9\u30ec\u30dc\u30ea\u30e5\u30fc\u30b7\u30e7\u30f3",
+      "artists": [
+         "\u559c\u591a\u65e5\u83dc\u5b50"
+      ],
+      "original": "ZAQ",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u6df1\u5ddd\u82b9\u4e9c"
+      ]
+   },
+   {
+      "title": "Hungry Bambi",
+      "artists": [
+         "\u4f50\u3005\u6728\u5343\u679d",
+         "\u5e02\u539f\u4ec1\u5948",
+         "\u6a58\u3042\u308a\u3059",
+         "\u9f8d\u5d0e\u85ab",
+         "\u68df\u65b9\u611b\u6d77",
+         "\u904a\u4f50\u3053\u305a\u3048"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4eca\u4e95\u9ebb\u590f",
+         "\u4e45\u91ce\u7f8e\u54b2",
+         "\u4f50\u85e4\u4e9c\u7f8e\u83dc",
+         "\u6625\u702c\u306a\u3064\u307f",
+         "\u85e4\u672c\u5f69\u82b1",
+         "\u82b1\u8c37\u9ebb\u5983"
+      ]
+   },
+   {
+      "title": "\u305a\u308b\u3058\u3083\u3093",
+      "artists": [
+         "\u4e59\u5009\u60a0\u8cb4"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u4e2d\u5cf6\u7531\u8cb4"
+      ]
+   },
+   {
+      "title": "Home Sweet Home",
+      "artists": [
+         "\u767d\u5742\u5c0f\u6885",
+         "\u8fbb\u91ce\u3042\u304b\u308a",
+         "\u9053\u660e\u5bfa\u6b4c\u9234",
+         "\u4f50\u4e45\u9593\u307e\u3086",
+         "\u5c0f\u65e5\u5411\u7f8e\u7a42"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u685c\u54b2\u5343\u4f9d",
+         "\u6885\u6fa4\u3081\u3050",
+         "\u65b0\u7530\u3072\u3088\u308a",
+         "\u7267\u91ce\u7531\u4f9d",
+         "\u6d25\u7530\u7f8e\u6ce2"
+      ]
+   },
+   {
+      "title": "\u30d1\u30fb\u30ea\u30fb\u30e9",
+      "artists": [
+         "\u30ca\u30bf\u30fc\u30ea\u30a2",
+         "\u559c\u591a\u898b\u67da",
+         "\u57ce\u30f6\u5d0e\u8389\u5609",
+         "\u6d5c\u53e3\u3042\u3084\u3081",
+         "\u53ca\u5ddd\u96eb"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u751f\u7530\u8f1d",
+         "\u6b66\u7530\u7f85\u68a8\u6c99\u591a\u80e1",
+         "\u5c71\u672c\u5e0c\u671b",
+         "\u7530\u6fa4\u8309\u7d14",
+         "\u306e\u3050\u3061\u3086\u308a"
+      ]
+   },
+   {
+      "title": "\u65e5\u3005\u3042\u3069\u3079\u3093\u3061\u3083\u30fc\u306a\u306e\u3067\u3057\u3066\u30fc",
+      "artists": [
+         "\u4f9d\u7530\u82b3\u4e43"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u9ad8\u7530\u6182\u5e0c"
+      ]
+   },
+   {
+      "title": "Secret Mirage",
+      "artists": [
+         "\u6c34\u672c\u3086\u304b\u308a",
+         "\u5c0f\u65e9\u5ddd\u7d17\u679d"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u85e4\u7530\u831c",
+         "\u7acb\u82b1\u7406\u9999"
+      ]
+   },
+   {
+      "title": "\u30cf\u30ec\u6674\u30ec\u30e6\u30ab\u30a4",
+      "artists": [
+         "\u5922\u898b\u308a\u3042\u3080",
+         "\u4f50\u57ce\u96ea\u7f8e",
+         "\u5b89\u90e8\u83dc\u3005"
+      ],
+      "original": "\u5e73\u91ce\u7dbe\u3001\u8305\u539f\u5b9f\u91cc\u3001\u5f8c\u85e4\u9091\u5b50",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u661f\u5e0c\u6210\u594f",
+         "\u4e2d\u6fa4\u30df\u30ca",
+         "\u4e09\u5b85\u9ebb\u7406\u6075"
+      ]
+   },
+   {
+      "title": "\u5192\u967a\u3067\u3057\u3087\u3067\u3057\u3087\uff1f",
+      "artists": [
+         "\u5bae\u672c\u30d5\u30ec\u30c7\u30ea\u30ab"
+      ],
+      "original": "\u5e73\u91ce\u7dbe",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u9ad9\u91ce\u9ebb\u7f8e"
+      ]
+   },
+   {
+      "title": "\u30ec\u30c3\u30c9\u30fb\u30bd\u30fc\u30eb",
+      "artists": [
+         "\u6850\u751f\u3064\u304b\u3055",
+         "\u4e09\u8239\u7f8e\u512a",
+         "\u661f\u8f1d\u5b50",
+         "\u85e4\u539f\u8087"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6cb3\u702c\u8309\u5e0c",
+         "\u539f\u7530\u5f69\u6953",
+         "\u677e\u7530\u98af\u6c34",
+         "\u9234\u6728\u307f\u306e\u308a"
+      ]
+   },
+   {
+      "title": "God knows...",
+      "artists": [
+         "\u5317\u6761\u52a0\u84ee"
+      ],
+      "original": "\u6dbc\u5bae\u30cf\u30eb\u30d2",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u6e15\u4e0a\u821e"
+      ]
+   },
+   {
+      "title": "Lost my music",
+      "artists": [
+         "\u4e2d\u91ce\u6709\u9999"
+      ],
+      "original": "\u6dbc\u5bae\u30cf\u30eb\u30d2",
+      "unit": "",
+      "coverd": true,
+      "game": true,
+      "actors": [
+         "\u4e0b\u5730\u7d2b\u91ce"
+      ]
+   },
+   {
+      "title": "\u661f\u74b0\u4e16\u754c",
+      "artists": [
+         "\u7802\u585a\u3042\u304d\u3089",
+         "\u901f\u6c34\u594f",
+         "\u9ad8\u57a3\u6953",
+         "\u7dd2\u65b9\u667a\u7d75\u91cc",
+         "\u559c\u591a\u65e5\u83dc\u5b50",
+         "\u5bae\u672c\u30d5\u30ec\u30c7\u30ea\u30ab",
+         "\u76f8\u8449\u5915\u7f8e",
+         "\u4e2d\u91ce\u6709\u9999",
+         "\u7247\u6850\u65e9\u82d7"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5bcc\u7530\u7f8e\u6182",
+         "\u98ef\u7530\u53cb\u5b50",
+         "\u65e9\u898b\u6c99\u7e54",
+         "\u5927\u7a7a\u76f4\u7f8e",
+         "\u6df1\u5ddd\u82b9\u4e9c",
+         "\u9ad9\u91ce\u9ebb\u7f8e",
+         "\u6728\u6751\u73e0\u8389",
+         "\u4e0b\u5730\u7d2b\u91ce",
+         "\u548c\u6c23\u3042\u305a\u672a"
+      ]
+   },
+   {
+      "title": "Drastic Melody",
+      "artists": [
+         "\u6e0b\u8c37\u51db",
+         "\u767d\u96ea\u5343\u591c",
+         "\u677e\u6c38\u6dbc"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u798f\u539f\u7dbe\u9999",
+         "\u95a2\u53e3\u7406\u54b2",
+         "\u5343\u83c5\u6625\u9999"
+      ]
+   },
+   {
+      "title": "Myself",
+      "artists": [
+         "\u677e\u6c38\u6dbc"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u5343\u83c5\u6625\u9999"
+      ]
+   },
+   {
+      "title": "\u304b\u307c\u3061\u3083\u59eb",
+      "artists": [
+         "\u95a2\u88d5\u7f8e",
+         "\u4e45\u5ddd\u51ea",
+         "\u690e\u540d\u6cd5\u5b50",
+         "\u767d\u5742\u5c0f\u6885",
+         "\u68ee\u4e45\u4fdd\u4e43\u3005"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4f1a\u6ca2\u7d17\u5f25",
+         "\u7acb\u82b1\u65e5\u83dc",
+         "\u90fd\u4e38\u3061\u3088",
+         "\u685c\u54b2\u5343\u4f9d",
+         "\u9ad8\u6a4b\u82b1\u6797"
+      ]
+   },
+   {
+      "title": "\u7d14\u60c5\u63a5\u8fd1STORY",
+      "artists": [
+         "\u5cf6\u6751\u536f\u6708"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": false,
+      "actors": [
+         "\u5927\u6a4b\u5f69\u9999"
+      ]
+   },
+   {
+      "title": "\u30b9\u30b9\u30e1\u2606\u30aa\u30c8\u30e1\u301cjewel parade\u301c(Cool)",
+      "artists": [
+         "\u6e0b\u8c37\u51db",
+         "\u9ad8\u57a3\u6953",
+         "\u795e\u5d0e\u862d\u5b50",
+         "\u591a\u7530\u674e\u8863\u83dc",
+         "\u65b0\u7530\u7f8e\u6ce2"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u798f\u539f\u7dbe\u9999",
+         "\u65e9\u898b\u6c99\u7e54",
+         "\u5185\u7530\u771f\u793c",
+         "\u9752\u6728\u7460\u7483\u5b50",
+         "\u6d32\u5d0e\u7dbe"
+      ]
+   },
+   {
+      "title": "\u30b9\u30b9\u30e1\u2606\u30aa\u30c8\u30e1\u301cjewel parade\u301c(Cute)",
+      "artists": [
+         "\u53cc\u8449\u674f",
+         "\u524d\u5ddd\u307f\u304f",
+         "\u5cf6\u6751\u536f\u6708",
+         "\u5c0f\u65e5\u5411\u7f8e\u7a42",
+         "\u5b89\u90e8\u83dc\u3005"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u4e94\u5341\u5d50\u88d5\u7f8e",
+         "\u9ad8\u68ee\u5948\u6d25\u7f8e",
+         "\u5927\u6a4b\u5f69\u9999",
+         "\u6d25\u7530\u7f8e\u6ce2",
+         "\u4e09\u5b85\u9ebb\u7406\u6075"
+      ]
+   },
+   {
+      "title": "\u30b9\u30b9\u30e1\u2606\u30aa\u30c8\u30e1\u301cjewel parade\u301c(Passion)",
+      "artists": [
+         "\u57ce\u30f6\u5d0e\u8389\u5609",
+         "\u8af8\u661f\u304d\u3089\u308a",
+         "\u57ce\u30f6\u5d0e\u7f8e\u5609",
+         "\u672c\u7530\u672a\u592e",
+         "\u8d64\u57ce\u307f\u308a\u3042"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5c71\u672c\u5e0c\u671b",
+         "\u677e\u5d5c\u9e97",
+         "\u4f73\u6751\u306f\u308b\u304b",
+         "\u539f\u7d17\u53cb\u91cc",
+         "\u9ed2\u6ca2\u3068\u3082\u3088"
+      ]
+   },
+   {
+      "title": "\u30b4\u30ad\u30b2\u30f3Party Night(Cool)",
+      "artists": [
+         "\u5ddd\u5cf6\u745e\u6a39",
+         "\u767d\u5742\u5c0f\u6885",
+         "\u30a2\u30ca\u30b9\u30bf\u30b7\u30a2",
+         "\u795e\u8c37\u5948\u7dd2",
+         "\u5317\u6761\u52a0\u84ee"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u6771\u5c71\u5948\u592e",
+         "\u685c\u54b2\u5343\u4f9d",
+         "\u4e0a\u5742\u3059\u307f\u308c",
+         "\u677e\u4e95\u6075\u7406\u5b50",
+         "\u6e15\u4e0a\u821e"
+      ]
+   },
+   {
+      "title": "\u30b4\u30ad\u30b2\u30f3Party Night(Cute)",
+      "artists": [
+         "\u4e09\u6751\u304b\u306a\u5b50",
+         "\u8f3f\u6c34\u5e78\u5b50",
+         "\u4f50\u4e45\u9593\u307e\u3086",
+         "\u7dd2\u65b9\u667a\u7d75\u91cc",
+         "\u5c0f\u65e9\u5ddd\u7d17\u679d"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u5927\u576a\u7531\u4f73",
+         "\u7af9\u9054\u5f69\u5948",
+         "\u7267\u91ce\u7531\u4f9d",
+         "\u5927\u7a7a\u76f4\u7f8e",
+         "\u7acb\u82b1\u7406\u9999"
+      ]
+   },
+   {
+      "title": "\u30b4\u30ad\u30b2\u30f3Party Night(Passion)",
+      "artists": [
+         "\u5341\u6642\u611b\u68a8",
+         "\u65e5\u91ce\u831c",
+         "\u9ad8\u68ee\u85cd\u5b50",
+         "\u661f\u8f1d\u5b50",
+         "\u5800\u88d5\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u539f\u7530\u3072\u3068\u307f",
+         "\u8d64\ufa11\u5343\u590f",
+         "\u91d1\u5b50\u6709\u5e0c",
+         "\u677e\u7530\u98af\u6c34",
+         "\u9234\u6728\u7d75\u7406"
+      ]
+   },
+   {
+      "title": "Near to You(Cool)",
+      "artists": [
+         "\u9dfa\u6ca2\u6587\u9999",
+         "\u901f\u6c34\u594f",
+         "\u6a58\u3042\u308a\u3059",
+         "\u5869\u898b\u5468\u5b50",
+         "\u4e8c\u5bae\u98db\u9ce5"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "M\u30fbA\u30fbO",
+         "\u98ef\u7530\u53cb\u5b50",
+         "\u4f50\u85e4\u4e9c\u7f8e\u83dc",
+         "\u30eb\u30a5\u30c6\u30a3\u30f3",
+         "\u9752\u6728\u5fd7\u8cb4"
+      ]
+   },
+   {
+      "title": "Near to You(Cute)",
+      "artists": [
+         "\u5bae\u672c\u30d5\u30ec\u30c7\u30ea\u30ab",
+         "\u4e00\u30ce\u702c\u5fd7\u5e0c",
+         "\u6afb\u4e95\u6843\u83ef",
+         "\u4e2d\u91ce\u6709\u9999",
+         "\u4e94\u5341\u5d50\u97ff\u5b50"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u9ad9\u91ce\u9ebb\u7f8e",
+         "\u85cd\u539f\u3053\u3068\u307f",
+         "\u7167\u4e95\u6625\u4f73",
+         "\u4e0b\u5730\u7d2b\u91ce",
+         "\u7a2e\u5d0e\u6566\u7f8e"
+      ]
+   },
+   {
+      "title": "Near to You(Passion)",
+      "artists": [
+         "\u59eb\u5ddd\u53cb\u7d00",
+         "\u5e02\u539f\u4ec1\u5948",
+         "\u7247\u6850\u65e9\u82d7",
+         "\u5927\u69fb\u552f",
+         "\u76f8\u8449\u5915\u7f8e"
+      ],
+      "original": "",
+      "unit": "",
+      "coverd": false,
+      "game": true,
+      "actors": [
+         "\u675c\u91ce\u307e\u3053",
+         "\u4e45\u91ce\u7f8e\u54b2",
+         "\u548c\u6c23\u3042\u305a\u672a",
+         "\u5c71\u4e0b\u4e03\u6d77",
+         "\u6728\u6751\u73e0\u8389"
+      ]
+   }
+]
