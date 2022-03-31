@@ -1,8 +1,4 @@
 import asyncio
-<<<<<<< HEAD
-=======
-import csv
->>>>>>> b4b74b16ebda6f4f27a49f6bb0484ff4f7d46085
 import datetime
 import glob
 import json
