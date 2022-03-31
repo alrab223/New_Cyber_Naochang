@@ -1,5 +1,3 @@
-# 現在Webhookを利用した機能が使用できません
-  
 ![ロゴ](https://github.com/allbear/Cyber_Naochang2/blob/read_images/images/nao22.gif)
 
 神谷奈緒Discordサーバー【Frontier of the MAYUGE】で稼働しているBot「電脳ナオちゃん」です。
@@ -32,6 +30,9 @@
 * [絵文字機能について](#絵文字機能について)
 
 * [Webhookについて](#Webhookについて)
+
+## スラッシュコマンドについて
+スラッシュコマンドはDiscordで使用できる機能です。
 
 ## 注意事項
 * コマンドの先頭に`!`を付けてください
