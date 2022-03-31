@@ -126,6 +126,17 @@ class DbModule:
          cnx.rollback()
          raise
 
+   def delete(self, sql: str):
+      cnx = self.__db_connect()
+      cur = cnx.cursor()
+      sql = self.text_fix(sql)
+      try:
+         cur.execute(sql)
+         cnx.commit()
+      except BaseException:
+         cnx.rollback()
+         raise
+
    def parameter_fix(self, columns, values):
       parameters = []
       for parameter in values:
