@@ -47,19 +47,6 @@ class Time(commands.Cog):
          except AttributeError:
             pass
 
-   @commands.command("天気取得")
-   async def test_reset(self, ctx):
-      self.weather_get()
-
-   async def get_webhook(self, channel):
-      while True:
-         ch_webhooks = await channel.webhooks()
-         webhook = discord.utils.get(ch_webhooks, name="naochang")
-         if webhook is None:
-            await channel.create_webhook(name="naochang")
-         else:
-            return webhook
-
    @tasks.loop(seconds=5.0)
    async def bd_printer2(self):
       if self.flag == 1:
@@ -90,7 +77,8 @@ class Time(commands.Cog):
       with open("json/idol_data.json", "w")as f:
          json.dump(r, f, indent=3)
       print('データベースを更新しました')
-
+      self.weather_get()
+   
    @tasks.loop(seconds=60.0)
    async def printer(self):
       nowtime = datetime.datetime.now()
