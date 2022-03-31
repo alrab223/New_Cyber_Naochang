@@ -5,7 +5,6 @@ import re
 import datetime
 
 import discord
-from discord import Spotify
 from discord.ext import commands
 
 from cog.util.DbModule import DbModule as db

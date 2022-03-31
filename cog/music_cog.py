@@ -19,29 +19,27 @@ class Music(commands.Cog):
       self.read = False
       self.flag = False
       self.db = db()
+      self.read_channel = None
 
-   @commands.slash_command(name="botをボイスチャンネルに召喚", guild_ids=[os.getenv("FotM")])
+   @commands.slash_command(name="botをボイスチャンネルに召喚", guild_ids=[os.getenv("FotM"), os.getenv("Jikken_Guild")])
    async def voice_connect(self, ctx):
       """botをボイチャに召喚します"""
       self.voich = await discord.VoiceChannel.connect(ctx.author.voice.channel)
-      self.voich.play(discord.FFmpegPCMAudio('music/nao_aisatsu.m4a'))
-      self.voich.source = discord.PCMVolumeTransformer(self.voich.source)
-      self.voich.source.volume = self.volume
-      await asyncio.sleep(2)
 
-   @commands.slash_command(name="botをボイスチャンネルから退出", guild_ids=[os.getenv("FotM")])
+   @commands.slash_command(name="botをボイスチャンネルから退出", guild_ids=[os.getenv("FotM"), os.getenv("Jikken_Guild")])
    async def voice_disconnect(self, ctx):
       """botをボイチャから退出させます"""
       if self.voich.is_playing():
          self.voich.stop()
-      self.voich.play(discord.FFmpegPCMAudio("music/se/hayate_tanosikatta.m4a"))
-      await asyncio.sleep(2)
       await self.voich.disconnect()
       self.voich = None
 
    @commands.slash_command(name="音楽を流す", guild_ids=[os.getenv("FotM")])
    async def BGM_select(self, ctx, genre: str = "instrumental"):
-      """BGMを流します"""
+      """BGMを流します。読み上げ機能が有効の時は使えません"""
+      if self.read is True:
+         await ctx.respond("読み上げ機能が有効なため、現在使えません")
+         return
       if self.voich.is_playing():
          self.voich.stop()
       files = []
@@ -124,8 +122,9 @@ class Music(commands.Cog):
       print(text)
       return text
 
-   @commands.command("調教")
+   @commands.slash_command(name="調教", guild_ids=[os.getenv("FotM"), os.getenv("Jikken_Guild")])
    async def se_training(self, ctx, train):
+      """読み上げの調教をします(単語=読み)"""
       train = train.split("=")
       words = self.db.select("select *from read_se_convert")
       for word in words:
@@ -141,7 +140,7 @@ class Music(commands.Cog):
             return
 
       self.db.allinsert("read_se_convert", [train[0], train[1]])
-      await ctx.send(f"調教しました({train[0]}={train[1]})")
+      await ctx.respond(f"調教しました({train[0]}={train[1]})")
 
    async def Voice_Read(self):
       while self.read is True:
@@ -173,20 +172,22 @@ class Music(commands.Cog):
          else:
             await asyncio.sleep(0.5)
 
-   @commands.command("読み上げ")
+   @commands.slash_command(name="読み上げ", guild_ids=[os.getenv("FotM"), os.getenv("Jikken_Guild")])
    async def reads(self, ctx):
+      """このコマンドを使用したチャンネルの書き込みを読み上げます"""
       if self.read:
          self.read = False
-         await ctx.send("読み上げをオフにしました")
+         await ctx.respond("読み上げをオフにしました")
       else:
          self.read = True
-         await ctx.send("読み上げをオンにしました")
+         await ctx.respond("読み上げをオンにしました")
+         self.read_channel = ctx.channel.id
          await self.Voice_Read()
 
    @commands.Cog.listener()
    async def on_message(self, message):
       if message.content.startswith("<") is False and message.content.startswith("!") is False and message.content.startswith(
-         "http") is False and self.read and message.author.bot is False and message.channel.id == os.getenv("Voice_Channel"):
+         "http") is False and self.read and message.author.bot is False and message.channel.id == self.read_channel:
          text = message.content
          self.db.allinsert("read_text", [message.author.id, message.id, text])
 

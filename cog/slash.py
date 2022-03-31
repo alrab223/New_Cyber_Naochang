@@ -1,12 +1,10 @@
 import asyncio
 import random
 import os
-import json
 import re
 
 import discord
 from discord.ext import commands
-from discord.commands import Option
 from discord.ui import Button, View, Modal, InputText
 
 from cog.util.DbModule import DbModule as db
@@ -54,7 +52,7 @@ class Slash(commands.Cog):
 
    @commands.slash_command(name="クイックピック", guild_ids=[os.getenv("FotM")])
    async def quickpick(self, ctx, starters: int):
-      '''頭数を選択してクイックピック！馬券に困ったときにどうぞ'''
+      '''頭数を選択してクイックピック！'''
       comp = []
       comp2 = []
       ticket = ["単勝,複勝", "馬連", "馬単", "ワイド", "3連複", "3連単"]
@@ -76,7 +74,7 @@ class Slash(commands.Cog):
       for button in comp2:
          button.callback = call
          view.add_item(button)
-      await ctx.send("あい", view=view)
+      await ctx.respond("買え", view=view)
 
    @commands.has_role("スタッフ")
    @commands.slash_command(name="バックアップ", guild_ids=[os.getenv("FotM")])
@@ -160,7 +158,7 @@ class Slash(commands.Cog):
          await asyncio.sleep(2)
 
    @commands.has_role("スタッフ")
-   @commands.slash_command(name="ツイート取得", guild_ids=[os.getenv("FotM")])
+   @commands.slash_command(name="ツイート取得", guild_ids=[os.getenv("FotM"), os.getenv("Jikken_Guild")])
    async def tweet_get(self, ctx, word: str):
       """ツイートを取得してここに垂れ流します(スタッフ専用)"""
       if self.db.select("select *from flag_control where flag_name='tweet_get'")[0]["flag"] == 1:
@@ -169,15 +167,15 @@ class Slash(commands.Cog):
       self.db.update("delete from Twitter_log")
       tweet_stream.main(word)
       self.db.auto_update("flag_control", {"flag": 1}, {"flag_name": "tweet_get"})
-      await ctx.send(f"{word}でツイート取得を開始します")
+      await ctx.respond(f"{word}でツイート取得を開始します")
       await self.tweet_send(ctx)
 
    @commands.has_role("スタッフ")
-   @commands.slash_command(name="ツイート取得停止", guild_ids=[os.getenv("FotM")])
+   @commands.slash_command(name="ツイート取得停止", guild_ids=[os.getenv("FotM"), os.getenv("Jikken_Guild")])
    async def tweet_get_stop(self, ctx):
       """ツイート取得を停止します"""
       self.db.auto_update("flag_control", {"flag": 0}, {"flag_name": "tweet_get"})
-      await ctx.send("ツイート取得を停止しました")
+      await ctx.respond("ツイート取得を停止しました")
 
    @commands.Cog.listener()
    async def on_application_command_error(self, ctx, error):
