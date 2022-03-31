@@ -12,7 +12,6 @@ import urllib3
 from bs4 import BeautifulSoup
 from discord.ext import commands, tasks
 from cog.util.DbModule import DbModule as db
-from cog.util import thread_webhook
 
 
 # コグとして用いるクラスを定義。
