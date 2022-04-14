@@ -46,42 +46,6 @@ class Convenience(commands.Cog):
       embed.add_field(name="ロール", value=text, inline=False)
       await ctx.send(embed=embed)
 
-   @commands.is_owner()
-   @commands.command("バックアップ")
-   async def time_stone(self, ctx, copy_to: int):
-      msg = []
-      channel = self.bot.get_channel(copy_to)
-      async for message in channel.history(limit=None):
-         msg.append(message)
-      msg.reverse()
-      thread = ctx.guild.get_thread(ctx.channel.id)
-
-      ch_webhooks = await ctx.channel.parent.webhooks()
-      Channel_webhook = discord.utils.get(ch_webhooks, name="久川颯")
-
-      for i in msg:
-         payload = {
-             "username": i.author.display_name,
-             "content": i.content,
-         }
-         if i.author.avatar is None:
-            payload["avatar_url"] = i.author.default_avatar.url
-         else:
-            payload["avatar_url"] = i.author.avatar.url
-         if i.attachments:
-            if ".mp4" in i.attachments[0].url:
-               payload["content"] = "\n" + i.attachments[0].url
-            else:
-               payload["embeds"] = [{"image": {"url": i.attachments[0].url}}]
-
-         code = webhook.send(payload, Channel_webhook.url, thread.id)
-         while code != 200:
-            print(f"エラー{code}")
-            await asyncio.sleep(5)
-            code = webhook.send(payload, Channel_webhook.url, thread.id)
-
-         await asyncio.sleep(2)
-
    @commands.command("vc通知")
    @commands.dm_only()
    async def vc_news(self, ctx, num: str):
