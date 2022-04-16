@@ -8,7 +8,6 @@ import discord
 from discord.ext import commands
 
 from cog.util.DbModule import DbModule as db
-from cog.util import thread_webhook as webhook
 
 
 class Convenience(commands.Cog):

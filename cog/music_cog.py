@@ -34,7 +34,7 @@ class Music(commands.Cog):
       await self.voich.disconnect()
       self.voich = None
 
-   @commands.slash_command(name="音楽を流す", guild_ids=[os.getenv("FotM")])
+   @commands.slash_command(name="音楽を流す")
    async def BGM_select(self, ctx, genre: str = "instrumental"):
       """BGMを流します。読み上げ機能が有効の時は使えません"""
       if self.read is True:
@@ -73,7 +73,7 @@ class Music(commands.Cog):
       except IndexError:
          return
 
-   @commands.slash_command(name="音楽をスキップ", guild_ids=[os.getenv("FotM")])
+   @commands.slash_command(name="音楽をスキップ")
    async def skip(self, ctx):
       if self.voich.is_playing():
          self.voich.stop()
@@ -86,20 +86,20 @@ class Music(commands.Cog):
       self.voich.source = discord.PCMVolumeTransformer(self.voich.source)
       self.voich.source.volume = self.volume
 
-   @commands.slash_command(name="音楽を一時停止", guild_ids=[os.getenv("FotM")])
+   @commands.slash_command(name="音楽を一時停止")
    async def pause(self, ctx):
       """ポーズ"""
       if self.voich.is_playing():
          self.voich.pause()
 
-   @commands.slash_command(name="音楽を停止", guild_ids=[os.getenv("FotM")])
+   @commands.slash_command(name="音楽を停止")
    async def stop(self, ctx):
       """停止"""
       self.db.update("delete from music")
       if self.voich.is_playing():
          self.voich.stop()
 
-   @commands.slash_command(name="音楽を再開", guild_ids=[os.getenv("FotM")])
+   @commands.slash_command(name="音楽を再開")
    async def restart(self, ctx):
       """再開"""
       if self.voich.is_playing():
@@ -107,7 +107,7 @@ class Music(commands.Cog):
       else:
          self.voich.resume()
 
-   @commands.slash_command(name="ボリューム調整", guild_ids=[os.getenv("FotM")])
+   @commands.slash_command(name="ボリューム調整")
    async def volume(self, ctx, num: int):
       """ボリュームを調整します(0～100)"""
       self.volume = num * 0.01
