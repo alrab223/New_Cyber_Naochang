@@ -34,21 +34,6 @@ class Main(commands.Cog):
    async def ping(self, ctx):
       await ctx.send(f'応答速度:{round(self.bot.latency * 1000)}ms')
 
-   @commands.is_owner()
-   @commands.slash_command(name="reload", guild_ids=[os.getenv("FotM")])
-   async def reload(self, ctx):
-      """コグをリロードします"""
-      cog_path = glob.glob("cog/*.py")
-      cog_path = [x.replace("/", ".") for x in cog_path]
-      cog_path = [x.replace(".py", "") for x in cog_path]
-      await ctx.respond("リロードしました", ephemeral=True)
-      INITIAL_EXTENSIONS = cog_path
-      for cog in INITIAL_EXTENSIONS:
-         try:
-            self.bot.reload_extension(cog)
-         except Exception:
-            traceback.print_exc()
-
    @commands.Cog.listener()
    async def on_member_join(self, member):
       dm_channel = await member.create_dm()
@@ -68,6 +53,23 @@ class Main(commands.Cog):
       embed.add_field(name="CPU温度", value=f"{text[1]}")
       embed.add_field(name="メモリ使用量", value=f"{text2[1]}/{text2[0]}M")
       await ctx.send(embed=embed)
+
+   @commands.is_owner()
+   @commands.slash_command(name="reload", guild_ids=[os.getenv("Jikken_Guild")])
+   async def reload(self, ctx):
+      """コグをリロードします"""
+      cog_path = glob.glob("cog/*.py")
+      cog_path = [x.replace("/", ".") for x in cog_path]
+      cog_path = [x.replace(".py", "") for x in cog_path]
+      cog_path = [x for x in cog_path if x != "cog.timeprocess_cog"]
+      await ctx.respond("リロードしました", ephemeral=True)
+      INITIAL_EXTENSIONS = cog_path
+      for cog in INITIAL_EXTENSIONS:
+         try:
+            self.bot.reload_extension(cog)
+            await self.bot.sync_commands()
+         except Exception:
+            traceback.print_exc()
 
    @commands.Cog.listener()
    async def on_message(self, message):
