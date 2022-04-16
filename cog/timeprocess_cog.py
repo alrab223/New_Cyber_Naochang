@@ -4,12 +4,14 @@ import glob
 import json
 import os
 import random
+import traceback
 
 import discord
 import requests
 import urllib3
 from bs4 import BeautifulSoup
 from discord.ext import commands, tasks
+
 from cog.util.DbModule import DbModule as db
 
 
@@ -20,8 +22,7 @@ class Time(commands.Cog):
       self.bot = bot
       self.birthday_sned = False
       self.flag = 1
-      self.printer.start()
-      self.bd_printer2.start()
+      self.time_process.start()
       self.weather_list = []
       self.event = False  # 特殊イベントの時のみTrue
       self.db = db()
@@ -46,7 +47,7 @@ class Time(commands.Cog):
             pass
 
    @tasks.loop(seconds=5.0)
-   async def bd_printer2(self):
+   async def bot_status_changer(self):
       if self.flag == 1:
          count = self.db.select('select count from naosuki_count')[0]
          text = "なおすきカウント:" + str(count["count"])
@@ -66,41 +67,41 @@ class Time(commands.Cog):
          await self.bot.change_presence(activity=discord.Game(name=f"現在のメンバー数:{user_count-4}"))
          self.flag = 1
 
-   @bd_printer2.before_loop
-   async def before_printer(self):
-      print('waiting...')
-      await self.bot.wait_until_ready()
-      url = "https://starlight.kirara.ca/api/v1/list/card_t"
-      r = requests.get(url).json()
-      with open("json/idol_data.json", "w")as f:
-         json.dump(r, f, indent=3)
-      print('データベースを更新しました')
-      self.weather_get()
-   
-   @tasks.loop(seconds=60.0)
-   async def printer(self):
-      nowtime = datetime.datetime.now()
-      if nowtime.hour == 23 and nowtime.minute == 59:
-         wait_seconds = 60.0 - float(nowtime.second)
-         await asyncio.sleep(wait_seconds)
-         if self.event:
-            await self.special_daily()
-         self.db.update('update user_data set mayuge_coin=mayuge_coin+3,naosuki=0')
-         self.weather_get()
-         channel = self.bot.get_channel(int(os.environ.get("naosuki_ch")))
-         path = "picture/nao/*.jpg"
-         num = glob.glob(path)
-         await channel.send(file=discord.File(random.choice(num)))
-         await channel.send("まゆげコインを追加しました")
-         await channel.send("今日も1日なおすき！！")
-         emoji = ""
-         with open("json/emoji.json", "r")as f:
-            dic = json.load(f)
-         for i in dic["rainbow_art"]:
-            emoji += str(self.bot.get_emoji(int(i)))
-         await channel.send(emoji)
-         nowtime = datetime.datetime.now()  # 予約投稿用にもう一度時刻取得
+   def daily_nao_pic(self):
+      with open('json/idol_data.json', 'r')as f:
+         idol_data = json.load(f)
+      idols = [x for x in idol_data['result'] if x['name_only'] == "神谷奈緒"]
+      ids = [x['id'] for x in idols]
+      ids += [x['id'] + 1 for x in idols]
+      id = random.choice(ids)
+      url = f'https://starlight.kirara.ca/api/v1/card_t/{id}'
+      r = requests.get(url)
+      url = r.json()['result'][0]['card_image_ref']
+      return url
 
+   @commands.command()
+   async def test2(self, ctx):
+      url = self.daily_nao_pic()
+      await ctx.send(url)
+
+   async def daily_process(self):
+      if self.event:
+         await self.special_daily()
+      self.db.update('update user_data set mayuge_coin=mayuge_coin+3,naosuki=0')
+      self.weather_get()
+      channel = self.bot.get_channel(int(os.environ.get("naosuki_ch")))
+      url = self.daily_nao_pic()
+      await channel.send(url)
+      await channel.send("まゆげコインを追加しました")
+      await channel.send("今日も1日なおすき！！")
+      emoji = ""
+      with open("json/emoji.json", "r")as f:
+         dic = json.load(f)
+      for i in dic["rainbow_art"]:
+         emoji += str(self.bot.get_emoji(int(i)))
+      await channel.send(emoji)
+
+   async def reservation_message_check(self, nowtime):
       messages = self.db.select("select * from future_send")
       for message in messages:
          if message['time'] == f"{nowtime.year}/{nowtime.month}/{nowtime.day}-{nowtime.hour}:{str(nowtime.minute).zfill(2)}":
@@ -116,6 +117,30 @@ class Time(commands.Cog):
                                username=user.name,
                                avatar_url=user.avatar_url_as(format="png"))
             self.db.update(f"delete from future_send where time='{message['time']}' and id={message['id']}")
+
+   @tasks.loop(seconds=60.0)
+   async def time_process(self):
+      nowtime = datetime.datetime.now()
+      if nowtime.hour == 23 and nowtime.minute == 59:
+         wait_seconds = 60.0 - float(nowtime.second)
+         await asyncio.sleep(wait_seconds)
+         await self.daily_process()
+         nowtime = datetime.datetime.now()  # 予約投稿用にもう一度時刻取得
+
+      await self.reservation_message_check(nowtime)
+
+   # botがオンラインになるまでタスクを待機させる
+   @time_process.before_loop
+   async def bot_preparation(self):
+      print('waiting...')
+      await self.bot.wait_until_ready()
+      url = "https://starlight.kirara.ca/api/v1/list/card_t"
+      r = requests.get(url).json()
+      with open("json/idol_data.json", "w")as f:
+         json.dump(r, f, indent=3)
+      print('データベースを更新しました')
+      self.weather_get()
+      self.bot_status_changer.start()
 
 
 def setup(bot):
