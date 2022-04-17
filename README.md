@@ -1,10 +1,10 @@
-![ロゴ](https://github.com/allbear/Cyber_Naochang2/blob/read_images/images/nao22.gif)
+![ロゴ](https://github.com/alrab223/Cyber_Naochang2/blob/read_images/images/nao22.gif)
 
 神谷奈緒Discordサーバー【Frontier of the MAYUGE】で稼働しているBot「電脳ナオちゃん」です。
 
 
 # About
-<img src="https://github.com/allbear/Cyber_Naochang2/blob/read_images/images/rumor.png" width="500px">
+<img src="https://github.com/alrab223/Cyber_Naochang2/blob/read_images/images/rumor.png" width="500px">
 
 基本的な機能から、画像、音声など闇鍋botです
 
@@ -36,7 +36,7 @@
 
 "/"を入力してコマンドを使用します。
 
-<img src="https://github.com/allbear/Cyber_Naochang2/blob/read_images/images/9abc23ab0b0212d04a06b5dcbde7ab1c.png
+<img src="https://github.com/alrab223/Cyber_Naochang2/blob/read_images/images/9abc23ab0b0212d04a06b5dcbde7ab1c.png
 " width="300px" height="300px">
 
 ## 注意事項
@@ -48,7 +48,7 @@
 
 * 短時間でコマンド連打するのは
 
-<img src="https://github.com/allbear/Cyber_Naochang2/blob/read_images/images/dame.png" width="300px" height="300px">
+<img src="https://github.com/alrab223/Cyber_Naochang2/blob/read_images/images/dame.png" width="300px" height="300px">
 
 # コマンド一覧
 ## ユーティリティ
@@ -100,7 +100,7 @@
 
 * !は必要ありません
 
-![コマンド例](https://github.com/allbear/Cyber_Naochang2/blob/read_images/images/screen_shot1.gif)
+![コマンド例](https://github.com/alrab223/Cyber_Naochang2/blob/read_images/images/screen_shot1.gif)
 
 
 | コマンド | 説明 | 
@@ -125,7 +125,7 @@
 というようにコマンドを送信します。
 コマンド送信後は、投稿したいメッセージを書き込んでください。
 
-![コマンド例](https://github.com/allbear/Cyber_Naochang2/blob/read_images/images/naosuki.gif)
+![コマンド例](https://github.com/alrab223/Cyber_Naochang2/blob/read_images/images/naosuki.gif)
 
 例えば2021年6月15日 0時0分に投稿したい場合は、以下のように入力して下さい
 
@@ -136,13 +136,13 @@
 
 また、取り消しの際はdelコマンドを使用します。
 
-![コマンド例](https://github.com/allbear/Cyber_Naochang2/blob/read_images/images/delete.png)
+![コマンド例](https://github.com/alrab223/Cyber_Naochang2/blob/read_images/images/delete.png)
 
 ## 絵文字機能について
 
 絵文字の連結は以下スクリーンショットを参考にしてください
 
-![コマンド例](https://github.com/allbear/Cyber_Naochang2/blob/read_images/images/emoji.gif)
+![コマンド例](https://github.com/alrab223/Cyber_Naochang2/blob/read_images/images/emoji.gif)
 
 b(big)コマンドは、カスタム絵文字  
 u(unicode)コマンドは通常絵文字をデカくします
@@ -155,7 +155,7 @@ botではこの仕様をもとに、Webhookを利用してTwitterのURLに見せ
 
 |PC|スマホ|
 |---|---|
-|![](https://github.com/allbear/Cyber_Naochang2/blob/read_images/images/webhook-pc.png)|![](https://github.com/allbear/Cyber_Naochang2/blob/read_images/images/webhook-smart.jpg)|
+|![](https://github.com/alrab223/Cyber_Naochang2/blob/read_images/images/webhook-pc.png)|![](https://github.com/alrab223/Cyber_Naochang2/blob/read_images/images/webhook-smart.jpg)|
 
 ## その他
 
