@@ -115,8 +115,8 @@ class Time(commands.Cog):
                webhook = discord.utils.get(ch_webhooks, name="naochang")
             await webhook.send(content=message['text'],
                                username=user.name,
-                               avatar_url=user.avatar_url_as(format="png"))
-            self.db.update(f"delete from future_send where time='{message['time']}' and id={message['id']}")
+                               avatar_url=user.avatar.url)
+            self.db.auto_delete("future_send", {"message_id": message["id"]})
 
    @tasks.loop(seconds=60.0)
    async def time_process(self):
