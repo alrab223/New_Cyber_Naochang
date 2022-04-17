@@ -36,8 +36,7 @@
 
 "/"を入力してコマンドを使用します。
 
-<img src="https://github.com/alrab223/New_Cyber_Naochang/blob/read_images/images/9abc23ab0b0212d04a06b5dcbde7ab1c.png
-" width="300px" height="300px">
+<img src="https://github.com/alrab223/New_Cyber_Naochang/blob/read_images/images/9abc23ab0b0212d04a06b5dcbde7ab1c.png" width="300px" height="300px">
 
 ## 注意事項
 * コマンドの先頭に`!`を付けてください
