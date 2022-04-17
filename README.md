@@ -36,6 +36,9 @@
 
 "/"を入力してコマンドを使用します。
 
+<img src="https://github.com/allbear/Cyber_Naochang2/blob/read_images/images/9abc23ab0b0212d04a06b5dcbde7ab1c.png
+" width="300px" height="300px">
+
 ## 注意事項
 * コマンドの先頭に`!`を付けてください
 
