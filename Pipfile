@@ -38,6 +38,7 @@ gTTS = "*"
 Pillow = "*"
 PyYAML = ">=5.3.1"
 cython = "*"
+yt-dlp = "*"
 
 [dev-packages]
 flake8 = "*"

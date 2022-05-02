@@ -30,7 +30,7 @@ class Main(commands.Cog):
       await ctx.send("また会いましょう")
       await self.bot.logout()
 
-   @commands.command()
+   @commands.command()  # bot動作テスト
    async def ping(self, ctx):
       await ctx.send(f'応答速度:{round(self.bot.latency * 1000)}ms')
 
@@ -44,7 +44,7 @@ class Main(commands.Cog):
       self.db.allinsert("user_data", [member.id, 10000, None, 0, 0, 10])
 
    @commands.command()
-   async def server_status(self, ctx):
+   async def server_status(self, ctx):  # サーバーの状態を調べる
       text = subprocess.run(['vcgencmd', 'measure_temp'], stdout=subprocess.PIPE, text=True).stdout.strip().split("=")
       text2 = subprocess.run(['free', '-m'], stdout=subprocess.PIPE, text=True).stdout.strip().split("=")
       text2 = text2[0].split(':')[1].split(' ')
