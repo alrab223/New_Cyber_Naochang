@@ -6,7 +6,9 @@ import random
 import discord
 from discord.ext import commands
 from gtts import gTTS
+
 from cog.util.DbModule import DbModule as db
+from cog.util.youtube import YTDLSource
 
 
 # コグとして用いるクラスを定義。
@@ -183,6 +185,43 @@ class Music(commands.Cog):
          await ctx.respond("読み上げをオンにしました")
          self.read_channel = ctx.channel.id
          await self.Voice_Read()
+
+   async def youtube_next(self):
+      while True:
+         if self.voich.is_playing():
+            await asyncio.sleep(5)
+         else:
+            if self.pause is True:
+               continue
+            try:
+               music = self.db.select("select *from music limit 1")[0]['name']
+               channel = self.bot.get_channel(590521717408137232)
+               thread = channel.guild.get_thread(955505294845288511)
+               self.db.auto_delete("music", {"name": music})
+               player = await YTDLSource.from_url(music, loop=self.bot.loop)
+               self.voich.play(player)
+               self.voich.source = discord.PCMVolumeTransformer(self.voich.source)
+               self.voich.source.volume = self.volume
+               embed = discord.Embed(title="再生中の曲", description=f"再生中：{player.title}")
+               await thread.send(embed=embed)
+            except IndexError:
+               files = glob.glob("*.webm")
+               for file in files:
+                  os.remove(file)
+               return
+
+   @commands.slash_command(name="youtubeを流す", guild_ids=[os.getenv("FotM"), os.getenv("Jikken_Guild")])
+   async def youtube_play(self, ctx, url: str):
+      if self.voich.is_playing():
+         self.db.allinsert("music", [url])
+         await ctx.respond("キューに登録しました")
+         return
+      player = await YTDLSource.from_url(url, loop=self.bot.loop)
+      self.voich.play(player)
+      self.voich.source = discord.PCMVolumeTransformer(self.voich.source)
+      self.voich.source.volume = self.volume
+      await ctx.send(f"再生中：{player.title}")
+      await self.youtube_next()
 
    @commands.Cog.listener()
    async def on_message(self, message):

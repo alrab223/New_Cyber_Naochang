@@ -1,13 +1,9 @@
 import mysql.connector as connector
 import os
-from dotenv import load_dotenv
+import traceback
 
 
 class DbModule:
-   def __init__(self):
-      base_path = os.path.dirname(os.path.abspath(__file__))
-      dotenv_path = os.path.join(base_path, 'src/.env')
-      load_dotenv(dotenv_path)
 
    def __db_connect(self):
       try:
@@ -18,15 +14,15 @@ class DbModule:
              db=os.getenv('DB_DATABASE')
          )
          return db
-      except Exception as e:
-         print(e)
+      except Exception:
+         print(traceback.format_exc())
          raise
 
    def text_fix(self, query):
       query = query.replace("'", "''")
       query = query.replace("\\", "\\\\")  # 使えない文字を変換
       return query
-   
+
    def insert(self, table: str, datas: dict):
       cnx = self.__db_connect()
       cur = cnx.cursor()
@@ -76,7 +72,7 @@ class DbModule:
       except BaseException:
          cnx.rollback()
          raise
-   
+
    def insert_bulk(self, table: str, values: list):
       cnx = self.__db_connect()
       cur = cnx.cursor()

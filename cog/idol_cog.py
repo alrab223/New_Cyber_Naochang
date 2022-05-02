@@ -5,7 +5,7 @@ import random
 
 import discord
 import requests
-from discord.ext import commands  # Bot Commands Frameworkのインポート
+from discord.ext import commands, pages
 from cog.util import thread_webhook as webhook
 
 
@@ -40,7 +40,7 @@ class Idol(commands.Cog):
       embed2 = discord.Embed(description='ユニット名一覧 2')
       embed3 = discord.Embed(description='ユニット名一覧 3')
       embed4 = discord.Embed(description='ユニット名一覧 4')
-      pages = [embed1, embed2, embed3, embed4]
+      pages1 = [embed1, embed2, embed3, embed4]
       pages2 = []
       pagesj = [False, False, False, False]
       with open("json/unit_kai.json", "r", encoding="utf_8_sig") as f:
@@ -68,25 +68,9 @@ class Idol(commands.Cog):
          flag = 0
       for i in range(4):
          if pagesj[i]:
-            pages2.append(pages[i])
-      nav = EmbedNavigator(ctx, pages2)
-      nav.start()
-
-   @commands.command('apites')
-   async def webhook_test(self, ctx, idol_name: str = '神谷奈緒'):
-      urls = []
-      with open('json/idol_data.json', 'r')as f:
-         idol_data = json.load(f)
-      idols = [x for x in idol_data['result'] if x['name_only'] == idol_name]
-      ids = [x['id'] for x in idols]
-      ids += [x['id'] + 1 for x in idols]
-      ids = random.sample(ids, 4)
-      for id in ids:
-         url = f'https://starlight.kirara.ca/api/v1/card_t/{id}'
-         r = requests.get(url)
-         urls.append(r.json()['result'][0]['spread_image_ref'])
-      with open("json/webhook.json", "r")as f:
-         payload = json.load(f)
+            pages2.append(pages1[i])
+      paginator = pages.Paginator(pages=pages2)
+      await paginator.send(ctx)
 
    @commands.command("ガシャ")
    async def gasya(self, ctx):

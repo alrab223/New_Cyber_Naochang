@@ -44,7 +44,7 @@ class Slash(commands.Cog):
          vote = sorted(random.sample(horse, 2))
       elif ticket == "3連複":
          vote = sorted(random.sample(horse, 3))
-      else:
+      else:  # 3連単の時
          vote = random.sample(horse, 3)
       vote = [str(i) for i in vote]
       vote = "→".join(vote)
@@ -75,10 +75,6 @@ class Slash(commands.Cog):
          button.callback = call
          view.add_item(button)
       await ctx.respond("買え", view=view)
-   
-   @commands.slash_command(name="スラッシュコマンドテスト")
-   async def test_Slash(self, ctx):
-      await ctx.respond("成功！")
 
    @commands.has_role("スタッフ")
    @commands.slash_command(name="バックアップ", guild_ids=[os.getenv("FotM")])
