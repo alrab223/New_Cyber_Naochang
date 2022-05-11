@@ -15,7 +15,6 @@ from discord.ext import commands, tasks
 from cog.util.DbModule import DbModule as db
 
 
-# コグとして用いるクラスを定義。
 class Time(commands.Cog):
 
    def __init__(self, bot):
@@ -27,7 +26,7 @@ class Time(commands.Cog):
       self.event = False  # 特殊イベントの時のみTrue
       self.db = db()
 
-   def weather_get(self):
+   def weather_get(self):  # 天気取得
       self.weather_list = []
       tokyo = 'https://weather.yahoo.co.jp/weather/jp/13/4410.html'
       osaka = "https://weather.yahoo.co.jp/weather/jp/27/6200.html"
@@ -47,7 +46,7 @@ class Time(commands.Cog):
             pass
 
    @tasks.loop(seconds=5.0)
-   async def bot_status_changer(self):
+   async def bot_status_changer(self):  # botのステータス欄を更新
       if self.flag == 1:
          count = self.db.select('select count from naosuki_count')[0]
          text = "なおすきカウント:" + str(count["count"])
@@ -67,7 +66,7 @@ class Time(commands.Cog):
          await self.bot.change_presence(activity=discord.Game(name=f"現在のメンバー数:{user_count-4}"))
          self.flag = 1
 
-   def daily_nao_pic(self):
+   def daily_pic(self):
       with open('json/idol_data.json', 'r')as f:
          idol_data = json.load(f)
       idols = [x for x in idol_data['result'] if x['name_only'] == "神谷奈緒"]
@@ -79,18 +78,13 @@ class Time(commands.Cog):
       url = r.json()['result'][0]['card_image_ref']
       return url
 
-   @commands.command()
-   async def test2(self, ctx):
-      url = self.daily_nao_pic()
-      await ctx.send(url)
-
    async def daily_process(self):
       if self.event:
          await self.special_daily()
       self.db.update('update user_data set mayuge_coin=mayuge_coin+3,naosuki=0')
       self.weather_get()
       channel = self.bot.get_channel(int(os.environ.get("naosuki_ch")))
-      url = self.daily_nao_pic()
+      url = self.daily_pic()
       await channel.send(url)
       await channel.send("まゆげコインを追加しました")
       await channel.send("今日も1日なおすき！！")
@@ -101,22 +95,20 @@ class Time(commands.Cog):
          emoji += str(self.bot.get_emoji(int(i)))
       await channel.send(emoji)
 
-   async def reservation_message_check(self, nowtime):
+   async def reservation_message_check(self, nowtime):  # 予約投稿の処理を行う
       messages = self.db.select("select * from future_send")
       for message in messages:
          if message['time'] == f"{nowtime.year}/{nowtime.month}/{nowtime.day}-{nowtime.hour}:{str(nowtime.minute).zfill(2)}":
             user = await self.bot.fetch_user(message['id'])
             channel = self.bot.get_channel(message['channel_id'])
             ch_webhooks = await channel.webhooks()
-            webhook = discord.utils.get(ch_webhooks, name="naochang")
-            if webhook is None:
-               await channel.create_webhook(name="naochang")
-               ch_webhooks = await channel.webhooks()
-               webhook = discord.utils.get(ch_webhooks, name="naochang")
-            await webhook.send(content=message['text'],
-                               username=user.name,
-                               avatar_url=user.avatar.url)
-            self.db.auto_delete("future_send", {"message_id": message["id"]})
+            hook = discord.utils.get(ch_webhooks, name="naochang")
+            if hook is None:
+               hook = await channel.create_webhook(name="naochang")
+            await hook.send(content=message['text'],
+                            username=user.name,
+                            avatar_url=user.avatar.url)
+            self.db.auto_delete("future_send", {"message_id": message["message_id"]})
 
    @tasks.loop(seconds=60.0)
    async def time_process(self):
@@ -134,10 +126,12 @@ class Time(commands.Cog):
    async def bot_preparation(self):
       print('waiting...')
       await self.bot.wait_until_ready()
-      url = "https://starlight.kirara.ca/api/v1/list/card_t"
-      r = requests.get(url).json()
+      req = requests.get("https://starlight.kirara.ca/api/v1/list/card_t").json()  # デレステデータベース
       with open("json/idol_data.json", "w")as f:
-         json.dump(r, f, indent=3)
+         json.dump(req, f, indent=3)
+      req = requests.get("https://pink-check.school/api/v2/cards").json()  # モバマスデータベース
+      with open("json/idol_data_moba.json", "w")as f:
+         json.dump(req, f, indent=3)
       print('データベースを更新しました')
       self.weather_get()
       self.bot_status_changer.start()

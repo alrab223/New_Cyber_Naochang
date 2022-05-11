@@ -24,10 +24,8 @@ class MyBot(commands.Bot):
             traceback.print_exc()
 
    async def on_ready(self):
-      print('-----')
       print(self.user.name)
       print(self.user.id)
-      print('-----')
 
 
 if __name__ == '__main__':
@@ -36,4 +34,4 @@ if __name__ == '__main__':
    base_path = os.path.dirname(os.path.abspath(__file__))
    dotenv_path = os.path.join(base_path, '.env')
    load_dotenv(dotenv_path)
-   bot.run(os.getenv("NAO"))
+   bot.run(os.getenv("JIKKEN"))

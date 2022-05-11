@@ -1,16 +1,13 @@
-import json
 import os
 import subprocess
 import glob
 import traceback
 
-import cv2
 import discord
-import requests
 from discord.ext import commands
-from yolov5 import detect
+# from yolov5 import detect
 
-from cog.util import colla
+from cog.util import image_processing
 from cog.util import file_download as pd
 from cog.util.DbModule import DbModule as db
 
@@ -20,12 +17,10 @@ class Main(commands.Cog):
    def __init__(self, bot):
       self.bot = bot
       self.db = db()
-      with open("json/picture.json", "r") as f:
-         self.colla_num = json.load(f)
 
    @commands.is_owner()
    @commands.command("goodbye")
-   async def disconnect(self, ctx):
+   async def disconnect(self, ctx):  # botを切断する
       """botを切ります"""
       await ctx.send("また会いましょう")
       await self.bot.logout()
@@ -55,7 +50,7 @@ class Main(commands.Cog):
       await ctx.send(embed=embed)
 
    @commands.is_owner()
-   @commands.slash_command(name="reload", guild_ids=[os.getenv("Jikken_Guild")])
+   @commands.slash_command(name="reload", guild_ids=[os.getenv("FotM")])
    async def reload(self, ctx):
       """コグをリロードします"""
       cog_path = glob.glob("cog/*.py")
@@ -75,50 +70,30 @@ class Main(commands.Cog):
    async def on_message(self, message):
       if message.author.bot:
          return
-      if message.attachments:
-         if message.content in self.colla_num:
-            pd.download_img(
-                message.attachments[0].url,
-                "picture/colla/image.png")
-            colla.colla_maker(self.colla_num[message.content])
+      if message.attachments and message.content != "":
+         pd.download_img(message.attachments[0].url, "picture/image_processing/image.png")  # 画像を保存
+         process = image_processing.image_processing(message.content)  # 画像処理に関する関数
+         if process is True:  # 処理が行われていれば送信
             await message.delete()
-            await message.channel.send(file=discord.File("picture/colla/new.png"))
+            await message.channel.send(file=discord.File("picture/image_processing/new.png"))
 
-         elif message.content == "切り抜き":
-            pd.download_img(
-                message.attachments[0].url,
-                "picture/colla/image.png")
-            response = requests.post(
-                'https://api.remove.bg/v1.0/removebg',
-                files={'image_file': open('picture/colla/image.png', 'rb')},
-                data={'size': 'auto'},
-                headers={'X-Api-Key': os.environ.get("removebg_api")},
-            )
-            if response.status_code == requests.codes.ok:
-               with open('picture/colla/no-bg.png', 'wb') as out:
-                  out.write(response.content)
-            else:
-               print("Error:", response.status_code, response.text)
-            await message.delete()
-            await message.channel.send(file=discord.File("picture/colla/no-bg.png"))
-
-         elif message.content == "アイドル検索":
-            pd.download_img(message.attachments[0].url, "yolov5/data/images/image.png")
-            idols, img = detect.main("yolov5/data/images/image.png")
-            if idols == []:
-               await message.reply("誰も検出されませんでした")
-               return
-            idols = list(set(idols))
-            with open("json/idol_classes.json")as f:
-               dic = json.load(f)
-            s = ""
-            for i in idols:
-               name = dic[i]
-               s += name + "\n"
-            s += "を検出しました"
-            await message.reply(s)
-            cv2.imwrite("yolov5/data/result/image.png", img)
+         # elif message.content == "アイドル検索":
+         #    pd.download_img(message.attachments[0].url, "yolov5/data/images/image.png")
+         #    idols, img = detect.main("yolov5/data/images/image.png")
+         #    if idols == []:
+         #       await message.reply("誰も検出されませんでした")
+         #       return
+         #    idols = list(set(idols))
+         #    with open("json/idol_classes.json")as f:
+         #       dic = json.load(f)
+         #    s = ""
+         #    for i in idols:
+         #       name = dic[i]
+         #       s += name + "\n"
+         #    s += "を検出しました"
+         #    await message.reply(s)
+         #    cv2.imwrite("yolov5/data/result/image.png", img)
 
 
 def setup(bot):
-   bot.add_cog(Main(bot))  # TestCogにBotを渡してインスタンス化し、Botにコグとして登録する。
+   bot.add_cog(Main(bot))

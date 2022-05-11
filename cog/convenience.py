@@ -1,5 +1,4 @@
 import asyncio
-import json
 import os
 import re
 import datetime
@@ -15,8 +14,6 @@ class Convenience(commands.Cog):
    def __init__(self, bot):
       self.bot = bot
       self.db = db()
-      with open("json/picture.json", "r") as f:
-         self.colla_num = json.load(f)
 
    @commands.is_owner()
    @commands.command("ナオビーム")
@@ -77,18 +74,18 @@ class Convenience(commands.Cog):
       await ctx.send("予約が完了しました")
 
    @commands.dm_only()
-   @commands.command("予約投稿確認")
+   @commands.slash_command(name="予約投稿確認")
    async def future_send_confirm(self, ctx):
       text = ''
       send_data = self.db.select(f'select * from future_send where id={ctx.author.id}')
       for count, data in enumerate(send_data, 1):
          channel = await self.bot.fetch_channel(data['channel_id'])
          text += f'{count},メッセージ: {data["text"]} \n時刻: {data["time"]} チャンネル名:{channel.name}\n\n'
-      await ctx.send(f'```{text}```')
-      await ctx.send('メッセージを取り消す場合は```!del```コマンドを使用してください')
+      await ctx.respond(f'```{text}```')
+      await ctx.respond('メッセージを取り消す場合は```!del```コマンドを使用してください')
 
-   @commands.dm_only()
-   @commands.command('del')
+   @ commands.dm_only()
+   @ commands.command('del')
    async def delete_send(self, ctx):
       text = ''
       message_id = []
@@ -106,7 +103,8 @@ class Convenience(commands.Cog):
       self.db.update(f"delete from future_send where message_id={message_id[int(msg.content)-1]}")
       await ctx.send('消去しました')
 
-   @commands.Cog.listener()
+   # 話題の重複を防ぐ機能
+   @ commands.Cog.listener()
    async def on_message(self, message):
       if message.author.bot:
          return
@@ -128,4 +126,4 @@ class Convenience(commands.Cog):
 
 
 def setup(bot):
-   bot.add_cog(Convenience(bot))  # TestCogにBotを渡してインスタンス化し、Botにコグとして登録する。
+   bot.add_cog(Convenience(bot))
