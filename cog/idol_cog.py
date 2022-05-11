@@ -1,4 +1,3 @@
-import csv
 import json
 import os
 import random
@@ -6,7 +5,6 @@ import random
 import discord
 import requests
 from discord.ext import commands, pages
-from cog.util import thread_webhook as webhook
 
 
 class Idol(commands.Cog):
@@ -14,7 +12,7 @@ class Idol(commands.Cog):
    def __init__(self, bot):
       self.bot = bot
 
-   @commands.slash_command(name="楽曲検索", guild_ids=[os.getenv("FotM"), os.getenv("Jikken_Guild")])
+   @commands.slash_command(name="楽曲検索", guild_ids=[os.getenv("FotM")])
    async def song_search(self, ctx, name: str):
       songs = requests.get("https://cgapi.krone.cf/v1/songs").json()
       status = {}
@@ -74,98 +72,39 @@ class Idol(commands.Cog):
 
    @commands.command("ガシャ")
    async def gasya(self, ctx):
-      with open('text/newcard.csv')as f:
-         reader = csv.reader(f)
-         l = [row for row in reader]
-         l = random.choice(l)
-         embed = discord.Embed(title=f"{l[3]}")
-         embed.set_image(url=f'https://pink-check.school/image/withoutsign/{l[1]}')
-         embed.add_field(name="コスト", value=f"{l[15]}")
-         embed.add_field(name="攻", value=f"{l[18]}")
-         embed.add_field(name="守", value=f"{l[19]}")
-         if l[21] != '':
-            embed.add_field(name=f"特技「{l[20]}」", value=f"{l[21]}", inline=False)
-         await ctx.send(embed=embed)
+      with open("json/idol_data_moba.json")as f:
+         cards = json.load(f)
+      card = random.choice(cards["content"])
+      embed = discord.Embed(title=f"{card['name']}")
+      embed.set_image(url=f'https://lipps.pink-check.school/cardimage/withoutsign/{card["cardHash"]}')
+      embed.add_field(name="コスト", value=f"{card['cost']}")
+      embed.add_field(name="攻", value=f"{card['defaultAttack']}")
+      embed.add_field(name="守", value=f"{card['defaultDefence']}")
+      if card['abilityEffect']['effect'] != '':
+         embed.add_field(name=f"特技「{card['abilityName']}」", value=f"{card['abilityEffect']['effect']}", inline=False)
+      await ctx.send(embed=embed)
 
-   @commands.command("納税")
+   @commands.slash_command(name="納税", guild_ids=[os.getenv("FotM")])
    async def tax(self, ctx):
-      webhooks = await webhook.get_webhook(ctx)
-      webhook_url = webhooks.url
-      urls = []
       with open('json/idol_data.json', 'r')as f:
          idol_data = json.load(f)
       num = random.randint(1, 100)
       if num < 4:
-         ssr = [x for x in idol_data['result'] if x['rarity_dep']['rarity'] == 5]
+         rarity = [x for x in idol_data['result'] if x['rarity_dep']['rarity'] == 7]
       elif num > 3 and num < 16:
-         ssr = [x for x in idol_data['result'] if x['rarity_dep']['rarity'] == 4]
+         rarity = [x for x in idol_data['result'] if x['rarity_dep']['rarity'] == 5]
       else:
-         ssr = [x for x in idol_data['result'] if x['rarity_dep']['rarity'] == 3]
-      idol = random.choice(ssr)
+         rarity = [x for x in idol_data['result'] if x['rarity_dep']['rarity'] == 3]
+      idol = random.choice(rarity)
       url = f'https://starlight.kirara.ca/api/v1/card_t/{idol["id"]}'
       r = requests.get(url)
-      urls.append(r.json()['result'][0]['card_image_ref'])
-
-      webhook_c.image_add(urls)
-      webhook_c.add_title(title=r.json()['result'][0]['name'])
-      webhook_c.webhook_send(webhook_url)
-
-   @commands.command("カード検索")
-   async def cards(self, ctx, name: str):
-      card_list = []
-      card_list_evolution = []
-      with open('text/newcard.csv')as f:
-         reader = csv.reader(f)
-         l = [row for row in reader]
-         for card in l:
-
-            if name == card[6]:
-               card_list = []
-               card_list.append(card[3])
-               card_list_evolution.append(card[3] + '+')
-               break
-            elif name in card[3] and card[3][-1] != '+':
-               card_list.append(card[3])
-            elif name in card[3] and card[3][-1] == '+':
-               card_list_evolution.append(card[3])
-         print(card_list, card_list_evolution)
-
-         if len(card_list) > 10:
-            await ctx.send('該当カードが多いのでもう少し絞ってね')
-         elif len(card_list) > 1:
-            embed = discord.Embed(title="複数見つかりました", description="選んでください")
-            for card in card_list:
-               embed.add_field(name="カード名", value=f"{card}")
-            await ctx.send(embed=embed)
-
-         elif len(card_list) == 1:
-            card = [x for x in l if x[3] == card_list[0]][0]
-            card2 = [x for x in l if x[3] == card_list_evolution[0]][0]
-            webhook = await self.get_webhook(ctx)
-            webhook_url = webhook.url
-            webhook_c = Webhook_Control()
-            urls = [
-                f'https://pink-check.school/image/withoutsign/{card[1]}',
-                f'https://pink-check.school/image/withoutsign/{card2[1]}']
-            webhook_c.image_add(urls)
-            webhook_c.add_title(title=f"{card[3]},{card2[3]}")
-            webhook_c.add_field(name="コスト", value=f"{card[15]}")
-            webhook_c.add_field(name="攻", value=f"{card[18]}")
-            webhook_c.add_field(name="守", value=f"{card[19]}")
-            if card[21] != '':
-               webhook_c.add_field(name="特技「{card[20]}」", value=f"{card[21]}", inline=False)
-            webhook_c.add_field(name="コスト", value=f"{card2[15]}")
-            webhook_c.add_field(name="攻", value=f"{card2[18]}")
-            webhook_c.add_field(name="守", value=f"{card2[19]}")
-            if card2[21] != '':
-               webhook_c.add_field(name=f"特技「{card2[20]}」", value=f"{card2[21]}", inline=False)
-            webhook_c.webhook_send(webhook_url)
-         else:
-            await ctx.send("見つかりませんでした")
-
-# Bot本体側からコグを読み込む際に呼び出される関数。
+      image_url = r.json()['result'][0]['card_image_ref']
+      card_title = r.json()['result'][0]['name']
+      embed = discord.Embed(title=card_title)
+      embed.set_image(url=image_url)
+      await ctx.respond(embed=embed)
 
 
 def setup(bot):
 
-   bot.add_cog(Idol(bot))  # TestCogにBotを渡してインスタンス化し、Botにコグとして登録する。
+   bot.add_cog(Idol(bot))

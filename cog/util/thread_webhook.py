@@ -1,6 +1,5 @@
-import requests
-import json
 import discord
+import requests
 
 
 async def get_webhook(ctx):

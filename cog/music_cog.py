@@ -11,7 +11,6 @@ from cog.util.DbModule import DbModule as db
 from cog.util.youtube import YTDLSource
 
 
-# コグとして用いるクラスを定義。
 class Music(commands.Cog):
 
    def __init__(self, bot):
@@ -23,12 +22,12 @@ class Music(commands.Cog):
       self.db = db()
       self.read_channel = None
 
-   @commands.slash_command(name="botをボイスチャンネルに召喚", guild_ids=[os.getenv("FotM"), os.getenv("Jikken_Guild")])
+   @commands.slash_command(name="botをボイスチャンネルに召喚", guild_ids=[os.getenv("FotM")])
    async def voice_connect(self, ctx):
       """botをボイチャに召喚します"""
       self.voich = await discord.VoiceChannel.connect(ctx.author.voice.channel)
 
-   @commands.slash_command(name="botをボイスチャンネルから退出", guild_ids=[os.getenv("FotM"), os.getenv("Jikken_Guild")])
+   @commands.slash_command(name="botをボイスチャンネルから退出", guild_ids=[os.getenv("FotM")])
    async def voice_disconnect(self, ctx):
       """botをボイチャから退出させます"""
       if self.voich.is_playing():
@@ -124,7 +123,7 @@ class Music(commands.Cog):
       print(text)
       return text
 
-   @commands.slash_command(name="調教", guild_ids=[os.getenv("FotM"), os.getenv("Jikken_Guild")])
+   @commands.slash_command(name="調教", guild_ids=[os.getenv("FotM")])
    async def se_training(self, ctx, train):
       """読み上げの調教をします(単語=読み)"""
       train = train.split("=")
@@ -174,7 +173,7 @@ class Music(commands.Cog):
          else:
             await asyncio.sleep(0.5)
 
-   @commands.slash_command(name="読み上げ", guild_ids=[os.getenv("FotM"), os.getenv("Jikken_Guild")])
+   @commands.slash_command(name="読み上げ", guild_ids=[os.getenv("FotM")])
    async def reads(self, ctx):
       """このコマンドを使用したチャンネルの書き込みを読み上げます"""
       if self.read:
@@ -210,7 +209,7 @@ class Music(commands.Cog):
                   os.remove(file)
                return
 
-   @commands.slash_command(name="youtubeを流す", guild_ids=[os.getenv("FotM"), os.getenv("Jikken_Guild")])
+   @commands.slash_command(name="youtubeを流す", guild_ids=[os.getenv("FotM")])
    async def youtube_play(self, ctx, url: str):
       if self.voich.is_playing():
          self.db.allinsert("music", [url])
@@ -230,22 +229,7 @@ class Music(commands.Cog):
          text = message.content
          self.db.allinsert("read_text", [message.author.id, message.id, text])
 
-   # @commands.Cog.listener()
-   # async def on_voice_state_update(self, member, before, after):
-   #    if member.bot:
-   #       return
-
-   #    # ボイチャ通知処理
-
-   #    if before.channel is None and self.voich is not None:
-   #       row = self.db.select(f"select * from enter_se where id={member.id}")
-   #       if row[0]["se"] != "":
-   #          self.voich.play(discord.FFmpegPCMAudio(row[0]["se"]))
-   #       if row[0]["volume"] is not None:
-   #          self.voich.source = discord.PCMVolumeTransformer(self.voich.source)
-   #          self.voich.source.volume = row[0]["volume"]
-
 
 def setup(bot):
 
-   bot.add_cog(Music(bot))  # TestCogにBotを渡してインスタンス化し、Botにコグとして登録する。
+   bot.add_cog(Music(bot))

@@ -158,7 +158,7 @@ class Slash(commands.Cog):
          await asyncio.sleep(2)
 
    @commands.has_role("スタッフ")
-   @commands.slash_command(name="ツイート取得", guild_ids=[os.getenv("FotM"), os.getenv("Jikken_Guild")])
+   @commands.slash_command(name="ツイート取得", guild_ids=[os.getenv("FotM")])
    async def tweet_get(self, ctx, word: str):
       """ツイートを取得してここに垂れ流します(スタッフ専用)"""
       if self.db.select("select *from flag_control where flag_name='tweet_get'")[0]["flag"] == 1:
@@ -171,7 +171,7 @@ class Slash(commands.Cog):
       await self.tweet_send(ctx)
 
    @commands.has_role("スタッフ")
-   @commands.slash_command(name="ツイート取得停止", guild_ids=[os.getenv("FotM"), os.getenv("Jikken_Guild")])
+   @commands.slash_command(name="ツイート取得停止", guild_ids=[os.getenv("FotM")])
    async def tweet_get_stop(self, ctx):
       """ツイート取得を停止します"""
       self.db.auto_update("flag_control", {"flag": 0}, {"flag_name": "tweet_get"})

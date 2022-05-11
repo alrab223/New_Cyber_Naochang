@@ -19537,6 +19537,43 @@
          "ref": "/api/v1/card_t/101105"
       },
       {
+         "id": 101107,
+         "chara_id": 127,
+         "attribute": 1,
+         "has_spread": true,
+         "pose": 27,
+         "title": "\u6c17\u307e\u307e\u306a\u3054\u4e3b\u4eba\u69d8",
+         "name_only": "\u524d\u5ddd\u307f\u304f",
+         "hp_min": 40,
+         "hp_max": 40,
+         "vocal_min": 1764,
+         "vocal_max": 3662,
+         "visual_min": 2734,
+         "visual_max": 5704,
+         "dance_min": 1441,
+         "dance_max": 3006,
+         "bonus_hp": 2,
+         "bonus_dance": 151,
+         "bonus_vocal": 184,
+         "bonus_visual": 286,
+         "evolution_id": 101108,
+         "rarity_dep": {
+            "rarity": 7,
+            "base_max_level": 80,
+            "add_max_level": 0,
+            "max_love": 200,
+            "base_give_money": 10000,
+            "base_give_exp": 3000,
+            "add_param": 0,
+            "max_star_rank": 20
+         },
+         "conventional": "Maekawa Miku",
+         "chara": {
+            "ref": "/api/v1/char_t/127"
+         },
+         "ref": "/api/v1/card_t/101107"
+      },
+      {
          "id": 200001,
          "chara_id": 167,
          "attribute": 2,
@@ -39184,6 +39221,43 @@
          "ref": "/api/v1/card_t/201127"
       },
       {
+         "id": 201129,
+         "chara_id": 189,
+         "attribute": 2,
+         "has_spread": true,
+         "pose": 21,
+         "title": "\u7f8e\u3057\u304d\u88c5\u4e01\u3001\u611b\u3057\u304d\u8a00\u8449",
+         "name_only": "\u9dfa\u6ca2\u6587\u9999",
+         "hp_min": 40,
+         "hp_max": 40,
+         "vocal_min": 2693,
+         "vocal_max": 5626,
+         "visual_min": 1470,
+         "visual_max": 3062,
+         "dance_min": 1785,
+         "dance_max": 3704,
+         "bonus_hp": 2,
+         "bonus_dance": 186,
+         "bonus_vocal": 282,
+         "bonus_visual": 154,
+         "evolution_id": 201130,
+         "rarity_dep": {
+            "rarity": 7,
+            "base_max_level": 80,
+            "add_max_level": 0,
+            "max_love": 200,
+            "base_give_money": 10000,
+            "base_give_exp": 3000,
+            "add_param": 0,
+            "max_star_rank": 20
+         },
+         "conventional": "Sagisawa Fumika",
+         "chara": {
+            "ref": "/api/v1/char_t/189"
+         },
+         "ref": "/api/v1/card_t/201129"
+      },
+      {
          "id": 220211,
          "chara_id": 216,
          "attribute": 2,
@@ -58459,6 +58533,80 @@
             "ref": "/api/v1/char_t/253"
          },
          "ref": "/api/v1/card_t/301079"
+      },
+      {
+         "id": 301081,
+         "chara_id": 273,
+         "attribute": 3,
+         "has_spread": true,
+         "pose": 23,
+         "title": "\u30a2\u30ca\u30bf\u306b\u6367\u3050\u30ab\u30ea\u30fc\u30cb\u30e7",
+         "name_only": "\u30ca\u30bf\u30fc\u30ea\u30a2",
+         "hp_min": 40,
+         "hp_max": 40,
+         "vocal_min": 19,
+         "vocal_max": 44,
+         "visual_min": 2925,
+         "visual_max": 6093,
+         "dance_min": 2997,
+         "dance_max": 6239,
+         "bonus_hp": 2,
+         "bonus_dance": 312,
+         "bonus_vocal": 3,
+         "bonus_visual": 305,
+         "evolution_id": 301082,
+         "rarity_dep": {
+            "rarity": 7,
+            "base_max_level": 80,
+            "add_max_level": 0,
+            "max_love": 200,
+            "base_give_money": 10000,
+            "base_give_exp": 3000,
+            "add_param": 0,
+            "max_star_rank": 20
+         },
+         "conventional": "Natalia",
+         "chara": {
+            "ref": "/api/v1/char_t/273"
+         },
+         "ref": "/api/v1/card_t/301081"
+      },
+      {
+         "id": 301083,
+         "chara_id": 298,
+         "attribute": 3,
+         "has_spread": true,
+         "pose": 19,
+         "title": "\u30d2\u30ed\u30a4\u30c3\u30af\u30b9\u30a4\u30fc\u30c4",
+         "name_only": "\u5357\u6761\u5149",
+         "hp_min": 35,
+         "hp_max": 35,
+         "vocal_min": 1285,
+         "vocal_max": 2451,
+         "visual_min": 2451,
+         "visual_max": 4725,
+         "dance_min": 1556,
+         "dance_max": 3000,
+         "bonus_hp": 2,
+         "bonus_dance": 150,
+         "bonus_vocal": 123,
+         "bonus_visual": 237,
+         "evolution_id": 301084,
+         "rarity_dep": {
+            "rarity": 5,
+            "base_max_level": 60,
+            "add_max_level": 0,
+            "max_love": 100,
+            "base_give_money": 5000,
+            "base_give_exp": 1000,
+            "add_param": 0,
+            "max_star_rank": 20
+         },
+         "conventional": "Nanjo Hikaru",
+         "chara": {
+            "ref": "/api/v1/char_t/298"
+         },
+         "ref": "/api/v1/card_t/301083"
       },
       {
          "id": 320209,
