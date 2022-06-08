@@ -4,6 +4,7 @@ __pycache__
 yolov5
 temp_folder
 test
+.venv
 
 #Editor files
 /.idea/
@@ -15,3 +16,7 @@ test
 text/introduce.txt
 text/jawiki.kv.vectors.npy
 text/jawiki.kv
+
+#json
+json/idol_data.json
+json/idol_data_moba.json
