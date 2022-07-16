@@ -34,4 +34,4 @@ if __name__ == '__main__':
    base_path = os.path.dirname(os.path.abspath(__file__))
    dotenv_path = os.path.join(base_path, '.env')
    load_dotenv(dotenv_path)
-   bot.run(os.getenv("JIKKEN"))
+   bot.run(os.getenv("BOT_TOKEN"))
