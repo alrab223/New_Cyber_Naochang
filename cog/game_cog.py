@@ -6,7 +6,6 @@ import random
 
 import discord
 from discord.ext import commands
-from PIL import Image
 
 from cog.util.DbModule import DbModule as db
 

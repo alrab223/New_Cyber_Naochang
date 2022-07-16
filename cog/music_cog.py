@@ -1,6 +1,7 @@
 import asyncio
 import glob
 import os
+import re
 import random
 
 import discord
@@ -22,12 +23,12 @@ class Music(commands.Cog):
       self.db = db()
       self.read_channel = None
 
-   @commands.slash_command(name="botをボイスチャンネルに召喚", guild_ids=[os.getenv("FotM")])
+   @commands.slash_command(name="botをボイスチャンネルに召喚")
    async def voice_connect(self, ctx):
       """botをボイチャに召喚します"""
       self.voich = await discord.VoiceChannel.connect(ctx.author.voice.channel)
 
-   @commands.slash_command(name="botをボイスチャンネルから退出", guild_ids=[os.getenv("FotM")])
+   @commands.slash_command(name="botをボイスチャンネルから退出")
    async def voice_disconnect(self, ctx):
       """botをボイチャから退出させます"""
       if self.voich.is_playing():
@@ -123,7 +124,7 @@ class Music(commands.Cog):
       print(text)
       return text
 
-   @commands.slash_command(name="調教", guild_ids=[os.getenv("FotM")])
+   @commands.slash_command(name="調教")
    async def se_training(self, ctx, train):
       """読み上げの調教をします(単語=読み)"""
       train = train.split("=")
@@ -173,7 +174,7 @@ class Music(commands.Cog):
          else:
             await asyncio.sleep(0.5)
 
-   @commands.slash_command(name="読み上げ", guild_ids=[os.getenv("FotM")])
+   @commands.slash_command(name="読み上げ")
    async def reads(self, ctx):
       """このコマンドを使用したチャンネルの書き込みを読み上げます"""
       if self.read:
@@ -183,7 +184,35 @@ class Music(commands.Cog):
          self.read = True
          await ctx.respond("読み上げをオンにしました")
          self.read_channel = ctx.channel.id
+         self.db.update("delete from read_text")
          await self.Voice_Read()
+
+   @commands.slash_command(name="ボイチャ来場者通知モード")
+   async def announce_vc(self, ctx, vc_id=None):
+      """ボイチャに入ってきた人を通知"""
+      flag = self.db.select("select * from flag_control where flag_name='announce_vc'")
+      if flag[0]["flag"] == 0:
+         if vc_id is None:
+            await ctx.respond("VCのIDを引数に入れてください")
+            return
+         self.db.auto_update("flag_control", {"flag": 1}, {"flag_name": "announce_vc"})
+         self.db.allinsert("channel_flag_control", [int(vc_id), ctx.channel.id, "announce_vc"])
+         await ctx.respond("VC来場者管理モードをオンにしました")
+      else:
+         await ctx.respond("VC来場者管理モードをオフにしました")
+         self.db.auto_update("flag_control", {"flag": 0}, {"flag_name": "announce_vc"})
+         self.db.auto_delete("channel_flag_control", {"flag_name": "announce_vc"})
+
+   def read_censorship(self, text):
+      pattern = "https?://[\\w/:%#\\$&\\?\\(\\)~\\.=\\+\\-]+"
+      text = re.sub(pattern, "URL省略", text)
+      if text.startswith("<"):
+         return False
+      elif text.startswith("!"):
+         return False
+      elif len(text) > 100:
+         text = "文字数が多いか、怪文書が検出されましたので省略します"
+      return text
 
    async def youtube_next(self):
       while True:
@@ -209,7 +238,7 @@ class Music(commands.Cog):
                   os.remove(file)
                return
 
-   @commands.slash_command(name="youtubeを流す", guild_ids=[os.getenv("FotM")])
+   @commands.slash_command(name="youtubeを流す")
    async def youtube_play(self, ctx, url: str):
       if self.voich.is_playing():
          self.db.allinsert("music", [url])
@@ -224,10 +253,27 @@ class Music(commands.Cog):
 
    @commands.Cog.listener()
    async def on_message(self, message):
-      if message.content.startswith("<") is False and message.content.startswith("!") is False and message.content.startswith(
-         "http") is False and self.read and message.author.bot is False and message.channel.id == self.read_channel:
-         text = message.content
-         self.db.allinsert("read_text", [message.author.id, message.id, text])
+      if self.read and message.author.bot is False and message.channel.id == self.read_channel:
+         text = self.read_censorship(message.content)  # URLの場合、読み上げない
+         if text is not False:
+            self.db.allinsert("read_text", [message.author.id, message.id, text])
+
+   @commands.Cog.listener()
+   async def on_voice_state_update(self, member, before, after):
+      flag = self.db.select("select * from flag_control where flag_name='announce_vc'")[0]["flag"]
+      if member.bot or flag == 0:
+         return
+      channel_id = self.db.select("select * from channel_flag_control where flag_name='announce_vc'")[0]
+      channel = self.bot.get_channel(channel_id["announce_channel_id"])
+      if before.channel is None and after.channel.id == channel_id["vc_id"]:
+         msg = await channel.send(f"{member.display_name}さんが来たよ！みんな手を振って！")
+         await asyncio.sleep(10)
+         await msg.delete()
+
+      elif after.channel is None and before.channel.id == channel_id["vc_id"]:
+         msg = await channel.send(f"{member.display_name}さんまたね～")
+         await asyncio.sleep(10)
+         await msg.delete()
 
 
 def setup(bot):
