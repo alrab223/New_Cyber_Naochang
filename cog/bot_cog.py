@@ -2,10 +2,13 @@ import os
 import subprocess
 import glob
 import traceback
+import json
+import datetime
 
 import discord
 from discord.ext import commands
-# from yolov5 import detect
+import yolov5
+import gspread
 
 from cog.util import image_processing
 from cog.util import file_download as pd
@@ -17,6 +20,8 @@ class Main(commands.Cog):
    def __init__(self, bot):
       self.bot = bot
       self.db = db()
+      self.model = yolov5.load('model/Cinderella.pt')  # モデルの読み込み
+      self.model.conf = 0.45
 
    @commands.is_owner()
    @commands.command("goodbye")
@@ -25,17 +30,26 @@ class Main(commands.Cog):
       await ctx.send("また会いましょう")
       await self.bot.logout()
 
+   @commands.command()
+   async def spread(self, ctx):
+      gc = gspread.service_account(filename="json/key.json")
+      sh = gc.open("記念日一覧").sheet1
+      data_list = sh.get_all_values()
+      now = datetime.datetime.now()
+      day = f"{now.month}/{now.day}"
+      for i in data_list[1::]:
+         if i[0] == day:
+            text = f"今日は{i[1]}です。\n{i[2]}"
+            await ctx.send(text)
+            if i[3] != "":
+               await ctx.send(i[3])
+
    @commands.command()  # bot動作テスト
    async def ping(self, ctx):
       await ctx.send(f'応答速度:{round(self.bot.latency * 1000)}ms')
 
-   @commands.Cog.listener()
+   @commands.Cog.listener()  # 新規サーバー参加者の処理
    async def on_member_join(self, member):
-      dm_channel = await member.create_dm()
-      with open("text/introduce.txt", "r")as f:
-         text = f.read()
-      await dm_channel.send(member.mention)
-      await dm_channel.send(text)
       self.db.allinsert("user_data", [member.id, 10000, None, 0, 0, 10])
 
    @commands.command()
@@ -77,22 +91,21 @@ class Main(commands.Cog):
             await message.delete()
             await message.channel.send(file=discord.File("picture/image_processing/new.png"))
 
-         # elif message.content == "アイドル検索":
-         #    pd.download_img(message.attachments[0].url, "yolov5/data/images/image.png")
-         #    idols, img = detect.main("yolov5/data/images/image.png")
-         #    if idols == []:
-         #       await message.reply("誰も検出されませんでした")
-         #       return
-         #    idols = list(set(idols))
-         #    with open("json/idol_classes.json")as f:
-         #       dic = json.load(f)
-         #    s = ""
-         #    for i in idols:
-         #       name = dic[i]
-         #       s += name + "\n"
-         #    s += "を検出しました"
-         #    await message.reply(s)
-         #    cv2.imwrite("yolov5/data/result/image.png", img)
+         elif message.content == "投票ツイート":
+            img = "picture/image_processing/yolo.png"
+            pd.download_img(message.attachments[0].url, img)
+            results = self.model(img).pred[0]
+            predictions = results
+            with open("json/idol_classes.json", "r")as f:
+               dic = json.load(f)
+            name = [x for x in dic.values()]
+            idols = []
+            for i in predictions[:, 5]:  # 検出したキャラを割り出す
+               idols.append(name[int(i.item())])
+            text = "「Stage for Cinderella」予選グループBでこの5人に投票しました!!\n#StageforCinderella #SfC予選B #デレステ\n"
+            for i in idols:
+               text += f"#{i} "
+            await message.channel.send(text)
 
 
 def setup(bot):
