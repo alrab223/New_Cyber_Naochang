@@ -1,18 +1,16 @@
-import discord
 import requests
+import discord
 
 
-async def get_webhook(ctx):
-   if str(ctx.channel.type) == "public_thread":
-      channel = ctx.channel.parent
+async def get_webhook(channel):
+   if str(channel.type) == "public_thread":
+      channel = channel.parent
    else:
-      channel = ctx.channel
+      channel = channel
    ch_webhooks = await channel.webhooks()
    webhook = discord.utils.get(ch_webhooks, name="naochang")
    if webhook is None:
-      await channel.create_webhook(name="naochang")
-      ch_webhooks = await channel.webhooks()
-      webhook = discord.utils.get(ch_webhooks, name="naochang")
+      webhook = await channel.create_webhook(name="naochang")
    return webhook
 
 
@@ -55,9 +53,9 @@ async def send(content: str, ctx, file=None):
                                 avatar_url=ctx.message.author.avatar.url)
 
 
-def custom_send(payload: dict, url, ctx):
-   if str(ctx.channel.type) == "public_thread":
-      WEBHOOK_URL = f"{url}?thread_id={ctx.channel.id}&wait=True"
+def custom_send(payload: dict, url, channel):
+   if str(channel.type) == "public_thread":
+      WEBHOOK_URL = f"{url}?thread_id={channel.id}&wait=True"
    else:
       WEBHOOK_URL = url
    payload = payload

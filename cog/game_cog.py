@@ -114,7 +114,7 @@ class Game(commands.Cog):
             await ctx.reply(f"まゆげコインが足りません。コインが{slot_data[slot_name]}枚必要です")
             return False
 
-   @commands.slash_command(name="なおすきスロット", guild_ids=[os.getenv("FotM")])
+   @commands.slash_command(name="なおすきスロット")
    async def naosuki_slot(self, ctx, debug=False):
       """スロットで遊びます。「なおすき」を揃えよう！(1日1回)"""
       if await self.slot_setup(ctx, "NAOSUKI_SLOT", debug) is False:  # スロットが遊べるかを判別する

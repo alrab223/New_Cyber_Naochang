@@ -3,14 +3,13 @@ import glob
 import os
 import re
 import random
+import datetime
 
 import discord
 from discord.ext import commands
 from gtts import gTTS
 
 from cog.util.DbModule import DbModule as db
-from cog.util.youtube import YTDLSource
-
 
 class Music(commands.Cog):
 
@@ -18,10 +17,10 @@ class Music(commands.Cog):
       self.bot = bot
       self.volume = 0.1
       self.voich = None
-      self.read = False
       self.flag = False
       self.db = db()
       self.read_channel = None
+      self.read = self.db.select("select * from flag_control where flag_name='read_text'")[0]["flag"]
 
    @commands.slash_command(name="botをボイスチャンネルに召喚")
    async def voice_connect(self, ctx):
@@ -39,7 +38,7 @@ class Music(commands.Cog):
    @commands.slash_command(name="音楽を流す")
    async def BGM_select(self, ctx, genre: str = "instrumental"):
       """BGMを流します。読み上げ機能が有効の時は使えません"""
-      if self.read is True:
+      if self.read == 1:
          await ctx.respond("読み上げ機能が有効なため、現在使えません")
          return
       if self.voich.is_playing():
@@ -144,51 +143,80 @@ class Music(commands.Cog):
       self.db.allinsert("read_se_convert", [train[0], train[1]])
       await ctx.respond(f"調教しました({train[0]}={train[1]})")
 
-   async def Voice_Read(self):
-      while self.read is True:
-         if self.voich.is_playing():
-            await asyncio.sleep(0.5)
-            continue
-         se_flag = False
-         text = self.db.select("select *from read_text limit 1")
-         if text != []:
-            self.db.update(f"delete from read_text where text_id={text[0]['text_id']}")
-            sounds = self.db.select("select *from read_text_se")
-            for se in sounds:
-               if text[0]['text'] == se["word"]:
-                  self.voich.play(discord.FFmpegPCMAudio(se["sound_path"]))
-                  self.voich.source = discord.PCMVolumeTransformer(self.voich.source)
-                  self.voich.source.volume = se["volume"]
-                  se_flag = True
-                  break
-            if se_flag is False:
-               try:
-                  text = self.read_convert(text[0]["text"])
-                  tts = gTTS(text=text, lang='ja')
-                  tts.save('music/mp3/voice.mp3')
-                  self.voich.play(discord.FFmpegPCMAudio('music/mp3/voice.mp3'))
-                  self.voich.source = discord.PCMVolumeTransformer(self.voich.source)
-                  self.voich.source.volume = 0.5
-               except AssertionError:
-                  await asyncio.sleep(0.5)
+   # 読み上げるデータの前処理
+   def se_preprocessing(self, text, sounds):
+      create_text = ""  # SEを混ぜるための一時変数
+      voice_data = {}  # テキストとSEの情報を入れる変数
+      counter = 1  # 分割数の管理
+      for i in list(text):
+         create_text += i
+         for se_data in sounds:
+            if se_data["word"] == create_text and se_data["short"] == 1:
+               voice_data[str(counter)] = {"type": "se", "volume": se_data["volume"], "path": se_data["sound_path"]}
+               create_text = ""
+               counter += 1
+            elif se_data["word"] in create_text and se_data["short"] == 1:
+               word = create_text.replace(se_data["word"], "")
+               voice_data[str(counter)] = {"type": "text", "word": word}
+               counter += 1
+               voice_data[str(counter)] = {"type": "se", "volume": se_data["volume"], "path": se_data["sound_path"]}
+               create_text = ""
+               counter += 1
+      if voice_data == {}:  # SEが無かった場合
+         voice_data[str(counter)] = {"type": "text", "word": text}
+      return voice_data
+
+   # 読み上げ処理
+   async def Voice_Read(self, text):
+      while self.voich.is_playing() is True:
+         await asyncio.sleep(0.5)
+      sounds = self.db.select("select *from read_text_se order by priority asc")  # SE一覧
+      voice_data = self.se_preprocessing(text, sounds)  # 読み上げテキストの前処理
+      print(voice_data)
+      for voice in voice_data.values():
+         if voice["type"] == "se":
+            self.voich.play(discord.FFmpegPCMAudio(voice["path"]))
+            self.voich.source = discord.PCMVolumeTransformer(self.voich.source)
+            self.voich.source.volume = voice["volume"]
          else:
+            try:
+               text = self.read_convert(voice["word"])
+               tts = gTTS(text=text, lang='ja')
+               path = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
+               tts.save(f'music/mp3/{path}.mp3')
+               self.voich.play(discord.FFmpegPCMAudio(f'music/mp3/{path}.mp3'))
+               self.voich.source = discord.PCMVolumeTransformer(self.voich.source)
+               self.voich.source.volume = 0.5
+            except AssertionError:
+               await asyncio.sleep(0.5)
+         while self.voich.is_playing() is True:  # 再生が終わるまで待機
             await asyncio.sleep(0.5)
 
    @commands.slash_command(name="読み上げ")
    async def reads(self, ctx):
-      """このコマンドを使用したチャンネルの書き込みを読み上げます"""
-      if self.read:
-         self.read = False
+      if self.read == 1:
+         self.db.auto_update("flag_control", {"flag": 0}, {"flag_name": "read_text"})
+         self.read = 0
          await ctx.respond("読み上げをオフにしました")
+         self.db.auto_delete("channel_flag_control", {"flag_name": "read_text"})
+         files = glob.glob("music/mp3/*.mp3")
+         for f in files:
+            os.remove(f)
       else:
-         self.read = True
+         self.db.auto_update("flag_control", {"flag": 1}, {"flag_name": "read_text"})
+         self.read = 1
          await ctx.respond("読み上げをオンにしました")
-         self.read_channel = ctx.channel.id
+         self.db.allinsert("channel_flag_control", [None, ctx.channel.id, "read_text"])
          self.db.update("delete from read_text")
-         await self.Voice_Read()
+
+   @commands.slash_command(name="読み上げうるせえ")
+   async def read_stop(self, ctx):
+      '''今読み上げているテキストを停止'''
+      if self.voich.is_playing():
+         self.voich.stop()
 
    @commands.slash_command(name="ボイチャ来場者通知モード")
-   async def announce_vc(self, ctx, vc_id=None):
+   async def announce_vc(self, ctx, vc_id=None, announce_channel_id=None):
       """ボイチャに入ってきた人を通知"""
       flag = self.db.select("select * from flag_control where flag_name='announce_vc'")
       if flag[0]["flag"] == 0:
@@ -196,13 +224,14 @@ class Music(commands.Cog):
             await ctx.respond("VCのIDを引数に入れてください")
             return
          self.db.auto_update("flag_control", {"flag": 1}, {"flag_name": "announce_vc"})
-         self.db.allinsert("channel_flag_control", [int(vc_id), ctx.channel.id, "announce_vc"])
+         self.db.allinsert("channel_flag_control", [int(vc_id), announce_channel_id, "announce_vc"])
          await ctx.respond("VC来場者管理モードをオンにしました")
       else:
          await ctx.respond("VC来場者管理モードをオフにしました")
          self.db.auto_update("flag_control", {"flag": 0}, {"flag_name": "announce_vc"})
          self.db.auto_delete("channel_flag_control", {"flag_name": "announce_vc"})
 
+   # 読み上げるテキストの加工
    def read_censorship(self, text):
       pattern = "https?://[\\w/:%#\\$&\\?\\(\\)~\\.=\\+\\-]+"
       text = re.sub(pattern, "URL省略", text)
@@ -210,53 +239,21 @@ class Music(commands.Cog):
          return False
       elif text.startswith("!"):
          return False
+      elif text.count(os.linesep) > 4:
+         text = "改行が多数検出されたため、省略します"
       elif len(text) > 100:
          text = "文字数が多いか、怪文書が検出されましたので省略します"
       return text
 
-   async def youtube_next(self):
-      while True:
-         if self.voich.is_playing():
-            await asyncio.sleep(5)
-         else:
-            if self.pause is True:
-               continue
-            try:
-               music = self.db.select("select *from music limit 1")[0]['name']
-               channel = self.bot.get_channel(590521717408137232)
-               thread = channel.guild.get_thread(955505294845288511)
-               self.db.auto_delete("music", {"name": music})
-               player = await YTDLSource.from_url(music, loop=self.bot.loop)
-               self.voich.play(player)
-               self.voich.source = discord.PCMVolumeTransformer(self.voich.source)
-               self.voich.source.volume = self.volume
-               embed = discord.Embed(title="再生中の曲", description=f"再生中：{player.title}")
-               await thread.send(embed=embed)
-            except IndexError:
-               files = glob.glob("*.webm")
-               for file in files:
-                  os.remove(file)
-               return
-
-   @commands.slash_command(name="youtubeを流す")
-   async def youtube_play(self, ctx, url: str):
-      if self.voich.is_playing():
-         self.db.allinsert("music", [url])
-         await ctx.respond("キューに登録しました")
-         return
-      player = await YTDLSource.from_url(url, loop=self.bot.loop)
-      self.voich.play(player)
-      self.voich.source = discord.PCMVolumeTransformer(self.voich.source)
-      self.voich.source.volume = self.volume
-      await ctx.send(f"再生中：{player.title}")
-      await self.youtube_next()
-
+   # メッセージが書き込まれた時の処理
    @commands.Cog.listener()
    async def on_message(self, message):
-      if self.read and message.author.bot is False and message.channel.id == self.read_channel:
-         text = self.read_censorship(message.content)  # URLの場合、読み上げない
-         if text is not False:
-            self.db.allinsert("read_text", [message.author.id, message.id, text])
+      if self.read == 1 and message.author.bot is False and self.voich is not None:
+         channel_id = self.db.select("select *from channel_flag_control where flag_name='read_text'")[0]["channel_id"]
+         if message.channel.id == channel_id:
+            text = self.read_censorship(message.content)  # 一部文字列の処理
+            if text is not False:
+               await self.Voice_Read(text)
 
    @commands.Cog.listener()
    async def on_voice_state_update(self, member, before, after):
@@ -264,13 +261,13 @@ class Music(commands.Cog):
       if member.bot or flag == 0:
          return
       channel_id = self.db.select("select * from channel_flag_control where flag_name='announce_vc'")[0]
-      channel = self.bot.get_channel(channel_id["announce_channel_id"])
-      if before.channel is None and after.channel.id == channel_id["vc_id"]:
+      channel = self.bot.get_channel(channel_id["channel_id"])
+      if before.channel is None and after.channel.id == channel_id["vc_channel_id"]:
          msg = await channel.send(f"{member.display_name}さんが来たよ！みんな手を振って！")
          await asyncio.sleep(10)
          await msg.delete()
 
-      elif after.channel is None and before.channel.id == channel_id["vc_id"]:
+      elif after.channel is None and before.channel.id == channel_id["vc_channel_id"]:
          msg = await channel.send(f"{member.display_name}さんまたね～")
          await asyncio.sleep(10)
          await msg.delete()

@@ -7,6 +7,7 @@ import discord
 from discord.ext import commands
 
 from cog.util.DbModule import DbModule as db
+from cog.util import file_download as pd
 
 
 class Convenience(commands.Cog):
@@ -17,11 +18,12 @@ class Convenience(commands.Cog):
 
    @commands.is_owner()
    @commands.command("ナオビーム")
-   async def nao_beam(self, ctx, user: discord.Member, num: int):
+   async def nao_beam(self, ctx, num: int):
       logs = []
       async for log in ctx.channel.history(limit=num):
          logs.append(log)
-      await ctx.channel.delete_messages(logs)
+      user_logs = [x for x in logs]
+      await ctx.channel.delete_messages(user_logs)
 
    @commands.command()
    async def status(self, ctx, user: discord.Member = None):
@@ -55,12 +57,27 @@ class Convenience(commands.Cog):
          await ctx.send(f"参加人数{num}以上で通知します")
 
    @commands.dm_only()
-   @commands.command("予約投稿")
-   async def future_send(self, ctx, time: str, channel_id: int):
+   @commands.slash_command(name="予約投稿")
+   async def future_send(self, ctx, time: str, channel_id: str):
+      """日付の指定は(yyyy/mm/dd-hh:mm)の形式でお願いします"""
       def user_check(message):
          return message.author.id == ctx.author.id
       await ctx.send("メッセージを入力してください")
       msg = await self.bot.wait_for('message', check=user_check)
+
+      def attachments_check(message):
+         if message.author.id == ctx.author.id and message.content == "進む":
+            return True
+         elif message.attachments:
+            return True
+         else:
+            False
+
+      await ctx.send("画像の添付が必要な場合はここで貼ってください。必要なければ「進む」と入力してください")
+      picture = await self.bot.wait_for('message', check=attachments_check)
+      if picture.attachments:
+         attachments = picture.attachments[0].url
+         text = msg.content + "\n" + attachments
 
       await ctx.send("この内容でいいですか？間違い無ければ「はい」と入力してください")
 
@@ -69,8 +86,9 @@ class Convenience(commands.Cog):
       try:
          await self.bot.wait_for('message', check=user_check2)
       except asyncio.TimeoutError:
+         await ctx.send("エラーが発生しました")
          return
-      self.db.allinsert("future_send", [ctx.author.id, msg.content, time, channel_id, ctx.message.id])
+      self.db.allinsert("future_send", [ctx.author.id, text, time, int(channel_id), msg.id])
       await ctx.send("予約が完了しました")
 
    @commands.dm_only()
@@ -103,7 +121,7 @@ class Convenience(commands.Cog):
       self.db.update(f"delete from future_send where message_id={message_id[int(msg.content)-1]}")
       await ctx.send('消去しました')
 
-   # 話題の重複を防ぐ機能
+   # 話題の重複を防ぐ
    @ commands.Cog.listener()
    async def on_message(self, message):
       if message.author.bot:

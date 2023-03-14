@@ -12,7 +12,7 @@ class Idol(commands.Cog):
    def __init__(self, bot):
       self.bot = bot
 
-   @commands.slash_command(name="楽曲検索", guild_ids=[os.getenv("FotM")])
+   @commands.slash_command(name="楽曲検索")
    async def song_search(self, ctx, name: str):
       songs = requests.get("https://cgapi.krone.cf/v1/songs").json()
       status = {}
@@ -21,7 +21,7 @@ class Idol(commands.Cog):
             if actor == name:
                status[song["title"]] = song["artists"]
       if status == {}:
-         await ctx.respond("指定のアイドルは存在しないようです")
+         await ctx.respond("存在しないようです")
       else:
          text = ""
          for i in status:
@@ -30,60 +30,7 @@ class Idol(commands.Cog):
          text = "```" + text + "```"
          await ctx.respond(text)
 
-   @commands.command("ユニット検索")
-   async def unit_search(self, ctx, *args):
-      flag = 0
-      count = 0
-      embed1 = discord.Embed(description='ユニット名一覧 1')
-      embed2 = discord.Embed(description='ユニット名一覧 2')
-      embed3 = discord.Embed(description='ユニット名一覧 3')
-      embed4 = discord.Embed(description='ユニット名一覧 4')
-      pages1 = [embed1, embed2, embed3, embed4]
-      pages2 = []
-      pagesj = [False, False, False, False]
-      with open("json/unit_kai.json", "r", encoding="utf_8_sig") as f:
-         dic = json.load(f)
-      for i in dic["results"]["bindings"]:
-         for j in list(args):
-            if j in i["メンバー"]["value"]:
-               flag += 1
-            else:
-               break
-            if flag == len(list(args)):
-               if count < 6:
-                  embed1.add_field(name=i["ユニット名"]["value"], value=i["メンバー"]["value"], inline=False)
-                  pagesj[0] = True
-               elif count < 12:
-                  pagesj[1] = True
-                  embed2.add_field(name=i["ユニット名"]["value"], value=i["メンバー"]["value"], inline=False)
-               elif count < 18:
-                  pagesj[2] = True
-                  embed3.add_field(name=i["ユニット名"]["value"], value=i["メンバー"]["value"], inline=False)
-               else:
-                  pagesj[3] = True
-                  embed4.add_field(name=i["ユニット名"]["value"], value=i["メンバー"]["value"], inline=False)
-               count += 1
-         flag = 0
-      for i in range(4):
-         if pagesj[i]:
-            pages2.append(pages1[i])
-      paginator = pages.Paginator(pages=pages2)
-      await paginator.send(ctx)
-
-   @commands.command("ガシャ")
-   async def gasya(self, ctx):
-      with open("json/idol_data_moba.json")as f:
-         cards = json.load(f)
-      card = random.choice(cards["content"])
-      embed = discord.Embed(title=f"{card['name']}")
-      embed.set_image(url=f'https://lipps.pink-check.school/cardimage/withoutsign/{card["cardHash"]}')
-      embed.add_field(name="コスト", value=f"{card['cost']}")
-      embed.add_field(name="攻", value=f"{card['defaultAttack']}")
-      embed.add_field(name="守", value=f"{card['defaultDefence']}")
-      if card['abilityEffect']['effect'] != '':
-         embed.add_field(name=f"特技「{card['abilityName']}」", value=f"{card['abilityEffect']['effect']}", inline=False)
-      await ctx.send(embed=embed)
-
+   
    @commands.slash_command(name="納税", guild_ids=[os.getenv("FotM")])
    async def tax(self, ctx):
       with open('json/idol_data.json', 'r')as f:
