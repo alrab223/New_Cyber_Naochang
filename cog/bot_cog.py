@@ -7,7 +7,6 @@ import datetime
 
 import discord
 from discord.ext import commands
-import yolov5
 import gspread
 
 from cog.util import image_processing
@@ -20,8 +19,6 @@ class Main(commands.Cog):
    def __init__(self, bot):
       self.bot = bot
       self.db = db()
-      self.model = yolov5.load('model/Cinderella.pt')  # モデルの読み込み
-      self.model.conf = 0.45
 
    @commands.is_owner()
    @commands.command("goodbye")
@@ -90,22 +87,6 @@ class Main(commands.Cog):
          if process is True:  # 処理が行われていれば送信
             await message.delete()
             await message.channel.send(file=discord.File("picture/image_processing/new.png"))
-
-         elif message.content == "投票ツイート":
-            img = "picture/image_processing/yolo.png"
-            pd.download_img(message.attachments[0].url, img)
-            results = self.model(img).pred[0]
-            predictions = results
-            with open("json/idol_classes.json", "r")as f:
-               dic = json.load(f)
-            name = [x for x in dic.values()]
-            idols = []
-            for i in predictions[:, 5]:  # 検出したキャラを割り出す
-               idols.append(name[int(i.item())])
-            text = "「Stage for Cinderella」予選グループBでこの5人に投票しました!!\n#StageforCinderella #SfC予選B #デレステ\n"
-            for i in idols:
-               text += f"#{i} "
-            await message.channel.send(text)
 
 
 def setup(bot):

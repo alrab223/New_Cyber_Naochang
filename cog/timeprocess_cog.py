@@ -1,17 +1,12 @@
 import asyncio
 import datetime
-import glob
 import json
 import os
 import random
-import traceback
-from re import M
 
 import discord
 import gspread
 import requests
-import urllib3
-from bs4 import BeautifulSoup
 from discord.ext import commands, tasks
 from discord.ui import Button, InputText, Modal, View
 
@@ -25,49 +20,8 @@ class Time(commands.Cog):
       self.birthday_sned = False
       self.flag = 1
       self.weather_list = []
-      self.time_process.start()
       self.event = False  # 特殊イベントの時のみTrue
       self.db = db()
-
-   def weather_get(self):  # 天気取得
-      self.weather_list = []
-      tokyo = 'https://weather.yahoo.co.jp/weather/jp/13/4410.html'
-      osaka = "https://weather.yahoo.co.jp/weather/jp/27/6200.html"
-      hokkaido = "https://weather.yahoo.co.jp/weather/jp/1b/1400.html"
-      hukuoka = "https://weather.yahoo.co.jp/weather/jp/40/8210.html"
-      weather_lists = [tokyo, osaka, hokkaido, hukuoka]
-      name = ["東京", "大阪", "北海道", "福岡"]
-      http = urllib3.PoolManager()
-      for i, j in enumerate(weather_lists):
-         instance = (http.request('GET', j))
-         soup = BeautifulSoup(instance.data, 'html.parser')
-         tenki_today = soup.select_one('#main > div.forecastCity > table > tr > td > div > p.pict')
-         try:
-            text = tenki_today.text.replace("今日の天気は", "")
-            self.weather_list.append(f"{name[i]}の天気:{text}")
-         except AttributeError:
-            pass
-
-   @tasks.loop(seconds=5.0)
-   async def bot_status_changer(self):  # botのステータス欄を更新
-      if self.flag == 1:
-         count = self.db.select('select count from naosuki_count')[0]
-         text = "カウント:" + str(count["count"])
-         await self.bot.change_presence(activity=discord.Game(name=text))
-         self.flag += 1
-      elif self.flag == 2:
-         try:
-            await self.bot.change_presence(activity=discord.Game(name=self.weather_list[0]))
-            num = self.weather_list.pop(0)
-            self.weather_list.append(num)
-         except IndexError:
-            pass
-         self.flag += 1
-      else:
-         guild = self.bot.get_guild(int(os.environ.get("FotM")))
-         user_count = sum(1 for member in guild.members if not member.bot)
-         await self.bot.change_presence(activity=discord.Game(name=f"現在のメンバー数:{user_count-4}"))
-         self.flag = 1
 
    def daily_pic(self):
       with open('json/idol_data.json', 'r')as f:
@@ -143,28 +97,47 @@ class Time(commands.Cog):
             if i[3] != "":
                await channel.send(i[3])
 
-   async def reservation_message_check(self, nowtime):  # 予約投稿の処理を行う
-      messages = self.db.select("select * from future_send")
-      for message in messages:
-         print(f"{nowtime.year}/{str(nowtime.month).zfill(2)}/{str(nowtime.day).zfill(2)}-{str(nowtime.hour).zfill(2)}:{str(nowtime.minute).zfill(2)}")
-         if message['time'] == f"{nowtime.year}/{str(nowtime.month).zfill(2)}/{str(nowtime.day).zfill(2)}-{str(nowtime.hour).zfill(2)}:{str(nowtime.minute).zfill(2)}":
-            user = await self.bot.fetch_user(message['id'])
-            channel = self.bot.get_channel(message['channel_id'])
+   @tasks.loop(seconds=5.0)
+   async def bot_status_changer(self):  # botのステータス欄を更新
+      if self.flag == 1:
+         count = self.db.select('select count from naosuki_count')[0]
+         text = "カウント:" + str(count["count"])
+         await self.bot.change_presence(activity=discord.Game(name=text))
+         self.flag = 2
+      else:
+         guild = self.bot.get_guild(int(os.environ.get("FotM")))
+         user_count = sum(1 for member in guild.members if not member.bot)
+         await self.bot.change_presence(activity=discord.Game(name=f"現在のメンバー数:{user_count-4}"))
+         self.flag = 1
+
+   @tasks.loop(seconds=60.0)
+   async def reservation_message_check(self):  # 予約投稿の処理を行う
+      nowtime = datetime.datetime.now()
+      gc = gspread.service_account(filename="json/key.json")
+      try:
+         sh = gc.open("予約投稿").sheet1
+      except gspread.exceptions.APIError:
+         print("シートが開けませんでした")
+         return
+      data_list = sh.get_all_values()
+      for num, message in enumerate(data_list[1::]):
+         t = f"{nowtime.year}/{str(nowtime.month).zfill(2)}/{str(nowtime.day).zfill(2)}-{str(nowtime.hour).zfill(2)}:{str(nowtime.minute).zfill(2)}"
+         if message[3] == t and message[5] == "":
+            user = await self.bot.fetch_user(int(message[0]))
+            print(message)
+            channel = self.bot.get_channel(int(message[4]))
             ch_webhooks = await channel.webhooks()
             hook = discord.utils.get(ch_webhooks, name="naochang")
             if hook is None:
                hook = await channel.create_webhook(name="naochang")
-            await hook.send(content=message['text'],
+            await hook.send(content=message[1],
                             username=user.name,
                             avatar_url=user.avatar.url)
-            self.db.auto_delete("future_send", {"message_id": message["message_id"]})
-
-   async def make_graph(self, event_score, ranks):
-      x = []
-      for border_time in event_score["content"]:
-         border_time = border_time["time"].replace(":00+09:00", "")
-         border_time = border_time.replace("T", "")
-         x.append(border_time)
+            if message[2] != "":
+               await hook.send(content=message[2],
+                               username=user.name,
+                               avatar_url=user.avatar.url)
+            sh.update(f"F{num+2}", "送信済み")
 
    @tasks.loop(seconds=60.0)
    async def time_process(self):
@@ -174,28 +147,16 @@ class Time(commands.Cog):
          await asyncio.sleep(wait_seconds)
          await self.daily_process()
 
-      if nowtime.minute == 1:
-         flag = self.db.select("select * from flag_control where flag_name='moba_border_announce'")[0]["flag"]
-         if flag == 1:
-            await self.moba_border_get()
-
-      nowtime = datetime.datetime.now()  # 予約投稿用にもう一度時刻取得
-      await self.reservation_message_check(nowtime)
-
-   # botがオンラインになるまでタスクを待機させる
-   @time_process.before_loop
-   async def bot_preparation(self):
-      print('waiting...')
-      await self.bot.wait_until_ready()
-      req = requests.get("https://starlight.kirara.ca/api/v1/list/card_t").json()  # デレステデータベース
+   # 起動前の準備
+   @commands.Cog.listener()
+   async def on_ready(self):
+      req = requests.get("https://starlight.kirara.ca/api/v1/list/card_t").json()  # デレステデータベース更新
       with open("json/idol_data.json", "w")as f:
          json.dump(req, f, indent=3)
-      req = requests.get("https://api.pink-check.school/v2/cards").json()  # モバマスデータベース
-      with open("json/idol_data_moba.json", "w")as f:
-         json.dump(req, f, indent=3)
       print('データベースを更新しました')
-      self.weather_get()
       self.bot_status_changer.start()
+      self.time_process.start()
+      self.reservation_message_check.start()
 
 
 def setup(bot):
